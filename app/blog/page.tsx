@@ -1,0 +1,1 @@
+export default function Blog() { return <div><h1>Blog Próximamente</h1></div> }
