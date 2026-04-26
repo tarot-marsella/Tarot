@@ -1,9 +1,22 @@
 import Button from "@/components/Button";
 import styles from "./page.module.css";
+import tarotData from "@/data/tarot.json";
+
+// Pick a random arcana at build time for the background
+const randomCard = tarotData[Math.floor(Math.random() * tarotData.length)];
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      {/* Decorative arcana background image */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={randomCard.image_url}
+        alt=""
+        aria-hidden="true"
+        className={styles.backgroundCard}
+      />
+
       <div className={styles.hero}>
         <div className={`fade-in ${styles.content}`}>
           <h1 className={styles.title}>Tarot de Marsella</h1>
