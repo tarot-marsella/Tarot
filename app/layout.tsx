@@ -4,6 +4,7 @@ import "./globals.css";
 import AuthProvider from "@/components/AuthProvider";
 import Navbar from "@/components/Navbar";
 import AmbientAudio from "@/components/AmbientAudio";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-serif" });
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${inter.variable} ${cinzel.variable}`}>
+        <GoogleAnalytics />
         <AuthProvider>
           <Navbar />
           {children}
@@ -30,3 +32,4 @@ export default function RootLayout({
     </html>
   );
 }
+
