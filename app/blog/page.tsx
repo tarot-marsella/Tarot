@@ -56,6 +56,18 @@ const ARTICLES = [
     slug: "tirada-cruz-celta-tarot",
     excerpt: "Aprende a realizar la famosa tirada de la Cruz Celta. Guía paso a paso sobre el significado de sus 10 posiciones.",
     date: "2026-05-08",
+  },
+  {
+    title: "Tarot del Amor Gratis: Tirada Sentimental de 3 Cartas",
+    slug: "tarot-amor-gratis",
+    excerpt: "Consulta el tarot del amor gratis. Aprende a hacer tu tirada enfocada en relaciones de pareja y almas gemelas.",
+    date: "2026-05-09",
+  },
+  {
+    title: "Cómo Hacer Preguntas al Tarot: La Técnica que Cambia Todo",
+    slug: "como-hacer-preguntas-tarot",
+    excerpt: "Aprende el arte de formular preguntas al tarot. Descubre la diferencia entre preguntas abiertas y cerradas.",
+    date: "2026-05-10",
   }
 ];
 
