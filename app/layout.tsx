@@ -62,6 +62,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "tIEGEf-xn67c6taBEbCcwNDu2V6USyK_L0ZDVmUVaSc",
+  },
 };
 
 const organizationJsonLd = {
