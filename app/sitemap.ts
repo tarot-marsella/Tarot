@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import tarotData from '@/data/tarot.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tarotdemarsella.com'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tarotdemarsella.cl'
 
   const cardUrls = tarotData.map((card) => ({
     url: `${baseUrl}/aprendizaje/${card.slug}`,
