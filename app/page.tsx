@@ -29,10 +29,12 @@ export default function Home() {
 
       <div className={styles.hero}>
         <div className={`fade-in ${styles.content}`}>
-          <h1 className={styles.title}>
-            Tarot de Marsella<br />
-            <span className={styles.titleAccent}>Tirada de Tarot Gratis Online</span>
-          </h1>
+          <div className={styles.titleWrapper}>
+            <span className={styles.backgroundText}>Tirada de Tarot Gratis Online</span>
+            <h1 className={styles.title}>
+              Tarot de Marsella
+            </h1>
+          </div>
           <div className={styles.divider}></div>
           <p className={styles.subtitle}>
             El Tarot de Marsella es un sistema de 22 Arcanos Mayores que revela las energías presentes en tu camino.
