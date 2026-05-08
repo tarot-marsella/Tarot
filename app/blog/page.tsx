@@ -4,89 +4,95 @@ import { Metadata } from "next";
 import styles from "./blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Blog de Tarot de Marsella | Guías, Significados y Tiradas",
-  description: "Explora nuestros artículos profundos sobre cómo leer cartas del tarot, el significado de los arcanos, y guías prácticas para tiradas de tarot gratis.",
+  title: "Blog | Guías y Significados del Tarot de Marsella",
+  description: "Explora artículos sobre cómo leer cartas del tarot, significado de los arcanos mayores, tiradas de tarot gratis y guías prácticas.",
 };
 
 const ARTICLES = [
   {
-    title: "Cómo Leer las Cartas del Tarot de Marsella: Guía Completa",
+    title: "Cómo Leer las Cartas del Tarot de Marsella",
     slug: "como-leer-cartas-tarot-marsella",
-    excerpt: "Aprende cómo leer cartas del tarot paso a paso. Descubre los secretos del Tarot de Marsella, cómo preparar tu tirada de tarot y consejos.",
-    date: "2026-05-01",
+    excerpt: "Aprende paso a paso a interpretar los Arcanos Mayores. Preparación, tipos de tiradas y errores comunes.",
+    tag: "Guía",
   },
   {
-    title: "Tirada de Tarot Gratis Online — 3 Cartas con Interpretación",
+    title: "Tirada de Tarot Gratis — 3 Cartas",
     slug: "tirada-tarot-gratis-tres-cartas",
-    excerpt: "Descubre cómo funciona la lectura de 3 cartas y cómo interpretar sus mensajes. Tarot gratis online y en español.",
-    date: "2026-05-02",
+    excerpt: "Cómo funciona la lectura de 3 cartas: pasado, presente y futuro. Interpretación completa.",
+    tag: "Tirada",
   },
   {
-    title: "Significado de los 22 Arcanos Mayores del Tarot de Marsella",
+    title: "Significado de los 22 Arcanos Mayores",
     slug: "significado-arcanos-mayores-tarot-marsella",
-    excerpt: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores. Guía completa para interpretar cada carta.",
-    date: "2026-05-03",
+    excerpt: "Diccionario completo de los 22 Arcanos Mayores con significado psicológico y espiritual.",
+    tag: "Referencia",
   },
   {
-    title: "Tarot Online Gratis: Tu Lectura de Cartas en 5 Minutos",
+    title: "Tarot Online Gratis en 5 Minutos",
     slug: "tarot-online-gratis",
-    excerpt: "Realiza tu lectura de tarot online gratis en menos de 5 minutos. Conecta con el Tarot de Marsella digital.",
-    date: "2026-05-04",
+    excerpt: "Por qué funciona el tarot digital, cómo hacer tu consulta y consejos para una mejor lectura.",
+    tag: "Tirada",
   },
   {
-    title: "El Loco en el Tarot de Marsella: Significado Profundo",
+    title: "El Loco — Significado Profundo",
     slug: "el-loco-tarot-marsella-significado",
-    excerpt: "Descubre el significado de El Loco. Simbolismo, interpretación en el amor, el trabajo, al derecho e invertido.",
-    date: "2026-05-05",
+    excerpt: "Simbolismo, significado al derecho e invertido, en el amor y en el trabajo.",
+    tag: "Arcano",
   },
   {
-    title: "Cómo Elegir los Mejores Tarotistas Online",
+    title: "Cómo Elegir los Mejores Tarotistas",
     slug: "mejores-tarotistas-online",
-    excerpt: "Aprende a identificar a los mejores tarotistas online. Qué buscar y diferencias con el tarot gratis.",
-    date: "2026-05-06",
+    excerpt: "Qué buscar en un lector profesional, señales de alerta y diferencias con el tarot gratis.",
+    tag: "Consejo",
   },
   {
-    title: "Historia del Tarot de Marsella: Origen y Evolución",
+    title: "Historia del Tarot de Marsella",
     slug: "historia-tarot-marsella",
-    excerpt: "Descubre la historia del Tarot de Marsella, desde sus orígenes misteriosos hasta las restauraciones modernas.",
-    date: "2026-05-07",
+    excerpt: "Desde los Trionfi italianos hasta la restauración de Jodorowsky y Camoin.",
+    tag: "Historia",
   },
   {
-    title: "Tirada de la Cruz Celta con Tarot de Marsella",
+    title: "Tirada de la Cruz Celta",
     slug: "tirada-cruz-celta-tarot",
-    excerpt: "Aprende a realizar la famosa tirada de la Cruz Celta. Guía paso a paso sobre el significado de sus 10 posiciones.",
-    date: "2026-05-08",
+    excerpt: "Las 10 posiciones explicadas paso a paso. Método completo para lecturas avanzadas.",
+    tag: "Tirada",
   },
   {
-    title: "Tarot del Amor Gratis: Tirada Sentimental de 3 Cartas",
+    title: "Tarot del Amor Gratis",
     slug: "tarot-amor-gratis",
-    excerpt: "Consulta el tarot del amor gratis. Aprende a hacer tu tirada enfocada en relaciones de pareja y almas gemelas.",
-    date: "2026-05-09",
+    excerpt: "Lectura sentimental de 3 cartas. Las mejores cartas para el amor y cómo interpretarlas.",
+    tag: "Amor",
   },
   {
-    title: "Cómo Hacer Preguntas al Tarot: La Técnica que Cambia Todo",
+    title: "Cómo Hacer Preguntas al Tarot",
     slug: "como-hacer-preguntas-tarot",
-    excerpt: "Aprende el arte de formular preguntas al tarot. Descubre la diferencia entre preguntas abiertas y cerradas.",
-    date: "2026-05-10",
-  }
+    excerpt: "La técnica que transforma tus lecturas. Preguntas abiertas vs cerradas con ejemplos prácticos.",
+    tag: "Técnica",
+  },
 ];
 
 export default function BlogIndex() {
   return (
-    <main className={styles.main}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>Blog de Tarot de Marsella</h1>
-        <p className={styles.meta} style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-          Guías, significados profundos y secretos de los Arcanos Mayores.
+    <main className={styles.blogMain}>
+      <header className={styles.blogHeader}>
+        <h1 className={styles.blogTitle}>Blog</h1>
+        <p className={styles.blogSubtitle}>
+          Guías, significados y secretos del Tarot de Marsella
         </p>
+        <div className={styles.blogDivider} />
       </header>
-      
-      <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+
+      <div className={styles.blogGrid}>
         {ARTICLES.map((article) => (
-          <Link href={`/blog/${article.slug}`} key={article.slug} style={{ display: "block", background: "rgba(18, 18, 26, 0.6)", padding: "2rem", borderRadius: "8px", border: "1px solid rgba(212, 175, 55, 0.1)" }}>
-            <h2 style={{ fontSize: "1.5rem", color: "var(--accent-gold)", marginBottom: "1rem" }}>{article.title}</h2>
-            <p style={{ color: "var(--text-primary)", marginBottom: "1rem", lineHeight: 1.6 }}>{article.excerpt}</p>
-            <span style={{ color: "var(--text-secondary)", fontSize: "0.9rem" }}>Publicado: {article.date}</span>
+          <Link
+            href={`/blog/${article.slug}`}
+            key={article.slug}
+            className={styles.blogCard}
+          >
+            <span className={styles.blogTag}>{article.tag}</span>
+            <h2 className={styles.blogCardTitle}>{article.title}</h2>
+            <p className={styles.blogCardExcerpt}>{article.excerpt}</p>
+            <span className={styles.blogCardLink}>Leer artículo →</span>
           </Link>
         ))}
       </div>
