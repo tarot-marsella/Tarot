@@ -11,6 +11,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+  const blogArticles = [
+    'como-leer-cartas-tarot-marsella',
+    'tirada-tarot-gratis-tres-cartas',
+    'significado-arcanos-mayores-tarot-marsella',
+    'tarot-online-gratis',
+    'el-loco-tarot-marsella-significado',
+    'mejores-tarotistas-online',
+    'historia-tarot-marsella',
+    'tirada-cruz-celta-tarot',
+    'tarot-amor-gratis',
+    'como-hacer-preguntas-tarot'
+  ]
+
+  const blogUrls = blogArticles.map((slug) => ({
+    url: `${baseUrl}/blog/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
   return [
     {
       url: baseUrl,
@@ -30,6 +50,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
     ...cardUrls,
+    ...blogUrls,
   ]
 }
