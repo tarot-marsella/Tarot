@@ -38,6 +38,24 @@ const ARTICLES = [
     slug: "el-loco-tarot-marsella-significado",
     excerpt: "Descubre el significado de El Loco. Simbolismo, interpretación en el amor, el trabajo, al derecho e invertido.",
     date: "2026-05-05",
+  },
+  {
+    title: "Cómo Elegir los Mejores Tarotistas Online",
+    slug: "mejores-tarotistas-online",
+    excerpt: "Aprende a identificar a los mejores tarotistas online. Qué buscar y diferencias con el tarot gratis.",
+    date: "2026-05-06",
+  },
+  {
+    title: "Historia del Tarot de Marsella: Origen y Evolución",
+    slug: "historia-tarot-marsella",
+    excerpt: "Descubre la historia del Tarot de Marsella, desde sus orígenes misteriosos hasta las restauraciones modernas.",
+    date: "2026-05-07",
+  },
+  {
+    title: "Tirada de la Cruz Celta con Tarot de Marsella",
+    slug: "tirada-cruz-celta-tarot",
+    excerpt: "Aprende a realizar la famosa tirada de la Cruz Celta. Guía paso a paso sobre el significado de sus 10 posiciones.",
+    date: "2026-05-08",
   }
 ];
 
