@@ -20,6 +20,24 @@ const ARTICLES = [
     slug: "tirada-tarot-gratis-tres-cartas",
     excerpt: "Descubre cómo funciona la lectura de 3 cartas y cómo interpretar sus mensajes. Tarot gratis online y en español.",
     date: "2026-05-02",
+  },
+  {
+    title: "Significado de los 22 Arcanos Mayores del Tarot de Marsella",
+    slug: "significado-arcanos-mayores-tarot-marsella",
+    excerpt: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores. Guía completa para interpretar cada carta.",
+    date: "2026-05-03",
+  },
+  {
+    title: "Tarot Online Gratis: Tu Lectura de Cartas en 5 Minutos",
+    slug: "tarot-online-gratis",
+    excerpt: "Realiza tu lectura de tarot online gratis en menos de 5 minutos. Conecta con el Tarot de Marsella digital.",
+    date: "2026-05-04",
+  },
+  {
+    title: "El Loco en el Tarot de Marsella: Significado Profundo",
+    slug: "el-loco-tarot-marsella-significado",
+    excerpt: "Descubre el significado de El Loco. Simbolismo, interpretación en el amor, el trabajo, al derecho e invertido.",
+    date: "2026-05-05",
   }
 ];
 
