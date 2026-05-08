@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className={styles.links}>
         <Link href="/aprendizaje">Arcanos</Link>
         <Link href="/tirada">Tirada</Link>
-        <Link href="/blog">Blog</Link>
+        <Link href="/blog">Estudia</Link>
         {status === "loading" ? (
           <span>...</span>
         ) : session ? (

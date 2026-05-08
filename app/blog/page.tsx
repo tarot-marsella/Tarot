@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import styles from "./blog.module.css";
 
 export const metadata: Metadata = {
-  title: "Blog | Guías y Significados del Tarot de Marsella",
+  title: "Estudia | Guías y Significados del Tarot de Marsella",
   description: "Explora artículos sobre cómo leer cartas del tarot, significado de los arcanos mayores, tiradas de tarot gratis y guías prácticas.",
 };
 
@@ -75,7 +75,7 @@ export default function BlogIndex() {
   return (
     <main className={styles.blogMain}>
       <header className={styles.blogHeader}>
-        <h1 className={styles.blogTitle}>Blog</h1>
+        <h1 className={styles.blogTitle}>Estudia</h1>
         <p className={styles.blogSubtitle}>
           Guías, significados y secretos del Tarot de Marsella
         </p>
