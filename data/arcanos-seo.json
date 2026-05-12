@@ -223,5 +223,174 @@
       { "question": "¿La Justicia indica asuntos legales?", "answer": "Sí, La Justicia puede indicar juicios, contratos, divorcios o cualquier proceso legal. Al derecho sugiere resolución favorable y justa." },
       { "question": "¿Por qué La Justicia es el VIII en Marsella y XI en Rider-Waite?", "answer": "El Tarot de Marsella mantiene el orden original donde La Justicia es VIII y La Fuerza es XI. Arthur Waite invirtió estas posiciones en su mazo por razones astrológicas." }
     ]
+  },
+  {
+    "id": 9, "slug": "el-ermitano", "name": "El Ermitaño", "numeral": "VIIII",
+    "keywords": ["el ermitaño tarot significado", "carta 9 marsella", "el ermitaño tarot amor"],
+    "metaTitle": "El Ermitaño (VIIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Ermitaño en el Tarot de Marsella. Introspección, sabiduría y soledad. Interpretación en amor, trabajo y salud.",
+    "bluf": "El Ermitaño es el Arcano VIIII del Tarot de Marsella. Representa la introspección profunda, la búsqueda interior de sabiduría y la necesidad de retirarse del ruido del mundo para encontrar la propia verdad. Es el sabio que ilumina su camino paso a paso.",
+    "simbologia": "El Ermitaño camina apoyado en un bastón y sosteniendo una lámpara en alto. Su capa lo cubre casi por completo, simbolizando protección contra las distracciones externas. La lámpara contiene una estrella de seis puntas (unión de opuestos). Avanza hacia la izquierda (el inconsciente), indicando que su viaje es interior.",
+    "amor": { "derecho": "Período de soledad necesaria, relación que se profundiza en el silencio, amor maduro y sabio.", "invertido": "Aislamiento doloroso, rechazo a la intimidad, soledad no elegida." },
+    "trabajo": { "derecho": "Investigación, trabajo independiente, consultoría experta. Sabiduría aplicada.", "invertido": "Aislamiento profesional, rechazo de oportunidades por miedo, lentitud excesiva." },
+    "salud": { "derecho": "Retiro para recuperarse, descanso necesario, medicina preventiva consciente.", "invertido": "Depresión por aislamiento, descuido de la salud social, hipocondría." },
+    "combinaciones": [
+      { "carta": "El Papa", "significado": "Búsqueda espiritual profunda. Maestro externo que se interioriza." },
+      { "carta": "La Luna", "significado": "Viaje al inconsciente más profundo. Soledad fértil pero potencialmente confusa." },
+      { "carta": "La Estrella", "significado": "Iluminación interior que se convierte en paz auténtica." },
+      { "carta": "El Loco", "significado": "El sabio y el inocente: dos caras de la misma libertad." },
+      { "carta": "La Sacerdotisa", "significado": "Conocimiento silencioso en su máxima expresión. Retiro meditativo." }
+    ],
+    "numerologia": "El 9 es el último dígito, representando la culminación de un ciclo. El Ermitaño es la crisis de la mitad de la vida, el momento donde se detiene la carrera exterior para preguntarse: ¿quién soy realmente?",
+    "faqs": [
+      { "question": "¿Qué significa El Ermitaño en el tarot?", "answer": "El Ermitaño significa introspección, sabiduría y la necesidad de un retiro temporal. Indica que las respuestas están dentro de ti y necesitas silencio para escucharlas." },
+      { "question": "¿El Ermitaño es negativo en el amor?", "answer": "No necesariamente. Puede indicar un período de soledad elegida para sanar o un amor maduro basado en la profundidad. Invertido sí puede señalar aislamiento doloroso." },
+      { "question": "¿Por qué es VIIII y no IX?", "answer": "El Marsella usa numeración romana arcaica. VIIII enfatiza visualmente la acumulación de experiencia: nueve trazos que representan todo lo vivido antes del gran cambio del 10." }
+    ]
+  },
+  {
+    "id": 10, "slug": "la-rueda-de-la-fortuna", "name": "La Rueda de la Fortuna", "numeral": "X",
+    "keywords": ["la rueda de la fortuna tarot", "carta 10 marsella", "rueda fortuna significado"],
+    "metaTitle": "La Rueda de la Fortuna (X): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Rueda de la Fortuna en el Tarot de Marsella. Ciclos, cambio y destino. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Rueda de la Fortuna es el Arcano X del Tarot de Marsella. Representa el cambio de ciclo inevitable, el movimiento perpetuo del destino y la necesidad de encontrar el centro inmóvil mientras todo gira a tu alrededor. Es la carta que recuerda que nada es permanente.",
+    "simbologia": "Una rueda con tres figuras: una asciende (esperanza), otra desciende (caída) y una tercera corona la rueda con una espada (dominio temporal). La manivela lateral indica que la rueda puede ser girada conscientemente. Las figuras mitad humanas, mitad animales simbolizan la evolución e involución constante.",
+    "amor": { "derecho": "Cambio de ciclo en la relación, encuentro destinado, giro favorable en el amor.", "invertido": "Repetición de patrones tóxicos, estancamiento, sentirse víctima del destino amoroso." },
+    "trabajo": { "derecho": "Oportunidad inesperada, cambio de suerte, promoción, giro positivo.", "invertido": "Mala racha laboral, resistencia al cambio necesario, ciclo negativo que se repite." },
+    "salud": { "derecho": "Cambio positivo en la salud, nuevo tratamiento exitoso, recuperación cíclica.", "invertido": "Recaídas, no aprender de enfermedades pasadas, resistencia a cambiar hábitos." },
+    "combinaciones": [
+      { "carta": "El Carro", "significado": "Avance rápido impulsado por el destino. Oportunidad única." },
+      { "carta": "La Muerte", "significado": "Fin definitivo de un ciclo. Transformación total e irreversible." },
+      { "carta": "El Mundo", "significado": "Ciclo completado con éxito. Destino cumplido." },
+      { "carta": "El Mago", "significado": "Oportunidad que requiere acción inmediata. Timing perfecto." },
+      { "carta": "El Colgado", "significado": "La rueda se detiene. Pausa forzada antes del siguiente giro." }
+    ],
+    "numerologia": "El 10 es el retorno a la unidad en un nivel superior (1+0=1). La Rueda marca la mitad exacta del viaje de los Arcanos Mayores y el inicio de un nuevo ciclo de consciencia más elevada.",
+    "faqs": [
+      { "question": "¿Qué significa La Rueda de la Fortuna en el tarot?", "answer": "La Rueda de la Fortuna significa cambio de ciclo, movimiento y la naturaleza transitoria de todas las situaciones. Lo que sube baja, y lo que baja vuelve a subir." },
+      { "question": "¿La Rueda de la Fortuna indica buena suerte?", "answer": "Al derecho generalmente indica un giro favorable, una oportunidad o el fin de una mala racha. Pero también recuerda que la buena suerte es temporal: hay que aprovecharla." },
+      { "question": "¿La Rueda de la Fortuna habla de karma?", "answer": "Sí. La Rueda está profundamente conectada con el concepto de karma: las consecuencias de acciones pasadas que se manifiestan en el presente como cambios de fortuna." }
+    ]
+  },
+  {
+    "id": 11, "slug": "la-fuerza", "name": "La Fuerza", "numeral": "XI",
+    "keywords": ["la fuerza tarot significado", "carta 11 marsella", "la fuerza tarot amor"],
+    "metaTitle": "La Fuerza (XI): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Fuerza en el Tarot de Marsella. Coraje, dominio de instintos y resiliencia. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Fuerza es el Arcano XI del Tarot de Marsella. Representa el dominio de los instintos mediante la inteligencia emocional, el coraje suave y la capacidad de transformar la energía bruta en poder creativo. No es fuerza bruta sino consciencia que abraza la naturaleza animal.",
+    "simbologia": "Una mujer abre las fauces de un león sin esfuerzo aparente. No lucha contra el animal sino que dialoga con él. Su sombrero tiene la forma del lemniscato (∞), igual que El Mago, indicando dominio infinito. Los colores rojo y azul de su vestimenta muestran equilibrio entre acción y receptividad.",
+    "amor": { "derecho": "Pasión controlada, relación donde se integran lo instintivo y lo emocional. Coraje para amar.", "invertido": "Represión emocional, explosiones de ira, relación donde los instintos dominan la razón." },
+    "trabajo": { "derecho": "Liderazgo suave pero firme, resolver conflictos con diplomacia, resistencia ante adversidad.", "invertido": "Agresividad laboral, burnout por no poner límites, debilidad ante presión." },
+    "salud": { "derecho": "Vitalidad, sistema inmune fuerte, energía sexual sana, resiliencia física.", "invertido": "Represión que genera enfermedad, agotamiento, problemas derivados de ira contenida." },
+    "combinaciones": [
+      { "carta": "El Diablo", "significado": "Integración de la sombra. Dominio consciente de las pulsiones más oscuras." },
+      { "carta": "El Carro", "significado": "Triunfo por la fuerza interior. Victoria que combina acción y templanza." },
+      { "carta": "La Templanza", "significado": "Equilibrio perfecto entre instinto y razón. Sanación profunda." },
+      { "carta": "La Emperatriz", "significado": "Poder femenino en su máxima expresión: creatividad + fortaleza." },
+      { "carta": "La Torre", "significado": "Fuerza interior probada por una crisis. Resiliencia ante el derrumbe." }
+    ],
+    "numerologia": "El 11 es un número maestro que amplifica la energía del 1. La Fuerza es la voluntad individual (1) potenciada por la consciencia (1+1). Representa el poder del despertar espiritual aplicado al mundo instintivo.",
+    "faqs": [
+      { "question": "¿Qué significa La Fuerza en el tarot?", "answer": "La Fuerza significa coraje, resiliencia y dominio de los instintos mediante la compasión. Indica que tienes el poder interior para superar cualquier desafío sin recurrir a la agresión." },
+      { "question": "¿La Fuerza es la carta 8 u 11?", "answer": "En el Tarot de Marsella original, La Fuerza es el Arcano XI. En el Rider-Waite fue movida a la posición VIII. Ambas tradiciones son válidas." },
+      { "question": "¿Qué significa La Fuerza en el amor?", "answer": "En el amor indica pasión integrada con ternura, coraje para enfrentar problemas de pareja y la capacidad de amar sin perder tu propia identidad." }
+    ]
+  },
+  {
+    "id": 12, "slug": "el-colgado", "name": "El Colgado", "numeral": "XII",
+    "keywords": ["el colgado tarot significado", "el ahorcado marsella", "carta 12 tarot"],
+    "metaTitle": "El Colgado (XII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Colgado en el Tarot de Marsella. Pausa, sacrificio y cambio de perspectiva. Interpretación en amor, trabajo y salud.",
+    "bluf": "El Colgado es el Arcano XII del Tarot de Marsella. Representa la pausa necesaria, el sacrificio voluntario del ego y el cambio radical de perspectiva que solo se obtiene al detenerse. Es la carta que enseña que a veces no hacer nada es la acción más poderosa.",
+    "simbologia": "Un hombre cuelga boca abajo de una estructura, atado por un pie. Su expresión es serena, no sufre. Sus manos están ocultas detrás de la espalda, indicando que ha renunciado a la acción. Las piernas forman un 4 invertido, símbolo del Emperador al revés: la estructura material puesta de cabeza.",
+    "amor": { "derecho": "Entrega total, amor incondicional, sacrificio voluntario por el otro. Ver la relación desde otro ángulo.", "invertido": "Sacrificio inútil, victimismo, relación donde uno se inmola sin reciprocidad." },
+    "trabajo": { "derecho": "Pausa estratégica, período de gestación de ideas, ver el problema desde otra perspectiva.", "invertido": "Estancamiento paralizante, proyectos suspendidos indefinidamente, sentirse atrapado." },
+    "salud": { "derecho": "Descanso reparador, tratamientos que requieren paciencia, yoga e inversiones corporales.", "invertido": "Inmovilidad que enferma, circulación deficiente, depresión por falta de movimiento." },
+    "combinaciones": [
+      { "carta": "La Muerte", "significado": "El sacrificio conduce a la transformación total. Morir para renacer." },
+      { "carta": "La Justicia", "significado": "Sacrificio necesario para restaurar el equilibrio kármico." },
+      { "carta": "La Estrella", "significado": "La entrega conduce a la paz interior y la conexión cósmica." },
+      { "carta": "El Ermitaño", "significado": "Doble retiro: físico y mental. Meditación profunda." },
+      { "carta": "El Mundo", "significado": "El sacrificio se recompensa con la realización total." }
+    ],
+    "numerologia": "El 12 reduce a 3 (1+2=3), conectándolo con La Emperatriz. El Colgado es la creatividad en gestación, el embarazo psíquico donde algo nuevo se forma en la quietud absoluta.",
+    "faqs": [
+      { "question": "¿Qué significa El Colgado en el tarot?", "answer": "El Colgado significa pausa, entrega y cambio de perspectiva. Indica que debes dejar de luchar contra la situación y permitir que una nueva visión emerja desde la quietud." },
+      { "question": "¿El Colgado es una carta negativa?", "answer": "No. Aunque puede parecer incómoda, El Colgado representa una pausa sagrada y voluntaria. Es como plantar una semilla: nada parece pasar en la superficie, pero debajo todo se transforma." },
+      { "question": "¿El Colgado y El Ahorcado son la misma carta?", "answer": "Sí. En el Tarot de Marsella se le llama Le Pendu (El Colgado). Algunos mazos lo traducen como El Ahorcado, aunque no está siendo castigado sino que se entrega voluntariamente." }
+    ]
+  },
+  {
+    "id": 13, "slug": "el-arcano-xiii", "name": "La Muerte", "numeral": "XIII",
+    "keywords": ["la muerte tarot significado", "arcano sin nombre", "carta 13 tarot"],
+    "metaTitle": "La Muerte (XIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Muerte (Arcano XIII) en el Tarot de Marsella. Transformación, renacimiento y fin de ciclos. No es lo que crees.",
+    "bluf": "La Muerte es el Arcano XIII del Tarot de Marsella, también conocido como el Arcano Sin Nombre. No predice muerte física sino transformación radical: el fin absoluto de algo viejo para que algo completamente nuevo pueda nacer. Es la carta más malinterpretada y una de las más poderosas.",
+    "simbologia": "Un esqueleto con guadaña avanza sobre un campo donde brotan manos, pies y cabezas. No destruye vida sino que cosecha lo que ya maduró. Los colores carne en el suelo indican que la vida persiste bajo la transformación. En el Marsella no tiene nombre escrito, pues representa lo innombrable: el misterio de la transformación total.",
+    "amor": { "derecho": "Fin de una etapa amorosa, transformación profunda del vínculo, dejar ir para renacer en el amor.", "invertido": "Resistencia a terminar una relación muerta, duelo no procesado, aferrarse a lo que ya no tiene vida." },
+    "trabajo": { "derecho": "Cambio radical de carrera, cierre de un proyecto, limpieza profesional necesaria.", "invertido": "Miedo al cambio laboral, aferrarse a un trabajo que te consume, resistencia a la innovación." },
+    "salud": { "derecho": "Desintoxicación, eliminar hábitos dañinos, cirugía necesaria que libera.", "invertido": "No soltar hábitos destructivos, resistencia a tratamientos necesarios." },
+    "combinaciones": [
+      { "carta": "El Loco", "significado": "Transformación radical que libera. Renacer como alguien completamente nuevo." },
+      { "carta": "La Templanza", "significado": "Después de la muerte viene la sanación. Transición suave hacia lo nuevo." },
+      { "carta": "La Torre", "significado": "Destrucción total: externa (Torre) + interna (Muerte). Punto cero absoluto." },
+      { "carta": "El Sol", "significado": "Muerte que conduce directamente a la luz. Renacimiento gozoso." },
+      { "carta": "El Juicio", "significado": "Resurrección. Lo que murió vuelve transformado en algo superior." }
+    ],
+    "numerologia": "El 13 ha sido temido en muchas culturas, pero en el Tarot es el número de la transformación alquímica. 1+3=4 (El Emperador): tras la destrucción, se reconstruye una nueva estructura.",
+    "faqs": [
+      { "question": "¿La carta de La Muerte significa muerte real?", "answer": "No. En el Tarot de Marsella, La Muerte casi nunca indica muerte física. Representa el fin de una etapa, una transformación profunda o la necesidad de soltar algo que ya cumplió su ciclo." },
+      { "question": "¿Por qué La Muerte no tiene nombre en el Marsella?", "answer": "En el Tarot de Marsella original, este arcano no lleva nombre escrito. Se le llama el Arcano Sin Nombre porque representa lo innombrable: la transformación que va más allá de las palabras." },
+      { "question": "¿La Muerte es positiva o negativa?", "answer": "Es una carta de transformación, ni positiva ni negativa en sí misma. Al derecho indica cambio necesario y liberador. Invertida señala resistencia a un cambio que es inevitable." }
+    ]
+  },
+  {
+    "id": 14, "slug": "la-templanza", "name": "La Templanza", "numeral": "XIIII",
+    "keywords": ["la templanza tarot significado", "carta 14 marsella", "la templanza tarot amor"],
+    "metaTitle": "La Templanza (XIIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Templanza en el Tarot de Marsella. Equilibrio, sanación y flujo. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Templanza es el Arcano XIIII del Tarot de Marsella. Representa la sanación después de la crisis, el equilibrio dinámico entre opuestos y el flujo armonioso de la energía vital. Es el ángel que mezcla las aguas del consciente y el inconsciente en perfecta proporción.",
+    "simbologia": "Un ángel vierte líquido entre dos recipientes, uno rojo y otro azul, sin derramar una gota. Este acto de transvase representa la circulación entre opuestos: acción y receptividad, consciente e inconsciente. Sus alas indican naturaleza espiritual. El líquido fluye en diagonal, desafiando la gravedad, señalando que esta carta opera en un plano supranatural.",
+    "amor": { "derecho": "Relación equilibrada, comunicación fluida, sanación de heridas emocionales compartidas.", "invertido": "Desequilibrio en la pareja, extremos emocionales, falta de comunicación." },
+    "trabajo": { "derecho": "Colaboración armónica, proyectos que fluyen naturalmente, creatividad equilibrada.", "invertido": "Desequilibrio entre vida personal y laboral, impaciencia con los procesos." },
+    "salud": { "derecho": "Sanación natural, equilibrio hormonal, terapias complementarias exitosas.", "invertido": "Desequilibrio físico, excesos que dañan, impaciencia con la recuperación." },
+    "combinaciones": [
+      { "carta": "La Muerte", "significado": "Sanación después de la transformación. El duelo da paso a la paz." },
+      { "carta": "La Estrella", "significado": "Doble sanación: emocional (Templanza) + espiritual (Estrella)." },
+      { "carta": "La Justicia", "significado": "Equilibrio restaurado con justicia y compasión." },
+      { "carta": "El Enamorado", "significado": "Elección amorosa guiada por el equilibrio interior." },
+      { "carta": "La Fuerza", "significado": "Dominio perfecto de instintos y emociones. Maestría interior." }
+    ],
+    "numerologia": "El 14 reduce a 5 (1+4=5), conectándolo con El Papa. La Templanza es la mediación espiritual internalizada: ya no necesitas un maestro externo porque has encontrado el equilibrio dentro de ti.",
+    "faqs": [
+      { "question": "¿Qué significa La Templanza en el tarot?", "answer": "La Templanza significa equilibrio, sanación y flujo armonioso. Indica que es momento de encontrar el camino medio, sanar heridas y permitir que las cosas fluyan sin forzar." },
+      { "question": "¿La Templanza es una carta de sanación?", "answer": "Sí, La Templanza es la principal carta de sanación en el Tarot. Indica recuperación después de una crisis, terapia exitosa y restablecimiento del equilibrio físico y emocional." },
+      { "question": "¿Qué significa La Templanza en el amor?", "answer": "En el amor indica una relación equilibrada, comunicación fluida y la capacidad de sanar heridas emocionales juntos. Es una de las mejores cartas para la pareja." }
+    ]
+  },
+  {
+    "id": 15, "slug": "el-diablo", "name": "El Diablo", "numeral": "XV",
+    "keywords": ["el diablo tarot significado", "carta 15 marsella", "el diablo tarot amor"],
+    "metaTitle": "El Diablo (XV): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Diablo en el Tarot de Marsella. Pasión, sombra y liberación. Interpretación en amor, trabajo y salud.",
+    "bluf": "El Diablo es el Arcano XV del Tarot de Marsella. Representa el encuentro con la propia sombra, las pasiones intensas, las ataduras ilusorias y la energía vital en su expresión más cruda. No es una carta de maldad sino de poder: el que otorga aceptar y dominar tus impulsos más profundos.",
+    "simbologia": "Una figura demoníaca con alas de murciélago y antorcha domina a dos personajes encadenados. Pero las cadenas son flojas: podrían liberarse si quisieran. El Diablo tiene rasgos andróginos, uniendo lo masculino y femenino en su aspecto más instintivo. Su antorcha ilumina hacia abajo (el inconsciente) en contraste con El Ermitaño que ilumina hacia arriba.",
+    "amor": { "derecho": "Pasión intensa, deseo sexual poderoso, magnetismo irresistible. Relación que te consume y te transforma.", "invertido": "Adicción emocional, relación tóxica, manipulación, celos obsesivos." },
+    "trabajo": { "derecho": "Ambición material intensa, creatividad cruda, poder profesional. Éxito por pura fuerza de voluntad.", "invertido": "Adicción al trabajo, corrupción, usar a otros para beneficio propio." },
+    "salud": { "derecho": "Energía sexual como fuerza vital, enfrentar adicciones conscientemente.", "invertido": "Adicciones destructivas, excesos que dañan el cuerpo, negación de problemas de salud." },
+    "combinaciones": [
+      { "carta": "La Fuerza", "significado": "Integración completa de la sombra. Los instintos se convierten en aliados." },
+      { "carta": "El Enamorado", "significado": "Pasión intensa pero potencialmente adictiva. Deseo vs. amor verdadero." },
+      { "carta": "La Torre", "significado": "Las cadenas se rompen violentamente. Liberación explosiva de ataduras." },
+      { "carta": "El Mago", "significado": "Poder de manifestación usado para fines oscuros o brillantes. La intención lo define todo." },
+      { "carta": "La Estrella", "significado": "De la oscuridad más profunda surge la luz más pura. Redención." }
+    ],
+    "numerologia": "El 15 reduce a 6 (1+5=6), conectándolo con El Enamorado. El Diablo es la sombra del amor: la pasión que puede esclavizar o liberar según el nivel de consciencia con que se viva.",
+    "faqs": [
+      { "question": "¿Qué significa El Diablo en el tarot?", "answer": "El Diablo significa pasión intensa, ataduras ilusorias y el encuentro con tu sombra. No es una carta de maldad sino de poder: te muestra aquello que te controla inconscientemente." },
+      { "question": "¿El Diablo es una carta mala?", "answer": "No necesariamente. Al derecho puede indicar pasión legítima, creatividad cruda o ambición saludable. Invertido advierte sobre adicciones, manipulación o relaciones tóxicas." },
+      { "question": "¿Qué significa El Diablo en el amor?", "answer": "En el amor indica pasión intensa y magnetismo sexual. Puede ser una relación transformadora o una advertencia sobre dependencia emocional, según las cartas que lo acompañen." }
+    ]
   }
 ]
+
