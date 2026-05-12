@@ -19,11 +19,14 @@
 .subtitle {
   color: var(--text-secondary);
   font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 2rem;
   justify-items: center;
 }
@@ -34,7 +37,7 @@
   align-items: center;
   text-decoration: none;
   width: 100%;
-  max-width: 240px;
+  max-width: 220px;
   transition: transform 0.3s;
 }
 
@@ -83,7 +86,7 @@
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   border: 1px solid var(--accent-gold);
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -91,11 +94,85 @@
 
 .cardName {
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-primary);
   transition: color 0.3s;
 }
 
 .cardLink:hover .cardName {
   color: var(--accent-gold);
+}
+
+/* FAQs */
+.faqSection {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.faqTitle {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.faqItem {
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqItem h3 {
+  font-size: 1.1rem;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+}
+
+.faqItem p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* CTA */
+.ctaBox {
+  margin: 4rem auto 0;
+  max-width: 600px;
+  text-align: center;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.06), rgba(10, 10, 18, 0.8));
+  border: 1px solid rgba(212, 175, 55, 0.12);
+  border-radius: 12px;
+}
+
+.ctaBox h2 {
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+}
+
+.ctaBox p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: var(--accent-gold);
+  color: #0a0a12;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.ctaButton:hover {
+  background: #e6c84a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
 }

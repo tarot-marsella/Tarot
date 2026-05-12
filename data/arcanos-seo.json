@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "slug": "el-loco",
+    "name": "El Loco",
+    "numeral": "Sin Número",
+    "keywords": ["significado el loco tarot", "el loco tarot marsella", "carta sin número tarot", "el loco tarot amor"],
+    "metaTitle": "El Loco: Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Descubre el significado profundo de El Loco en el Tarot de Marsella. Interpretación al derecho e invertido en amor, trabajo y salud. Simbología y combinaciones.",
+    "bluf": "El Loco en el Tarot de Marsella simboliza libertad absoluta, nuevos comienzos y el salto hacia lo desconocido. Es la única carta sin número fijo (0 o XXII), representando la energía pura del potencial ilimitado antes de tomar forma.",
+    "simbologia": "En la lámina de Nicolas Conver restaurada por Jodorowsky y Camoin, El Loco camina hacia la derecha (el futuro) con un fardo sobre el hombro. Un animal —ni perro ni gato— toca su pierna, empujándolo hacia adelante. Su bastón es color carne, indicando energía vital. Los cascabeles de su gorro representan la conexión con lo divino a través de la locura sagrada. Los colores rojo, azul y amarillo están presentes en equilibrio, señalando que todas las energías coexisten en él sin jerarquía.",
+    "amor": { "derecho": "Pasión desbordante, aventura romántica, conexiones inesperadas. Puede indicar un encuentro que cambia tu vida o la necesidad de liberar una relación que te limita.", "invertido": "Inestabilidad emocional, miedo al compromiso, relaciones caóticas sin rumbo. Huir de la intimidad verdadera." },
+    "trabajo": { "derecho": "Emprendimiento audaz, cambio de carrera, proyectos creativos sin precedentes. Energía para iniciar algo completamente nuevo.", "invertido": "Decisiones laborales impulsivas, falta de planificación, abandonar proyectos antes de tiempo." },
+    "salud": { "derecho": "Vitalidad desbordante, necesidad de movimiento y aire libre. Buena energía para iniciar rutinas de ejercicio.", "invertido": "Descuido del cuerpo, accidentes por imprudencia, ansiedad por falta de estructura." },
+    "combinaciones": [
+      { "carta": "El Mago", "significado": "El potencial infinito encuentra la habilidad para manifestarse. Inicio brillante de un proyecto creativo." },
+      { "carta": "La Muerte", "significado": "Transformación radical e irreversible. Soltar todo lo conocido para renacer completamente." },
+      { "carta": "El Mundo", "significado": "El viaje completo: desde la inocencia total hasta la realización suprema. Ciclo cerrado." },
+      { "carta": "La Torre", "significado": "Liberación explosiva. Romper con estructuras obsoletas de forma súbita y definitiva." },
+      { "carta": "La Estrella", "significado": "Fe ciega recompensada. El salto al vacío conduce a la paz y la autenticidad." }
+    ],
+    "numerologia": "El Loco no tiene número o lleva el 0, situándolo fuera de la secuencia. En numerología esotérica, el cero representa el vacío fértil, el potencial puro antes de la manifestación. Es el huevo cósmico del que nace todo el viaje de los Arcanos.",
+    "faqs": [
+      { "question": "¿Qué significa El Loco en una tirada de tarot?", "answer": "El Loco significa un nuevo comienzo, libertad y el impulso de seguir tu instinto sin importar las convenciones. Indica que es momento de dar un salto de fe hacia lo desconocido." },
+      { "question": "¿El Loco es una carta positiva o negativa?", "answer": "El Loco es fundamentalmente positiva: representa potencial ilimitado y libertad. Invertida puede indicar imprudencia, pero incluso así señala la necesidad de movimiento y cambio." },
+      { "question": "¿Qué significa El Loco en el amor?", "answer": "En el amor, El Loco indica una conexión apasionada e inesperada, o la necesidad de liberar una relación que te limita. Sugiere aventura romántica y apertura emocional." }
+    ]
+  },
+  {
+    "id": 1,
+    "slug": "el-mago",
+    "name": "El Mago",
+    "numeral": "I",
+    "keywords": ["significado el mago tarot", "el mago tarot marsella", "carta 1 tarot", "el mago tarot amor"],
+    "metaTitle": "El Mago (I): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado completo de El Mago en el Tarot de Marsella. Interpretación al derecho e invertido, simbología oculta, amor, trabajo y combinaciones clave.",
+    "bluf": "El Mago es el Arcano I del Tarot de Marsella. Representa el inicio de la acción consciente, la habilidad para manifestar ideas en la realidad y el dominio de los cuatro elementos. Es el primer paso del potencial hacia la creación concreta.",
+    "simbologia": "El Mago sostiene una varita en la mano izquierda (receptividad) y señala hacia la mesa con la derecha (acción). Sobre su mesa aparecen los símbolos de los cuatro elementos: copas (agua/emociones), espadas (aire/mente), bastos (fuego/acción) y oros (tierra/materia). Su sombrero forma un lemniscato (∞), símbolo del infinito. Los colores de su vestimenta —rojo, azul y amarillo— indican que domina las tres energías fundamentales.",
+    "amor": { "derecho": "Comunicación brillante, seducción inteligente, inicio de una relación con potencial. Capacidad de conquistar con palabras y gestos.", "invertido": "Manipulación emocional, engaño, promesas vacías. Usar el encanto para fines egoístas." },
+    "trabajo": { "derecho": "Habilidad para iniciar proyectos, negociación exitosa, dominio de herramientas profesionales. Momento ideal para emprender.", "invertido": "Dispersión de energía, charlatanería profesional, potencial desperdiciado por falta de enfoque." },
+    "salud": { "derecho": "Energía mental clara, buena coordinación mente-cuerpo. Capacidad de encontrar soluciones prácticas a problemas de salud.", "invertido": "Estrés por sobrepensar, dispersión energética, descuido de la salud física por exceso de actividad mental." },
+    "combinaciones": [
+      { "carta": "La Sacerdotisa", "significado": "Equilibrio perfecto entre acción e intuición. Saber cuándo actuar y cuándo esperar." },
+      { "carta": "El Diablo", "significado": "Manipulación magistral o uso del talento para fines materiales intensos. Precaución con el engaño." },
+      { "carta": "La Rueda de la Fortuna", "significado": "Una oportunidad inesperada que requiere acción inmediata. El timing es perfecto." },
+      { "carta": "El Sol", "significado": "Éxito brillante a través de la habilidad y la comunicación. Proyecto que alcanza su máximo esplendor." },
+      { "carta": "El Loco", "significado": "El potencial infinito encuentra la habilidad para manifestarse. Inicio brillante de un proyecto creativo." }
+    ],
+    "numerologia": "El número 1 representa el inicio, la unidad primordial y la voluntad individual. En el Tarot, es el primer acto consciente del viaje. El Mago es la chispa que enciende la secuencia de los 21 arcanos restantes.",
+    "faqs": [
+      { "question": "¿Qué significa El Mago en una tirada de tarot?", "answer": "El Mago significa que tienes todas las herramientas necesarias para lograr tu objetivo. Es momento de pasar de la planificación a la acción concreta, usando tu inteligencia y habilidad." },
+      { "question": "¿El Mago es positivo en el amor?", "answer": "Sí, El Mago al derecho indica comunicación brillante y capacidad de seducción genuina. Puede señalar el inicio de una relación con gran potencial. Invertido, advierte sobre manipulación." },
+      { "question": "¿Qué número es El Mago en el tarot?", "answer": "El Mago es el Arcano número I (uno) del Tarot de Marsella. Representa el primer paso de la acción consciente en el viaje de los 22 Arcanos Mayores." }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "la-sacerdotisa",
+    "name": "La Sacerdotisa",
+    "numeral": "II",
+    "keywords": ["la papisa tarot significado", "la sacerdotisa marsella", "carta 2 tarot", "la sacerdotisa tarot amor"],
+    "metaTitle": "La Sacerdotisa (II): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Sacerdotisa (La Papisa) en el Tarot de Marsella. Simbología, interpretación en amor, trabajo y salud. Combinaciones y FAQs.",
+    "bluf": "La Sacerdotisa (La Papisa) es el Arcano II del Tarot de Marsella. Representa la intuición profunda, el conocimiento interior y la sabiduría que se obtiene en el silencio. Es la guardiana de los misterios que solo se revelan a quienes saben esperar.",
+    "simbologia": "La Papisa aparece sentada, sosteniendo un libro abierto sobre sus rodillas. Su tiara tiene tres niveles que representan los tres mundos (material, emocional, espiritual). El velo detrás de ella oculta los misterios del inconsciente. El huevo cósmico de su forma sugiere gestación. Sus colores predominantes son el azul (receptividad) y el rojo (energía contenida), indicando acción interna invisible.",
+    "amor": { "derecho": "Intuición amorosa acertada, relación que se profundiza en el silencio compartido. Secretos que emergen para sanar el vínculo.", "invertido": "Frialdad emocional, secretos destructivos, desconexión con la pareja. Bloqueo de la intimidad emocional." },
+    "trabajo": { "derecho": "Período de estudio y preparación antes de actuar. Investigación profunda. Sabiduría aplicada a decisiones profesionales.", "invertido": "Pasividad excesiva que frena el progreso. Información oculta que afecta decisiones laborales." },
+    "salud": { "derecho": "Escuchar al cuerpo, medicina integrativa, ciclos hormonales. Período de recuperación silenciosa.", "invertido": "Ignorar señales del cuerpo, represión emocional que somatiza, bloqueos energéticos." },
+    "combinaciones": [
+      { "carta": "El Mago", "significado": "Equilibrio perfecto entre acción e intuición. Saber cuándo actuar y cuándo esperar." },
+      { "carta": "La Luna", "significado": "Inmersión total en el inconsciente. Período de máxima intuición pero posible confusión." },
+      { "carta": "La Emperatriz", "significado": "Lo femenino en su plenitud: sabiduría interior que florece en creatividad exterior." },
+      { "carta": "El Ermitaño", "significado": "Búsqueda espiritual profunda. Retiro para acceder a conocimiento ancestral." },
+      { "carta": "La Estrella", "significado": "Conexión cósmica a través de la meditación. Fe guiada por la intuición pura." }
+    ],
+    "numerologia": "El número 2 representa la dualidad, la receptividad y la gestación. Es el principio femenino que acoge y contiene. La Sacerdotisa es el útero simbólico donde las ideas se incuban antes de nacer al mundo.",
+    "faqs": [
+      { "question": "¿Qué significa La Sacerdotisa en el tarot?", "answer": "La Sacerdotisa significa que es momento de escuchar tu intuición y retirarte del ruido exterior. La respuesta que buscas ya está dentro de ti, pero necesitas silencio para escucharla." },
+      { "question": "¿La Sacerdotisa y La Papisa son la misma carta?", "answer": "Sí. En el Tarot de Marsella original se llama La Papisa (La Papesse). Otros mazos como el Rider-Waite la renombraron como La Sacerdotisa o La Gran Sacerdotisa." },
+      { "question": "¿Qué significa La Sacerdotisa en el amor?", "answer": "En el amor indica profundización emocional silenciosa, intuición acertada sobre la pareja y la necesidad de conexión más allá de las palabras. Invertida, señala frialdad o secretos." }
+    ]
+  }
+]
