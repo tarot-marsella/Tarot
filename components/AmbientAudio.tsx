@@ -3,22 +3,24 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import styles from "./AmbientAudio.module.css";
 
-// Spiritual scale notes (D minor pentatonic + mystical intervals)
+// Oriental/Mystical scale notes (C Phrygian Dominant: C, Db, E, F, G, Ab, Bb)
 const NOTES = [
-  146.83, // D3
+  138.59, // Db3
+  164.81, // E3
   174.61, // F3
-  196.0,  // G3
-  220.0,  // A3
+  196.00, // G3
+  207.65, // Ab3
+  233.08, // Bb3
   261.63, // C4
-  293.66, // D4
+  277.18, // Db4
+  329.63, // E4
   349.23, // F4
-  392.0,  // G4
-  440.0,  // A4
-  523.25, // C5
+  392.00, // G4
+  415.30, // Ab4
 ];
 
-// Deep drone frequencies
-const DRONES = [73.42, 110.0, 146.83]; // D2, A2, D3
+// Deep mystical drone frequencies (C root)
+const DRONES = [65.41, 98.0, 130.81]; // C2, G2, C3
 
 export default function AmbientAudio() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -125,7 +127,7 @@ export default function AmbientAudio() {
       if (ctx.state === "running") {
         const bowlOsc = ctx.createOscillator();
         const bowlGain = ctx.createGain();
-        const bowlFreq = [528, 396, 639, 741][Math.floor(Math.random() * 4)]; // Solfeggio
+        const bowlFreq = [261.63, 392.00, 523.25, 349.23][Math.floor(Math.random() * 4)]; // C4, G4, C5, F4
 
         bowlOsc.type = "sine";
         bowlOsc.frequency.setValueAtTime(bowlFreq, ctx.currentTime);

@@ -29,12 +29,9 @@ export default function Home() {
 
       <div className={styles.hero}>
         <div className={`fade-in ${styles.content}`}>
-          <div className={styles.titleWrapper}>
-            <span className={styles.backgroundText}>Tirada de Tarot Gratis Online</span>
-            <h1 className={styles.title}>
-              Tarot de Marsella
-            </h1>
-          </div>
+          <h1 className={styles.title}>
+            Tarot de Marsella
+          </h1>
           <div className={styles.divider}></div>
           <p className={styles.subtitle}>
             El Tarot de Marsella es un sistema de 22 Arcanos Mayores que revela las energías presentes en tu camino.
@@ -52,23 +49,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* SEO content section */}
-      <section className={styles.seoSection}>
-        <h2 className={styles.seoTitle}>¿Qué es el Tarot de Marsella?</h2>
-        <p className={styles.seoText}>
-          El <strong>Tarot de Marsella</strong> es el mazo más antiguo y respetado de la tradición esotérica occidental.
-          Sus <strong>22 Arcanos Mayores</strong> representan arquetipos universales que conectan con la psicología profunda
-          de Carl Jung y la sabiduría espiritual de maestros como Alejandro Jodorowsky. Nuestra plataforma de <strong>tarot
-            online</strong> te permite hacer una <strong>tirada de tarot gratis</strong> con interpretación psicológica,
-          espiritual y práctica personalizada.
-        </p>
-        <h2 className={styles.seoTitle}>¿Cómo Leer las Cartas del Tarot?</h2>
-        <p className={styles.seoText}>
-          Para <strong>leer cartas del tarot</strong> correctamente, es fundamental conocer el significado de cada arcano
-          tanto en posición normal como invertida. Nuestra herramienta de <strong>tarot gratis</strong> te guía en cada
-          paso de la interpretación, ofreciendo un análisis que va más allá de la superficie.
-        </p>
-      </section>
+
 
       {/* Decorative background elements */}
       <div className={styles.glowOverlay}></div>
