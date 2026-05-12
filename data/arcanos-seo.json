@@ -391,6 +391,149 @@
       { "question": "¿El Diablo es una carta mala?", "answer": "No necesariamente. Al derecho puede indicar pasión legítima, creatividad cruda o ambición saludable. Invertido advierte sobre adicciones, manipulación o relaciones tóxicas." },
       { "question": "¿Qué significa El Diablo en el amor?", "answer": "En el amor indica pasión intensa y magnetismo sexual. Puede ser una relación transformadora o una advertencia sobre dependencia emocional, según las cartas que lo acompañen." }
     ]
+  },
+  {
+    "id": 16, "slug": "la-torre", "name": "La Torre", "numeral": "XVI",
+    "keywords": ["la torre tarot significado", "la casa de dios marsella", "carta 16 tarot"],
+    "metaTitle": "La Torre (XVI): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Torre en el Tarot de Marsella. Crisis, liberación y despertar. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Torre es el Arcano XVI del Tarot de Marsella, también llamada La Casa de Dios (La Maison Dieu). Representa la destrucción repentina de estructuras falsas, la crisis liberadora y el despertar violento de la consciencia. No es castigo sino liberación: lo que cae merecía caer.",
+    "simbologia": "Un rayo o fuego celestial arranca la corona de una torre, expulsando a dos figuras. Las esferas multicolores que caen representan semillas de nueva vida. En el Marsella se llama La Maison Dieu (La Casa de Dios), no La Torre: es la morada divina que se abre para liberar a quienes estaban encerrados dentro.",
+    "amor": { "derecho": "Ruptura liberadora, verdad que sale a la luz, crisis que renueva la relación desde sus cimientos.", "invertido": "Catástrofe evitable, resistencia a aceptar el fin, reconstruir sobre las mismas bases falsas." },
+    "trabajo": { "derecho": "Cambio abrupto de trabajo, despido que libera, caída de un proyecto que necesitaba renovarse.", "invertido": "Aferrarse a un empleo tóxico, miedo a la ruina, resistencia al cambio necesario." },
+    "salud": { "derecho": "Shock que despierta: diagnóstico que motiva el cambio, crisis de salud que transforma hábitos.", "invertido": "Ignorar señales de alarma, resistir el tratamiento necesario." },
+    "combinaciones": [
+      { "carta": "La Muerte", "significado": "Destrucción total y transformación profunda. Punto cero desde donde reconstruir." },
+      { "carta": "La Estrella", "significado": "Después de la tormenta viene la calma. La crisis conduce a la paz más profunda." },
+      { "carta": "El Diablo", "significado": "Las cadenas se rompen violentamente. Liberación explosiva de ataduras." },
+      { "carta": "El Emperador", "significado": "Caída de una estructura de poder. Lo sólido se derrumba para reconstruirse mejor." },
+      { "carta": "El Sol", "significado": "Crisis que conduce rápidamente a la claridad y la alegría. Iluminación repentina." }
+    ],
+    "numerologia": "El 16 reduce a 7 (1+6=7), conectándolo con El Carro. La Torre es el carro que choca: el avance ciego que necesita detenerse violentamente para cambiar de dirección.",
+    "faqs": [
+      { "question": "¿Qué significa La Torre en el tarot?", "answer": "La Torre significa crisis, destrucción de lo falso y despertar repentino. Indica que algo en tu vida construido sobre bases inestables necesita derrumbarse para que puedas construir algo auténtico." },
+      { "question": "¿La Torre es la peor carta del tarot?", "answer": "No. Aunque es impactante, La Torre es liberadora. Destruye lo que no te servía. Muchas personas reportan que los eventos asociados a La Torre, aunque dolorosos, resultaron ser los más transformadores de su vida." },
+      { "question": "¿Por qué se llama La Casa de Dios?", "answer": "En el Marsella original se llama La Maison Dieu (La Casa de Dios). No es una torre que se destruye sino una casa divina que se abre, liberando a quienes estaban prisioneros dentro de sus propias estructuras rígidas." }
+    ]
+  },
+  {
+    "id": 17, "slug": "la-estrella", "name": "La Estrella", "numeral": "XVII",
+    "keywords": ["la estrella tarot significado", "carta 17 marsella", "la estrella tarot amor"],
+    "metaTitle": "La Estrella (XVII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Estrella en el Tarot de Marsella. Esperanza, autenticidad y conexión cósmica. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Estrella es el Arcano XVII del Tarot de Marsella. Representa la esperanza renovada, la autenticidad radical y la conexión cósmica que surge después de la crisis. Es la carta de la vulnerabilidad que se convierte en fortaleza: mostrarte tal como eres ante el universo.",
+    "simbologia": "Una mujer desnuda vierte agua en la tierra y en un río, conectando cielo, tierra y agua. Ocho estrellas brillan sobre ella: una grande (consciencia) y siete pequeñas (los siete planetas clásicos). La desnudez indica total transparencia y autenticidad. Los colores son luminosos y frescos, en contraste con la oscuridad de La Torre.",
+    "amor": { "derecho": "Amor puro y desinteresado, vulnerabilidad compartida, esperanza en el vínculo.", "invertido": "Desesperanza amorosa, sentirse perdido emocionalmente, desconexión de la fe en el amor." },
+    "trabajo": { "derecho": "Inspiración creativa, proyecto alineado con tu propósito, generosidad profesional.", "invertido": "Pérdida de inspiración, trabajo sin sentido, falta de conexión con tu vocación." },
+    "salud": { "derecho": "Recuperación, hidratación, conexión con la naturaleza, terapias con agua.", "invertido": "Deshidratación energética, pérdida de vitalidad, desconexión con el cuerpo." },
+    "combinaciones": [
+      { "carta": "La Torre", "significado": "Después de la destrucción viene la paz. Renacimiento esperanzador." },
+      { "carta": "La Luna", "significado": "De la claridad a la confusión. El viaje nocturno del alma comienza." },
+      { "carta": "La Sacerdotisa", "significado": "Conexión cósmica a través de la meditación profunda." },
+      { "carta": "El Loco", "significado": "Fe ciega recompensada. El salto al vacío conduce a la autenticidad." },
+      { "carta": "El Mundo", "significado": "La esperanza se convierte en realización total." }
+    ],
+    "numerologia": "El 17 reduce a 8 (1+7=8), conectándolo con La Justicia. La Estrella es la justicia cósmica: después de la destrucción justa de La Torre, el universo recompensa con esperanza y belleza.",
+    "faqs": [
+      { "question": "¿Qué significa La Estrella en el tarot?", "answer": "La Estrella significa esperanza, inspiración y autenticidad. Indica un momento de paz después de la tormenta, donde puedes mostrarte vulnerable y conectar con tu verdadera esencia." },
+      { "question": "¿La Estrella es la mejor carta del tarot?", "answer": "Es una de las cartas más positivas. Representa esperanza genuina, no fantasía. Indica que estás en el camino correcto y que el universo te apoya en tu autenticidad." },
+      { "question": "¿Qué significa La Estrella en el amor?", "answer": "En el amor indica una conexión pura, basada en la vulnerabilidad compartida. Es la carta del amor desinteresado y la esperanza renovada en el vínculo de pareja." }
+    ]
+  },
+  {
+    "id": 18, "slug": "la-luna", "name": "La Luna", "numeral": "XVIII",
+    "keywords": ["la luna tarot significado", "carta 18 marsella", "la luna tarot amor"],
+    "metaTitle": "La Luna (XVIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Luna en el Tarot de Marsella. Intuición, inconsciente y misterio. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Luna es el Arcano XVIII del Tarot de Marsella. Representa el viaje al inconsciente profundo, la intuición en su estado más puro y los misterios que solo se revelan en la oscuridad. Es la carta que invita a navegar la incertidumbre con fe y sensibilidad.",
+    "simbologia": "La Luna derrama gotas hacia la tierra entre dos torres. Un cangrejo emerge del agua (el inconsciente que asciende). Dos perros o lobos aúllan, representando la naturaleza instintiva. Las gotas que caen de la luna son coloreadas, indicando que la energía lunar fertiliza la psique. El camino entre las torres sugiere un tránsito peligroso pero necesario.",
+    "amor": { "derecho": "Intuición amorosa profunda, misterio romántico, conexión onírica con la pareja.", "invertido": "Miedos irracionales, ilusiones engañosas, secretos que envenenan la relación." },
+    "trabajo": { "derecho": "Creatividad nocturna, trabajo artístico, períodos de incubación de ideas.", "invertido": "Confusión profesional, autoengaño, proyectos basados en ilusiones." },
+    "salud": { "derecho": "Atención a los ciclos naturales, sueños reveladores, salud femenina.", "invertido": "Ansiedad nocturna, insomnio, miedos hipocondríacos, depresión." },
+    "combinaciones": [
+      { "carta": "El Sol", "significado": "Noche y día. La confusión se resuelve en claridad total." },
+      { "carta": "La Sacerdotisa", "significado": "Inmersión total en el inconsciente. Máxima intuición." },
+      { "carta": "El Ermitaño", "significado": "Viaje solitario por la oscuridad interior. Revelación que solo llega en soledad." },
+      { "carta": "La Estrella", "significado": "De la claridad esperanzadora a la confusión lunar. Prueba de fe." },
+      { "carta": "El Diablo", "significado": "Las sombras más profundas emergen. Enfrentar miedos inconscientes." }
+    ],
+    "numerologia": "El 18 reduce a 9 (1+8=9), conectándolo con El Ermitaño. La Luna es el Ermitaño en su noche más oscura: la soledad absoluta del alma antes del amanecer.",
+    "faqs": [
+      { "question": "¿Qué significa La Luna en el tarot?", "answer": "La Luna significa intuición, inconsciente y misterio. Indica un período donde la claridad racional no está disponible y debes confiar en tu intuición para navegar la incertidumbre." },
+      { "question": "¿La Luna es una carta negativa?", "answer": "No es negativa sino confusa. Indica que las cosas no son lo que parecen. Al derecho invita a explorar el inconsciente; invertida advierte sobre miedos irracionales y autoengaño." },
+      { "question": "¿Qué significa La Luna en el amor?", "answer": "En el amor indica conexión profunda e intuitiva, pero también posibles secretos o ilusiones. Sugiere prestar atención a lo que sientes más que a lo que ves." }
+    ]
+  },
+  {
+    "id": 19, "slug": "el-sol", "name": "El Sol", "numeral": "XVIIII",
+    "keywords": ["el sol tarot significado", "carta 19 marsella", "el sol tarot amor"],
+    "metaTitle": "El Sol (XVIIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Sol en el Tarot de Marsella. Éxito, alegría y claridad. Interpretación en amor, trabajo y salud.",
+    "bluf": "El Sol es el Arcano XVIIII del Tarot de Marsella. Representa la alegría absoluta, el éxito radiante, la fraternidad y la claridad que disipa todas las sombras. Es la carta más luminosa del mazo: todo lo que toca se ilumina con verdad y calidez.",
+    "simbologia": "Dos figuras (gemelos o pareja) se abrazan bajo un sol radiante con rostro humano. Los rayos alternados (rectos y ondulados) representan la unión de energía masculina y femenina. El muro bajo detrás simboliza la protección sin aislamiento. Las gotas multicolores caen como bendición solar sobre la tierra.",
+    "amor": { "derecho": "Amor pleno, relación transparente, alegría compartida, matrimonio feliz.", "invertido": "Falsa apariencia de felicidad, ego que eclipsa al otro, relación superficialmente perfecta." },
+    "trabajo": { "derecho": "Éxito profesional radiante, reconocimiento público, colaboración exitosa.", "invertido": "Exceso de exposición, burnout por brillar demasiado, éxito vacío." },
+    "salud": { "derecho": "Vitalidad máxima, energía solar, salud radiante, vitamina D.", "invertido": "Agotamiento por exceso, quemarse, falta de descanso." },
+    "combinaciones": [
+      { "carta": "La Luna", "significado": "De la confusión nocturna a la claridad total. El amanecer interior." },
+      { "carta": "El Mundo", "significado": "Éxito absoluto y realización completa. La mejor combinación posible." },
+      { "carta": "El Mago", "significado": "Talento que brilla al máximo. Éxito a través de la habilidad y la comunicación." },
+      { "carta": "La Muerte", "significado": "Renacimiento gozoso. De la oscuridad más profunda a la luz más brillante." },
+      { "carta": "El Carro", "significado": "Triunfo radiante. Victoria que se celebra con alegría." }
+    ],
+    "numerologia": "El 19 reduce a 10 y luego a 1 (1+9=10, 1+0=1). El Sol es un nuevo comienzo iluminado: el regreso al Mago pero con toda la sabiduría del viaje acumulada.",
+    "faqs": [
+      { "question": "¿Qué significa El Sol en el tarot?", "answer": "El Sol significa éxito, alegría y claridad total. Es la carta más positiva del Tarot de Marsella e indica que todo se ilumina: las verdades salen a la luz y los proyectos prosperan." },
+      { "question": "¿El Sol es la mejor carta del tarot?", "answer": "Es considerada la carta más positiva del mazo. Representa éxito genuino, alegría compartida y la claridad que solo llega cuando has atravesado la oscuridad (La Luna)." },
+      { "question": "¿Qué significa El Sol en el amor?", "answer": "En el amor indica felicidad plena, relación transparente y alegría compartida. Es la carta del amor correspondido, la amistad profunda y la familia unida." }
+    ]
+  },
+  {
+    "id": 20, "slug": "el-juicio", "name": "El Juicio", "numeral": "XX",
+    "keywords": ["el juicio tarot significado", "carta 20 marsella", "el juicio tarot amor"],
+    "metaTitle": "El Juicio (XX): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Juicio en el Tarot de Marsella. Despertar, vocación y renacimiento. Interpretación en amor, trabajo y salud.",
+    "bluf": "El Juicio es el Arcano XX del Tarot de Marsella. Representa el despertar definitivo de la consciencia, la vocación verdadera que emerge y el renacimiento espiritual. Es el llamado del ángel que despierta a los dormidos: un momento donde la vida te exige ascender a un nuevo nivel de existencia.",
+    "simbologia": "Un ángel con trompeta toca desde el cielo. Debajo, tres figuras emergen de lo que parece un sepulcro: un hombre, una mujer y un niño (la familia simbólica). El niño nace de espaldas al espectador, indicando que el renacimiento es un misterio. Las alas del ángel son multicolores, representando la totalidad de las energías.",
+    "amor": { "derecho": "Renacimiento de una relación, reencuentro destinado, perdón transgeneracional.", "invertido": "No escuchar la vocación del corazón, bloqueos familiares que impiden amar, juicio severo." },
+    "trabajo": { "derecho": "Vocación que emerge con claridad, cambio de carrera alineado con el alma, reconocimiento.", "invertido": "Ignorar tu verdadera vocación, seguir en un trabajo por inercia, miedo al cambio profundo." },
+    "salud": { "derecho": "Recuperación milagrosa, sanación transgeneracional, despertar del cuerpo.", "invertido": "Enfermedades hereditarias no tratadas, negarse a despertar ante señales del cuerpo." },
+    "combinaciones": [
+      { "carta": "La Muerte", "significado": "Resurrección. Lo que murió vuelve transformado en algo superior." },
+      { "carta": "El Papa", "significado": "Despertar espiritual guiado. La vocación encuentra su maestro." },
+      { "carta": "La Justicia", "significado": "Justicia divina. Verdad que sale a la luz después de mucho tiempo." },
+      { "carta": "El Mundo", "significado": "Despertar que conduce a la realización total. Penúltimo paso antes de la plenitud." },
+      { "carta": "El Loco", "significado": "Renacimiento que libera completamente. Nuevo comienzo con consciencia elevada." }
+    ],
+    "numerologia": "El 20 reduce a 2 (2+0=2), conectándolo con La Sacerdotisa. El Juicio es la intuición del 2 llevada al plano de la revelación cósmica: lo que se gestó en silencio ahora nace al mundo.",
+    "faqs": [
+      { "question": "¿Qué significa El Juicio en el tarot?", "answer": "El Juicio significa despertar, vocación y renacimiento. Indica un momento crucial donde la vida te llama a ascender a un nuevo nivel, escuchar tu verdadera vocación y dejar atrás versiones antiguas de ti mismo." },
+      { "question": "¿El Juicio habla de juicio divino?", "answer": "No en sentido punitivo. En el Tarot de Marsella, El Juicio es un llamado a despertar, no un castigo. El ángel no juzga sino que invita a renacer. Es más cercano a la resurrección que al juicio final." },
+      { "question": "¿Qué significa El Juicio en el amor?", "answer": "En el amor puede indicar el renacimiento de una relación que se creía terminada, un reencuentro destinado o la sanación de patrones familiares que afectaban tu vida amorosa." }
+    ]
+  },
+  {
+    "id": 21, "slug": "el-mundo", "name": "El Mundo", "numeral": "XXI",
+    "keywords": ["el mundo tarot significado", "carta 21 marsella", "el mundo tarot amor"],
+    "metaTitle": "El Mundo (XXI): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Mundo en el Tarot de Marsella. Realización, completitud y plenitud. La última carta del viaje de los Arcanos Mayores.",
+    "bluf": "El Mundo es el Arcano XXI del Tarot de Marsella, la última carta del viaje de los Arcanos Mayores. Representa la realización suprema, la completitud del ciclo vital y la danza extática del alma que ha integrado todas sus experiencias. Es el destino cumplido: la totalidad habitada con alegría.",
+    "simbologia": "Una figura danza dentro de una mandorla (almendra mística) rodeada por los cuatro evangelistas o cuatro elementos: ángel (agua), águila (aire), león (fuego), toro (tierra). La figura sostiene dos varitas, indicando dominio activo y receptivo simultáneo. La guirnalda ovalada representa el útero cósmico: el mundo como gestación eterna.",
+    "amor": { "derecho": "Amor realizado, relación completa, plenitud emocional, viaje compartido exitoso.", "invertido": "Sentimiento de encierro en la relación, perfeccionismo que impide disfrutar, ciclo que no se cierra." },
+    "trabajo": { "derecho": "Éxito total, proyecto culminado, reconocimiento global, viajes laborales exitosos.", "invertido": "Proyecto que no termina, obsesión con la perfección, incapacidad de disfrutar el logro." },
+    "salud": { "derecho": "Salud integral, equilibrio de todos los sistemas, plenitud física y mental.", "invertido": "Descuidar la salud por creer que todo está bien, ignorar áreas débiles." },
+    "combinaciones": [
+      { "carta": "El Loco", "significado": "El ciclo completo: del potencial puro a la realización total. Alfa y Omega." },
+      { "carta": "El Sol", "significado": "Éxito absoluto y celebración. La mejor combinación posible del Tarot." },
+      { "carta": "La Rueda de la Fortuna", "significado": "Un ciclo se cierra perfectamente. Destino cumplido." },
+      { "carta": "El Carro", "significado": "La conquista llega a su destino final. Viaje completado con éxito." },
+      { "carta": "El Juicio", "significado": "El despertar se convierte en realización plena. El alma alcanza su propósito." }
+    ],
+    "numerologia": "El 21 reduce a 3 (2+1=3), conectándolo con La Emperatriz. El Mundo es la creatividad cósmica en su máxima expresión: ya no se crea una obra, se es la obra. La vida entera se convierte en danza.",
+    "faqs": [
+      { "question": "¿Qué significa El Mundo en el tarot?", "answer": "El Mundo significa realización, completitud y éxito total. Es la carta que indica que has llegado al final de un ciclo importante y puedes celebrar todo lo logrado con plenitud." },
+      { "question": "¿El Mundo es la mejor carta del tarot?", "answer": "Es la carta de mayor realización. Mientras El Sol representa alegría, El Mundo representa completitud: la sensación de que todo está en su lugar y el viaje ha valido la pena." },
+      { "question": "¿Qué significa El Mundo en el amor?", "answer": "En el amor indica una relación realizada, donde ambos han crecido juntos y alcanzado plenitud. Puede indicar matrimonio exitoso, viajes compartidos o el cierre perfecto de una etapa amorosa." }
+    ]
   }
 ]
-
