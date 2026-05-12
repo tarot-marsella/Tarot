@@ -79,5 +79,149 @@
       { "question": "¿La Sacerdotisa y La Papisa son la misma carta?", "answer": "Sí. En el Tarot de Marsella original se llama La Papisa (La Papesse). Otros mazos como el Rider-Waite la renombraron como La Sacerdotisa o La Gran Sacerdotisa." },
       { "question": "¿Qué significa La Sacerdotisa en el amor?", "answer": "En el amor indica profundización emocional silenciosa, intuición acertada sobre la pareja y la necesidad de conexión más allá de las palabras. Invertida, señala frialdad o secretos." }
     ]
+  },
+  {
+    "id": 3, "slug": "la-emperatriz", "name": "La Emperatriz", "numeral": "III",
+    "keywords": ["la emperatriz tarot significado", "emperatriz marsella", "carta 3 tarot"],
+    "metaTitle": "La Emperatriz (III): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Emperatriz en el Tarot de Marsella. Creatividad, abundancia y fertilidad. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Emperatriz es el Arcano III del Tarot de Marsella. Representa la creatividad desbordante, la abundancia material y emocional, y la fuerza femenina en su expresión más fértil y sensual. Es la madre creadora que da vida a todo lo que toca.",
+    "simbologia": "La Emperatriz sostiene un cetro con un escudo que lleva un águila, símbolo del poder espiritual materializado. Su corona indica dominio terrestre. Está rodeada de colores vivos —rojo y azul— que señalan la unión de acción y receptividad. Su mirada se dirige hacia la izquierda (el pasado/inconsciente), sugiriendo que su poder creativo brota de fuentes profundas e intuitivas.",
+    "amor": { "derecho": "Pasión, fertilidad, sensualidad plena. Relación que florece y se nutre mutuamente. Posible embarazo.", "invertido": "Dependencia emocional, celos posesivos, relación asfixiante. Creatividad bloqueada en el amor." },
+    "trabajo": { "derecho": "Proyectos que florecen, abundancia económica, creatividad aplicada al negocio. Momento fértil para emprender.", "invertido": "Estancamiento creativo, gastos excesivos, vanidad profesional que impide el crecimiento real." },
+    "salud": { "derecho": "Vitalidad femenina, fertilidad, conexión con el cuerpo. Buen momento para cuidar la alimentación.", "invertido": "Problemas hormonales, descuido del cuerpo, excesos que afectan la salud." },
+    "combinaciones": [
+      { "carta": "El Emperador", "significado": "La pareja arquetípica: creatividad femenina + estructura masculina. Equilibrio perfecto para materializar proyectos." },
+      { "carta": "La Sacerdotisa", "significado": "Lo femenino en su plenitud: sabiduría interior que florece en creatividad exterior." },
+      { "carta": "La Estrella", "significado": "Belleza auténtica, generosidad creativa y conexión con la naturaleza." },
+      { "carta": "El Sol", "significado": "Éxito radiante en lo creativo. Abundancia y alegría compartida." },
+      { "carta": "La Muerte", "significado": "Transformación de lo creativo. Fin de un ciclo fértil para iniciar otro." }
+    ],
+    "numerologia": "El 3 es el número de la creación, la síntesis y la expresión. Tras la dualidad del 2 (La Sacerdotisa), el 3 produce algo nuevo. La Emperatriz es el resultado fértil de la unión entre opuestos.",
+    "faqs": [
+      { "question": "¿Qué significa La Emperatriz en el tarot?", "answer": "La Emperatriz significa creatividad, abundancia y fertilidad. Indica un momento fértil donde tus proyectos e ideas pueden florecer si les das nutrición y cuidado." },
+      { "question": "¿La Emperatriz indica embarazo?", "answer": "La Emperatriz es la carta más asociada con la fertilidad y el embarazo en el Tarot de Marsella. Sin embargo, también puede indicar el nacimiento de proyectos, ideas o etapas vitales." },
+      { "question": "¿Qué significa La Emperatriz invertida?", "answer": "Invertida indica bloqueo creativo, dependencia emocional, celos o vanidad. Puede señalar que estás sofocando algo (o alguien) con exceso de control o atención." }
+    ]
+  },
+  {
+    "id": 4, "slug": "el-emperador", "name": "El Emperador", "numeral": "IIII",
+    "keywords": ["el emperador tarot significado", "emperador marsella", "carta 4 tarot"],
+    "metaTitle": "El Emperador (IIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Emperador en el Tarot de Marsella. Autoridad, estructura y liderazgo. Interpretación en amor, trabajo, salud y combinaciones.",
+    "bluf": "El Emperador es el Arcano IIII del Tarot de Marsella. Representa la autoridad justa, la estructura material, el liderazgo y la capacidad de construir algo duradero en el mundo. Es el padre que protege y ordena con firmeza.",
+    "simbologia": "El Emperador está sentado de perfil, con las piernas cruzadas formando un 4. Sostiene un cetro y un escudo con águila imperial. Su trono es sólido pero su postura sugiere acción contenida. En el Marsella restaurado de Jodorowsky-Camoin, mira hacia la izquierda, indicando que su poder proviene de la experiencia acumulada.",
+    "amor": { "derecho": "Estabilidad, protección, relación sólida basada en el compromiso y la lealtad.", "invertido": "Control excesivo, rigidez emocional, relación donde uno domina al otro." },
+    "trabajo": { "derecho": "Liderazgo exitoso, estructura organizativa, negocios prósperos. Consolidación profesional.", "invertido": "Tiranía laboral, inflexibilidad, miedo a delegar. Estructuras que colapsan." },
+    "salud": { "derecho": "Fortaleza física, disciplina en hábitos saludables, resistencia.", "invertido": "Rigidez corporal, problemas óseos o articulares, estrés por exceso de control." },
+    "combinaciones": [
+      { "carta": "La Emperatriz", "significado": "La pareja arquetípica: estructura + creatividad. Proyecto que se materializa con éxito." },
+      { "carta": "La Justicia", "significado": "Orden legal, decisiones firmes y justas. Contratos y acuerdos sólidos." },
+      { "carta": "La Torre", "significado": "Caída de una estructura de poder. Crisis de autoridad necesaria para renovar." },
+      { "carta": "El Papa", "significado": "Poder terrenal + poder espiritual. Liderazgo con propósito elevado." },
+      { "carta": "El Carro", "significado": "Conquista material exitosa. Avance decidido hacia objetivos concretos." }
+    ],
+    "numerologia": "El 4 simboliza estabilidad, los cuatro elementos, las cuatro direcciones. Es el número de la materia y la construcción. El Emperador es la base sólida sobre la que se edifica todo lo demás.",
+    "faqs": [
+      { "question": "¿Qué significa El Emperador en el tarot?", "answer": "El Emperador significa autoridad, estructura y capacidad de liderazgo. Indica que es momento de poner orden, establecer límites claros y asumir la responsabilidad sobre tu vida." },
+      { "question": "¿El Emperador es bueno en el amor?", "answer": "Al derecho indica estabilidad y compromiso serio. Es una carta de relaciones duraderas. Invertido puede señalar control excesivo o rigidez emocional en la pareja." },
+      { "question": "¿Por qué en el Tarot de Marsella es IIII y no IV?", "answer": "El Marsella usa la numeración romana arcaica donde el 4 se escribe IIII en lugar de IV. Esto tiene significado esotérico: los cuatro trazos representan los cuatro pilares de la materia." }
+    ]
+  },
+  {
+    "id": 5, "slug": "el-papa", "name": "El Papa", "numeral": "V",
+    "keywords": ["el papa tarot significado", "el hierofante marsella", "carta 5 tarot"],
+    "metaTitle": "El Papa (V): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Papa en el Tarot de Marsella. Sabiduría, enseñanza y espiritualidad. Interpretación en amor, trabajo y combinaciones.",
+    "bluf": "El Papa es el Arcano V del Tarot de Marsella. Representa la transmisión de conocimiento sagrado, la mediación entre lo terrenal y lo espiritual, y la búsqueda de sentido profundo a través de la tradición y la enseñanza.",
+    "simbologia": "El Papa bendice con la mano derecha levantada, mostrando dos dedos visibles y tres ocultos (lo exotérico y lo esotérico). Dos discípulos aparecen a sus pies, recibiendo la enseñanza. Su tiara de tres niveles representa los tres mundos que conecta. El bastón con triple cruz simboliza su autoridad sobre cuerpo, alma y espíritu.",
+    "amor": { "derecho": "Relación basada en valores compartidos, compromiso espiritual, matrimonio. Consejo sabio sobre el amor.", "invertido": "Dogmatismo en la relación, imposición de creencias, hipocresía moral." },
+    "trabajo": { "derecho": "Mentoría, enseñanza, instituciones educativas. Éxito en roles de guía o consejero.", "invertido": "Rigidez institucional, corrupción en organizaciones, rechazo a nuevas ideas." },
+    "salud": { "derecho": "Sanación a través de prácticas tradicionales, medicina holística, fe como apoyo terapéutico.", "invertido": "Fanatismo que reemplaza tratamiento médico real, culpa religiosa que enferma." },
+    "combinaciones": [
+      { "carta": "La Sacerdotisa", "significado": "Conocimiento completo: sabiduría exotérica + esotérica. Maestría espiritual." },
+      { "carta": "El Emperador", "significado": "Poder terrenal + espiritual unidos. Liderazgo con propósito trascendente." },
+      { "carta": "El Ermitaño", "significado": "Búsqueda espiritual profunda. El maestro externo se convierte en maestro interno." },
+      { "carta": "El Juicio", "significado": "Despertar espiritual guiado. Vocación que emerge con claridad." },
+      { "carta": "La Templanza", "significado": "Equilibrio entre fe y razón. Sanación espiritual armónica." }
+    ],
+    "numerologia": "El 5 es el número del ser humano (5 dedos, 5 sentidos, 5 extremidades). El Papa es el puente entre la materia (4) y el espíritu (6). Representa la quintaesencia: el elemento que une todos los demás.",
+    "faqs": [
+      { "question": "¿Qué significa El Papa en el tarot?", "answer": "El Papa significa enseñanza, tradición y búsqueda de sentido espiritual. Puede indicar la necesidad de un mentor, un curso de estudios o una conexión más profunda con tus valores." },
+      { "question": "¿El Papa y El Hierofante son la misma carta?", "answer": "Sí. En el Tarot de Marsella se llama El Papa (Le Pape). En el Rider-Waite se le renombró como El Hierofante para evitar connotaciones religiosas directas." },
+      { "question": "¿El Papa indica matrimonio?", "answer": "Tradicionalmente sí. El Papa es la carta que más se asocia con ceremonias, votos y compromisos formales, incluido el matrimonio religioso o civil." }
+    ]
+  },
+  {
+    "id": 6, "slug": "el-enamorado", "name": "El Enamorado", "numeral": "VI",
+    "keywords": ["los enamorados tarot significado", "carta del amor tarot", "carta 6 tarot"],
+    "metaTitle": "El Enamorado (VI): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Enamorado en el Tarot de Marsella. La carta de las decisiones del corazón. Amor, elecciones y dualidad explicados.",
+    "bluf": "El Enamorado es el Arcano VI del Tarot de Marsella. Representa una encrucijada emocional, la elección desde el corazón y la integración de dualidades. A diferencia de otros mazos, en el Marsella aparecen tres figuras humanas y un ángel, indicando que toda elección amorosa involucra fuerzas más grandes que el individuo.",
+    "simbologia": "Tres personajes aparecen bajo un ángel con arco y flecha (Cupido/Eros). El joven del centro mira hacia un lado mientras es tocado por ambas figuras femeninas. No es una elección entre el bien y el mal, sino entre dos caminos legítimos. El ángel representa la fuerza suprapersonal que guía la decisión cuando el intelecto no alcanza.",
+    "amor": { "derecho": "Enamoramiento, elección amorosa, conexión profunda del corazón. Momento de definir una relación.", "invertido": "Duda paralizante, triángulo amoroso, incapacidad para comprometerse." },
+    "trabajo": { "derecho": "Decisión profesional importante, asociaciones, colaboración creativa.", "invertido": "Indecisión laboral, conflicto entre vocación y seguridad económica." },
+    "salud": { "derecho": "Escuchar al corazón (literal y metafórico). Decisiones de salud guiadas por la intuición.", "invertido": "Ansiedad por indecisión, problemas cardíacos relacionados con estrés emocional." },
+    "combinaciones": [
+      { "carta": "La Emperatriz", "significado": "Amor que florece en creatividad. Relación fértil y apasionada." },
+      { "carta": "El Diablo", "significado": "Pasión intensa pero potencialmente adictiva. Deseo vs. amor verdadero." },
+      { "carta": "La Templanza", "significado": "Elección equilibrada. El amor encuentra su camino medio y armónico." },
+      { "carta": "La Luna", "significado": "Confusión emocional. La elección amorosa está nublada por ilusiones." },
+      { "carta": "El Sol", "significado": "Amor claro y radiante. La elección correcta se revela con total transparencia." }
+    ],
+    "numerologia": "El 6 es el número de la armonía, la belleza y la unión de opuestos (triángulo arriba + triángulo abajo). El Enamorado es el momento donde la dualidad busca resolverse en una elección integradora.",
+    "faqs": [
+      { "question": "¿Qué significa El Enamorado en el tarot?", "answer": "El Enamorado significa una elección importante, generalmente emocional. Indica que estás en una encrucijada y debes decidir desde el corazón, no desde la razón fría." },
+      { "question": "¿El Enamorado siempre habla de amor?", "answer": "No necesariamente. Aunque es la carta más asociada al amor, El Enamorado habla de cualquier elección importante donde el corazón debe guiar: vocación, mudanza, cambio de vida." },
+      { "question": "¿Por qué hay tres personas en la carta?", "answer": "Las tres figuras representan la complejidad de toda elección: no elegimos entre bueno y malo, sino entre dos caminos válidos. El ángel superior indica que una fuerza mayor nos guía si sabemos escuchar." }
+    ]
+  },
+  {
+    "id": 7, "slug": "el-carro", "name": "El Carro", "numeral": "VII",
+    "keywords": ["el carro tarot significado", "carta 7 marsella", "el carro tarot amor"],
+    "metaTitle": "El Carro (VII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de El Carro en el Tarot de Marsella. Triunfo, acción y conquista. Interpretación completa en amor, trabajo y salud.",
+    "bluf": "El Carro es el Arcano VII del Tarot de Marsella. Representa el triunfo por la acción decidida, la conquista del mundo exterior y la capacidad de dirigir fuerzas opuestas hacia un único objetivo. Es la carta de la victoria personal y el avance imparable.",
+    "simbologia": "Un joven coronado conduce un carro tirado por dos caballos de distinto color (azul y rojo), simbolizando fuerzas opuestas dominadas por la voluntad. El carro no tiene riendas visibles: el conductor dirige con su presencia y determinación. La corona y el cetro indican autoridad ganada por mérito propio.",
+    "amor": { "derecho": "Conquista amorosa, relación que avanza con fuerza, pasión decidida.", "invertido": "Relación impulsiva, ego que domina el vínculo, querer controlar al otro." },
+    "trabajo": { "derecho": "Éxito profesional, ascenso, proyecto que avanza rápidamente. Momento de acción decidida.", "invertido": "Descontrol laboral, ir en la dirección equivocada, ambición sin rumbo." },
+    "salud": { "derecho": "Energía física alta, deporte, movimiento. Recuperación rápida.", "invertido": "Agotamiento por exceso de actividad, accidentes por imprudencia." },
+    "combinaciones": [
+      { "carta": "El Emperador", "significado": "Conquista + estructura. Éxito material consolidado." },
+      { "carta": "La Rueda de la Fortuna", "significado": "Avance rápido impulsado por el destino. Oportunidad que no se repite." },
+      { "carta": "El Mundo", "significado": "Triunfo absoluto. Meta alcanzada con plenitud." },
+      { "carta": "La Torre", "significado": "Avance que se frena bruscamente. Necesidad de recalcular la ruta." },
+      { "carta": "El Loco", "significado": "Viaje sin destino fijo pero con energía imparable. Aventura pura." }
+    ],
+    "numerologia": "El 7 es el número de la acción en el mundo, el ciclo completo de la semana, y la perfección dinámica. El Carro es la voluntad humana en su máxima expresión de movimiento dirigido.",
+    "faqs": [
+      { "question": "¿Qué significa El Carro en el tarot?", "answer": "El Carro significa triunfo, avance y conquista. Indica que tienes la fuerza y la determinación para superar obstáculos y alcanzar tu objetivo si actúas con decisión ahora." },
+      { "question": "¿El Carro es buena carta?", "answer": "Sí, El Carro es una de las cartas más positivas del Tarot. Al derecho indica éxito y victoria personal. Invertido advierte sobre el exceso de ego o la pérdida de dirección." },
+      { "question": "¿El Carro indica viajes?", "answer": "Sí, El Carro puede indicar viajes físicos, mudanzas o desplazamientos. También representa el viaje metafórico de conquista personal y profesional." }
+    ]
+  },
+  {
+    "id": 8, "slug": "la-justicia", "name": "La Justicia", "numeral": "VIII",
+    "keywords": ["la justicia tarot significado", "carta 8 marsella", "la justicia tarot amor"],
+    "metaTitle": "La Justicia (VIII): Significado en el Tarot de Marsella | Guía Completa",
+    "metaDescription": "Significado de La Justicia en el Tarot de Marsella. Equilibrio, verdad y decisiones kármicas. Interpretación en amor, trabajo y salud.",
+    "bluf": "La Justicia es el Arcano VIII del Tarot de Marsella. Representa el equilibrio perfecto, la verdad implacable y las consecuencias kármicas de nuestras acciones. Es la carta que exige responsabilidad, honestidad y el corte de lo que ya no sirve.",
+    "simbologia": "La Justicia sostiene una espada en la mano derecha (poder de decisión y corte) y una balanza en la izquierda (equilibrio y ponderación). Su mirada es frontal y directa, sin parcialidad. En el Marsella, es el Arcano VIII (no XI como en el Rider-Waite), posición que enfatiza su conexión con la estructura material del Emperador (IIII).",
+    "amor": { "derecho": "Relación justa y equilibrada, claridad sobre el vínculo, decisiones honestas.", "invertido": "Injusticia en la relación, desequilibrio de poder, mentiras descubiertas." },
+    "trabajo": { "derecho": "Contratos justos, decisiones legales favorables, evaluación objetiva.", "invertido": "Injusticia laboral, desequilibrio entre esfuerzo y recompensa, litigios." },
+    "salud": { "derecho": "Equilibrio cuerpo-mente, necesidad de moderación, diagnóstico acertado.", "invertido": "Desequilibrio físico, tratamiento injusto, descuidar la prevención." },
+    "combinaciones": [
+      { "carta": "El Emperador", "significado": "Orden y ley. Estructura legal sólida. Autoridad justa." },
+      { "carta": "El Colgado", "significado": "Sacrificio necesario para restaurar el equilibrio. Justicia kármica." },
+      { "carta": "La Muerte", "significado": "Corte definitivo. Fin de una situación injusta." },
+      { "carta": "La Templanza", "significado": "Justicia aplicada con compasión. Equilibrio restaurado suavemente." },
+      { "carta": "El Juicio", "significado": "Justicia divina. Verdad que sale a la luz tras mucho tiempo." }
+    ],
+    "numerologia": "El 8 es el número del equilibrio cósmico, la ley de causa y efecto, y el infinito (8 girado = ∞). La Justicia es el punto medio exacto de los 22 Arcanos, el eje alrededor del cual gira todo el viaje.",
+    "faqs": [
+      { "question": "¿Qué significa La Justicia en el tarot?", "answer": "La Justicia significa equilibrio, verdad y responsabilidad. Indica que cosecharás lo que has sembrado, y que es momento de tomar decisiones basadas en hechos, no en emociones." },
+      { "question": "¿La Justicia indica asuntos legales?", "answer": "Sí, La Justicia puede indicar juicios, contratos, divorcios o cualquier proceso legal. Al derecho sugiere resolución favorable y justa." },
+      { "question": "¿Por qué La Justicia es el VIII en Marsella y XI en Rider-Waite?", "answer": "El Tarot de Marsella mantiene el orden original donde La Justicia es VIII y La Fuerza es XI. Arthur Waite invirtió estas posiciones en su mazo por razones astrológicas." }
+    ]
   }
 ]
