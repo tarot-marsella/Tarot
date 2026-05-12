@@ -5,6 +5,7 @@ import AuthProvider from "@/components/AuthProvider";
 import Navbar from "@/components/Navbar";
 import AmbientAudio from "@/components/AmbientAudio";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-serif" });
@@ -117,6 +118,7 @@ export default function RootLayout({
         <AuthProvider>
           <Navbar />
           {children}
+          <Footer />
         </AuthProvider>
         <AmbientAudio />
       </body>
