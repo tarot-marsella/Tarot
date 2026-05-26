@@ -86,7 +86,7 @@ const websiteJsonLd = {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: `${BASE_URL}/arcanos-mayores/{search_term_string}`,
+      urlTemplate: `${BASE_URL}/aprendizaje/{search_term_string}`,
     },
     "query-input": "required name=search_term_string",
   },

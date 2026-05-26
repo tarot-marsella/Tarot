@@ -86,7 +86,7 @@ export default function BlogPost10() {
             <h3>Aplica la Técnica de Inmediato</h3>
             <p>Formula tu pregunta abierta en tu mente ahora mismo y prueba nuestra plataforma interactiva. Observa cómo cambia la claridad de la respuesta.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Consultar al Tarot
               </Button>
             </div>

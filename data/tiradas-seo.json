@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "slug": "tres-cartas",
+    "name": "Tirada de 3 Cartas",
+    "metaTitle": "Tirada de 3 Cartas: Pasado, Presente y Futuro | Guía Completa",
+    "metaDescription": "Aprende a leer el tarot con la tirada de 3 cartas. Análisis de pasado, presente y futuro con ejemplos prácticos y significados.",
+    "bluf": "La Tirada de 3 Cartas es el formato más clásico, rápido y versátil para leer el Tarot. Consiste en extraer tres cartas que representan secuencialmente el Pasado (el origen), el Presente (la situación actual) y el Futuro (hacia dónde se dirige la energía).",
+    "description": "Utiliza esta tirada cuando necesites claridad rápida sobre una situación específica, entender la evolución de un problema o para consultas diarias rápidas. Es la mejor lectura para principiantes debido a su formato lineal y directo.",
+    "positions": [
+      { "position": 1, "name": "Pasado", "meaning": "Muestra el origen de la situación, las influencias previas y las causas fundamentales del problema actual." },
+      { "position": 2, "name": "Presente", "meaning": "Describe cómo te encuentras ahora mismo respecto al tema y qué energías están activas en este preciso momento." },
+      { "position": 3, "name": "Futuro / Resultado", "meaning": "Indica el resultado probable si las cosas siguen el curso actual. Representa hacia dónde te diriges." }
+    ],
+    "example": "Imagina que preguntas por un nuevo trabajo y obtienes: **El Loco (Pasado)**, **El Mago (Presente)** y **El Emperador (Futuro)**. Esto indica que tomaste un riesgo al dejar tu zona de confort (El Loco), ahora estás usando todas tus habilidades y herramientas (El Mago), y esto resultará en una posición estable, sólida y de liderazgo (El Emperador).",
+    "faqs": [
+      { "question": "¿Puedo cambiar el significado de las 3 posiciones?", "answer": "Totalmente. La estructura Pasado/Presente/Futuro es la más común, pero puedes adaptarla a: Mente/Cuerpo/Espíritu, Situación/Desafío/Consejo, o Problema/Causa/Solución según tu necesidad." },
+      { "question": "¿Es buena para predecir el futuro lejano?", "answer": "No. La tirada de 3 cartas funciona mejor para tendencias a corto o mediano plazo (semanas o meses), ya que captura la energía inmediata de la situación." },
+      { "question": "¿Debería usar solo Arcanos Mayores?", "answer": "Si eres principiante, usar solo los 22 Arcanos Mayores del Tarot de Marsella facilita la interpretación arquetípica. Con más experiencia, puedes incorporar toda la baraja." }
+    ],
+    "howToSteps": [
+      { "name": "Concéntrate en la línea de tiempo", "text": "Formula una pregunta clara sobre cómo evolucionará una situación específica." },
+      { "name": "Baraja el mazo", "text": "Mezcla las cartas mientras mantienes tu atención en la situación." },
+      { "name": "Extrae de izquierda a derecha", "text": "Saca la primera carta y ponla a la izquierda (Pasado), la segunda en el centro (Presente), y la tercera a la derecha (Futuro)." },
+      { "name": "Analiza la secuencia", "text": "Lee las cartas no como entidades separadas, sino como una historia lineal que conecta un evento con el siguiente." }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "cruz-celta",
+    "name": "Tirada de la Cruz Celta",
+    "metaTitle": "Tirada de la Cruz Celta: Posiciones y Significado | Guía Completa",
+    "metaDescription": "Descubre cómo realizar e interpretar la Cruz Celta. La tirada de 10 cartas más famosa del tarot para análisis profundo de problemas.",
+    "bluf": "La Cruz Celta es una tirada analítica de 10 cartas que ofrece una radiografía completa de cualquier situación. Divide la lectura en dos partes: la cruz central (que analiza la psicología y el estado actual del problema) y el pilar derecho (que proyecta las influencias externas y el futuro).",
+    "description": "Úsala para situaciones complejas, bloqueos profundos o cuando necesitas un análisis de 360 grados sobre una problemática que tiene múltiples factores psicológicos y externos.",
+    "positions": [
+      { "position": 1, "name": "Corazón de la situación", "meaning": "El estado actual del consultante o la naturaleza central del problema." },
+      { "position": 2, "name": "El Bloqueo / Desafío", "meaning": "La fuerza inmediata que se opone o cruza al consultante." },
+      { "position": 3, "name": "La Raíz Inconsciente", "meaning": "Lo que subyace, las bases del problema o los motivos ocultos." },
+      { "position": 4, "name": "El Pasado Reciente", "meaning": "Eventos que acaban de ocurrir y que dieron lugar a la situación actual." },
+      { "position": 5, "name": "Lo Consciente / La Meta", "meaning": "Las aspiraciones, creencias o aquello que el consultante tiene en mente." },
+      { "position": 6, "name": "Futuro Inmediato", "meaning": "Lo que está a punto de ocurrir en los próximos días o semanas." },
+      { "position": 7, "name": "El Consultante", "meaning": "La actitud personal del consultante ante el problema en este momento." },
+      { "position": 8, "name": "El Entorno", "meaning": "La influencia de familiares, amigos, la pareja o factores externos." },
+      { "position": 9, "name": "Esperanzas y Temores", "meaning": "Lo que el consultante desea secretamente o lo que teme que ocurra." },
+      { "position": 10, "name": "El Resultado Final", "meaning": "El desenlace a largo plazo si las energías actuales no cambian." }
+    ],
+    "example": "Si preguntas por una crisis de pareja, la carta central (1) podría ser La Torre (crisis). La cruzada (2) podría ser Los Enamorados (dudas amorosas). La carta de la base (3) puede revelar a La Luna (miedos antiguos o traumas no sanados). El resultado (10) mostrará hacia dónde lleva todo esto.",
+    "faqs": [
+      { "question": "¿La Cruz Celta sirve para responder un Sí o un No?", "answer": "No. Esta tirada está diseñada para explorar el 'por qué' y el 'cómo' de una situación, no para dar respuestas binarias o cerradas." },
+      { "question": "¿Por qué la carta 2 se lee horizontalmente?", "answer": "Visualmente representa un obstáculo físico. La energía de la carta 2 'cruza' o bloquea la fluidez de la carta 1." },
+      { "question": "¿Qué pasa si el resultado final (10) es una carta negativa?", "answer": "La carta 10 muestra una tendencia, no un destino inamovible. Puedes mirar la carta 9 (Temores) para entender qué miedo inconsciente podría estar atrayendo ese resultado y trabajar en cambiarlo." }
+    ],
+    "howToSteps": [
+      { "name": "Enfoca la pregunta", "text": "Define claramente la situación compleja que deseas explorar." },
+      { "name": "Despliega la Cruz Central", "text": "Coloca las cartas 1 a la 6 formando una cruz. La carta 2 se coloca horizontalmente sobre la 1." },
+      { "name": "Construye el Pilar", "text": "Coloca las cartas 7, 8, 9 y 10 en una columna vertical a la derecha de la cruz, de abajo hacia arriba." },
+      { "name": "Interpreta las relaciones", "text": "Lee primero la cruz (el conflicto interno/presente) y luego sube por la columna (influencias y destino)." }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "tirada-del-amor",
+    "name": "Tirada del Amor",
+    "metaTitle": "Tirada de Tarot del Amor: Analiza tu Relación | Guía",
+    "metaDescription": "Aprende la tirada especial para el amor en el Tarot de Marsella. Ideal para parejas, solteros y vínculos sentimentales. Significado y posiciones.",
+    "bluf": "La Tirada del Amor es una disposición diseñada específicamente para analizar vínculos afectivos. Compara las energías y aportes de dos personas dentro de una relación, revelando la dinámica compartida y el destino potencial del vínculo.",
+    "description": "Utilízala cuando estés en una relación y quieras entender su estado actual, o si estás conociendo a alguien y deseas proyectar el potencial de la conexión amorosa.",
+    "positions": [
+      { "position": 1, "name": "Tú (Columna Izquierda)", "meaning": "Cómo te sientes en la relación, lo que aportas y tus necesidades emocionales." },
+      { "position": 2, "name": "La Otra Persona (Columna Derecha)", "meaning": "La perspectiva, sentimientos reales y lo que aporta la otra parte al vínculo." },
+      { "position": 3, "name": "El Vínculo / Presente (Centro)", "meaning": "La energía que los une actualmente, la dinámica o conflicto principal." },
+      { "position": 4, "name": "El Futuro Juntos (Arriba del Vínculo)", "meaning": "Hacia dónde se dirige la relación en los próximos meses." }
+    ],
+    "example": "Tú eres La Estrella (vulnerable, con esperanza). Tu pareja es El Emperador (estable, protector pero quizá rígido). El Vínculo es La Justicia (necesidad de equilibrar la relación). El Futuro es El Sol (felicidad plena si se logra el equilibrio).",
+    "faqs": [
+      { "question": "¿Sirve si no tengo pareja actualmente?", "answer": "Sí. Puedes adaptar las posiciones a: 1. Tu estado emocional, 2. Lo que necesitas sanar, 3. Lo que atraes, 4. Potencial futuro." },
+      { "question": "¿Qué indica si salen muchas cartas invertidas en esta tirada?", "answer": "Generalmente señala problemas de comunicación, miedos proyectados en el otro o bloqueos emocionales que impiden que el amor fluya naturalmente." }
+    ],
+    "howToSteps": [
+      { "name": "Piensa en el vínculo", "text": "Visualiza a la persona o la situación sentimental que deseas consultar." },
+      { "name": "Extrae las cartas personales", "text": "Coloca una carta a la izquierda (Tú) y otra a la derecha (Tu Pareja/Interés)." },
+      { "name": "El Vínculo", "text": "Coloca una carta en el centro inferior, entre ambos. Esta es la energía que comparten." },
+      { "name": "El Destino", "text": "Coloca la última carta arriba, coronando el vínculo, para ver el resultado futuro." }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "tirada-del-trabajo",
+    "name": "Tirada del Trabajo y Dinero",
+    "metaTitle": "Tirada del Trabajo y Dinero: Orientación Profesional en Tarot",
+    "metaDescription": "Tirada especializada en carrera, negocios y dinero. Averigua tu situación laboral actual y el futuro de tus proyectos.",
+    "bluf": "La Tirada del Trabajo es un formato enfocado en el desarrollo profesional, la economía y la vocación. Ayuda a clarificar decisiones laborales, resolver bloqueos en proyectos y prever el desarrollo de negocios o finanzas personales.",
+    "description": "Ideal para consultar sobre entrevistas laborales, ascensos, emprendimientos nuevos o momentos donde sientes estancamiento en tu carrera profesional.",
+    "positions": [
+      { "position": 1, "name": "Situación Actual", "meaning": "Tu estado laboral o económico en el presente. Tu actitud hacia el trabajo." },
+      { "position": 2, "name": "Obstáculos / Desafíos", "meaning": "Aquello que te frena: jefes difíciles, falta de motivación, problemas económicos o competencia." },
+      { "position": 3, "name": "Tus Recursos", "meaning": "Las habilidades, talentos o ayudas externas (contactos) con las que cuentas." },
+      { "position": 4, "name": "Consejo Profesional", "meaning": "La acción que debes tomar respecto a tu carrera (ej. tener paciencia, cambiar de rumbo)." },
+      { "position": 5, "name": "Futuro Económico/Laboral", "meaning": "El resultado final de tu situación si sigues el consejo de las cartas." }
+    ],
+    "example": "Situación actual: El Colgado (estancamiento, sacrificio). Obstáculo: El Diablo (ambiente laboral tóxico o mala paga). Tus Recursos: La Fuerza (resiliencia, dominio interior). Consejo: La Torre (romper con esa estructura, renunciar). Futuro: La Estrella (un nuevo comienzo inspirado).",
+    "faqs": [
+      { "question": "¿Puede el tarot decirme si me van a despedir?", "answer": "El tarot muestra tendencias. Cartas como La Torre o La Muerte en la posición de 'Futuro' pueden indicar cambios drásticos o fines de ciclo laboral, invitándote a prepararte." },
+      { "question": "¿Qué arcanos mayores son mejores para el trabajo?", "answer": "El Emperador (estabilidad directiva), El Carro (éxito y avance), y El Sol (brillo profesional) suelen ser excelentes augurios en el ámbito laboral." }
+    ],
+    "howToSteps": [
+      { "name": "Define tu objetivo profesional", "text": "Concéntrate en tu trabajo actual, negocio o la oportunidad que estás esperando." },
+      { "name": "Mesa base", "text": "Despliega las primeras 3 cartas en línea horizontal (Situación, Obstáculo, Recursos)." },
+      { "name": "El vector de acción", "text": "Coloca la carta de Consejo debajo de las primeras tres." },
+      { "name": "El horizonte", "text": "Coloca la carta de Futuro en la parte superior. Interpreta cómo tus recursos superan el obstáculo para alcanzar ese futuro." }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "si-o-no",
+    "name": "Tirada de Sí o No",
+    "metaTitle": "Tirada de Tarot de Sí o No: Respuesta Rápida y Directa",
+    "metaDescription": "Consigue una respuesta rápida de Sí o No con el Tarot de Marsella. Aprende la técnica de lectura para decisiones urgentes.",
+    "bluf": "La Tirada de Sí o No es un método rápido de validación energética. Utiliza la naturaleza intrínsecamente afirmativa (positiva) o negativa (desafiante) de los arcanos para obtener una respuesta directa a preguntas cerradas.",
+    "description": "Se debe usar exclusivamente para dudas puntuales que requieran tomar una decisión rápida. No sustituye un análisis profundo, sino que actúa como una brújula intuitiva.",
+    "positions": [
+      { "position": 1, "name": "La Respuesta", "meaning": "La confirmación (Sí) o negación (No) de tu pregunta." },
+      { "position": 2, "name": "El Por Qué (Opcional)", "meaning": "La motivación, razón o circunstancia que fundamenta la respuesta." }
+    ],
+    "example": "Pregunta: '¿Conseguiré ese contrato?'. Carta extraída: El Sol. Respuesta: Sí rotundo. Si en cambio extraes La Luna, la respuesta tiende al No (o advierte de engaños y cosas ocultas).",
+    "faqs": [
+      { "question": "¿Cómo sé qué cartas son Sí y cuáles No?", "answer": "En Arcanos Mayores, cartas de luz o avance (Sol, Estrella, Carro, Emperador) son Sí. Cartas de bloqueo, crisis o dudas (Luna, Torre, Colgado, Diablo) tienden al No. Cartas pasivas (Sacerdotisa) significan 'Espera' o 'Aún no'." },
+      { "question": "¿Por qué a veces el tarot da respuestas confusas a preguntas de Sí o No?", "answer": "Porque a veces la pregunta está mal formulada o la situación requiere libre albedrío. Si extraes La Rueda de la Fortuna, el tarot te dice: 'depende del azar o de ti'." }
+    ],
+    "howToSteps": [
+      { "name": "Pregunta Cerrada", "text": "Formula una pregunta que solo admita un Sí o un No por respuesta." },
+      { "name": "Un Solo Corte", "text": "Baraja mientras repites la pregunta y saca una única carta." },
+      { "name": "Clasifica la Energía", "text": "Determina si la carta tiene una naturaleza expansiva/positiva (Sí), restrictiva/dolorosa (No) o estática (Tal vez / Espera)." },
+      { "name": "Extrae el Matiz", "text": "La carta no solo dice Sí o No, observa su imagen para ver cómo o de qué manera ocurrirá." }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "arbol-de-la-vida",
+    "name": "Tirada del Árbol de la Vida",
+    "metaTitle": "Tirada del Árbol de la Vida (Kabbalah): Significado Místico",
+    "metaDescription": "Descubre la tirada más espiritual del Tarot de Marsella basada en el Árbol de la Vida cabalístico. 10 cartas para el despertar del alma.",
+    "bluf": "La Tirada del Árbol de la Vida es una disposición profundamente espiritual y cabalística de 10 cartas. Mapea la psique y el alma humana conectando el mundo material (Malkuth) con el origen divino (Kether), revelando el estado espiritual completo del consultante.",
+    "description": "Utilízala cuando estés en una crisis existencial, en un viaje de despertar espiritual, o cuando busques comprender tu propósito de vida más allá de las preocupaciones mundanas.",
+    "positions": [
+      { "position": 1, "name": "Kether (Corona)", "meaning": "Tu máximo potencial espiritual, propósito de vida y conexión con lo superior." },
+      { "position": 2, "name": "Chokmah (Sabiduría)", "meaning": "Tu energía activa, masculina, la iniciativa y creatividad pura." },
+      { "position": 3, "name": "Binah (Entendimiento)", "meaning": "Tu energía receptiva, femenina, la comprensión profunda y la forma." },
+      { "position": 4, "name": "Chesed (Misericordia)", "meaning": "Tu capacidad de expansión, amor, bondad y lo que construyes positivamente." },
+      { "position": 5, "name": "Geburah (Severidad)", "meaning": "Tus límites, disciplina, juicios, y lo que debes eliminar o cortar." },
+      { "position": 6, "name": "Tiphareth (Belleza)", "meaning": "El corazón de la lectura: el equilibrio entre todas tus fuerzas, tu centro vital." },
+      { "position": 7, "name": "Netzach (Victoria)", "meaning": "Tus emociones, deseos instintivos, pasiones y relaciones afectivas." },
+      { "position": 8, "name": "Hod (Gloria)", "meaning": "Tu intelecto, lógica, comunicación y estructuración mental." },
+      { "position": 9, "name": "Yesod (Fundamento)", "meaning": "El inconsciente, la imaginación, los sueños y la base psicológica." },
+      { "position": 10, "name": "Malkuth (El Reino)", "meaning": "Tu anclaje en el mundo físico, tu cuerpo, tus finanzas y resultado material." }
+    ],
+    "example": "Si Malkuth (el mundo físico) tiene a El Diablo (adicciones, ataduras materiales), pero Kether (potencial) muestra a El Sol, significa que la misión de tu alma es lograr brillar con luz propia, pero debes primero liberar las cadenas materiales y psicológicas de tu base terrestre.",
+    "faqs": [
+      { "question": "¿Es necesario saber Kabbalah para realizar esta tirada?", "answer": "No es estrictamente necesario, pero conocer los conceptos básicos de las Sephirot del Árbol de la Vida enriquecerá profundamente tu interpretación." },
+      { "question": "¿Con qué frecuencia se debe hacer la tirada del Árbol de la Vida?", "answer": "Por su profundidad, se recomienda hacerla solo una vez al año (por ejemplo, en tu cumpleaños o fin de año), o en momentos de gran crisis existencial." }
+    ],
+    "howToSteps": [
+      { "name": "Intención Espiritual", "text": "Medita y pide conexión con tu propósito superior antes de barajar." },
+      { "name": "Distribución del Árbol", "text": "Coloca las cartas siguiendo el patrón geométrico de las 10 Sephirot, desde arriba (Kether) hacia abajo (Malkuth)." },
+      { "name": "Análisis de Pilares", "text": "Analiza primero el pilar derecho (misericordia/expansión), luego el izquierdo (severidad/límite) y finalmente el pilar central (equilibrio)." },
+      { "name": "El Mensaje Central", "text": "Integra la lectura observando el viaje del alma desde su origen cósmico hasta su encarnación actual material." }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "tirada-astrologica",
+    "name": "Tirada Astrológica de 12 Casas",
+    "metaTitle": "Tirada Astrológica: Las 12 Casas en el Tarot | Guía 360",
+    "metaDescription": "Aprende a leer la tirada astrológica de 12 cartas en círculo. Obtén un panorama de todo el año y todas las áreas de tu vida.",
+    "bluf": "La Tirada Astrológica de 12 Casas fusiona la astrología y el tarot desplegando 12 cartas en círculo. Cada posición corresponde a un mes del año o a un área vital específica (casas astrológicas), ofreciendo el análisis predictivo y diagnóstico más completo posible.",
+    "description": "Es la lectura ideal para Año Nuevo, el día de tu cumpleaños (Retorno Solar), o cuando quieras hacer un 'escaneo' general de todas las áreas de tu vida sin tener una pregunta específica.",
+    "positions": [
+      { "position": 1, "name": "Casa 1 (Aries)", "meaning": "Tu personalidad actual, tu apariencia y tu enfoque de la vida." },
+      { "position": 2, "name": "Casa 2 (Tauro)", "meaning": "Tus recursos, finanzas, valores materiales y talentos." },
+      { "position": 3, "name": "Casa 3 (Géminis)", "meaning": "Comunicación, hermanos, entorno inmediato y viajes cortos." },
+      { "position": 4, "name": "Casa 4 (Cáncer)", "meaning": "Tu hogar, tu base emocional, la familia y el pasado." },
+      { "position": 5, "name": "Casa 5 (Leo)", "meaning": "Creatividad, romances, hijos y lo que haces para divertirte." },
+      { "position": 6, "name": "Casa 6 (Virgo)", "meaning": "Trabajo diario, rutinas, hábitos y salud física." },
+      { "position": 7, "name": "Casa 7 (Libra)", "meaning": "Asociaciones, matrimonio, enemigos declarados y la pareja estable." },
+      { "position": 8, "name": "Casa 8 (Escorpio)", "meaning": "Transformación, dinero de otros, herencias, sexualidad profunda y tabúes." },
+      { "position": 9, "name": "Casa 9 (Sagitario)", "meaning": "Estudios superiores, filosofía de vida, creencias religiosas y viajes largos." },
+      { "position": 10, "name": "Casa 10 (Capricornio)", "meaning": "Carrera profesional, estatus público, ambiciones y éxito social." },
+      { "position": 11, "name": "Casa 11 (Acuario)", "meaning": "Grupos sociales, amistades, esperanzas y metas a largo plazo." },
+      { "position": 12, "name": "Casa 12 (Piscis)", "meaning": "Lo oculto, el inconsciente profundo, karmas, aislamientos y espiritualidad." },
+      { "position": 13, "name": "El Centro (Opcional)", "meaning": "El tema central del año o el mensaje que resume toda la rueda." }
+    ],
+    "example": "Si en la Casa 7 (Pareja) sale El Diablo, pero en la Casa 4 (Hogar) sale El Sol, indica que tu vida hogareña en general será feliz y próspera, pero tu relación de pareja estable podría enfrentar problemas de toxicidad, manipulación o pura pasión desmedida.",
+    "faqs": [
+      { "question": "¿Se puede usar para predecir mes a mes?", "answer": "Sí, es una variante popular. En lugar de usar las áreas de la vida, cada posición (del 1 al 12) representa un mes cronológico a partir del mes en que haces la lectura." },
+      { "question": "¿Debo usar todo el mazo?", "answer": "Dado que requiere 12 cartas, es muy recomendable usar la baraja completa (78 cartas), ya que si usas solo los 22 Mayores te quedarías con casi la mitad del mazo en la mesa, diluyendo la energía arquetípica." }
+    ],
+    "howToSteps": [
+      { "name": "Limpieza y Enfoque", "text": "Al ser una lectura amplia, tómate tu tiempo para barajar pensando en un panorama general para el próximo ciclo." },
+      { "name": "Distribución Circular", "text": "Coloca la primera carta en la posición 'de las 9 en punto' (izquierda central) y continúa en sentido antihorario formando un círculo." },
+      { "name": "Lectura por Ejes", "text": "No leas solo individualmente. Conecta ejes opuestos: Casa 1 (Yo) frente a Casa 7 (El Otro); Casa 4 (Hogar) frente a Casa 10 (Carrera)." },
+      { "name": "La Síntesis", "text": "Opcionalmente, extrae una carta número 13 para el centro de la rueda como el 'leitmotiv' del ciclo." }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "herradura",
+    "name": "Tirada de la Herradura",
+    "metaTitle": "Tirada de la Herradura: Lectura de 7 Cartas para Decisiones",
+    "metaDescription": "Una tirada en forma de arco (U invertida) ideal para tomar decisiones estratégicas. Pasado, presente, influencias y consejo del Tarot.",
+    "bluf": "La Tirada de la Herradura utiliza 7 cartas dispuestas en un arco. Es una de las mejores alternativas a la Cruz Celta, siendo más directa pero manteniendo un nivel de profundidad excelente para entender influencias pasadas, presentes y obstáculos futuros.",
+    "description": "Utiliza la Herradura cuando tengas un objetivo en mente (comprar una casa, iniciar un proyecto, declararte a alguien) y necesites ver el camino exacto hacia ese objetivo, incluyendo los baches que encontrarás.",
+    "positions": [
+      { "position": 1, "name": "El Pasado", "meaning": "Influencias del pasado que forjaron la situación actual." },
+      { "position": 2, "name": "El Presente", "meaning": "Tu situación actual frente a tu objetivo." },
+      { "position": 3, "name": "Desarrollo Inmediato", "meaning": "Lo que ocurrirá a corto plazo, el siguiente paso lógico." },
+      { "position": 4, "name": "Obstáculos (El Centro)", "meaning": "El desafío principal o el problema que debes resolver. (Es la carta en el vértice superior del arco)." },
+      { "position": 5, "name": "Entorno Externo", "meaning": "Cómo los demás, el ambiente o personas ajenas influyen en tu meta." },
+      { "position": 6, "name": "El Mejor Camino a Seguir", "meaning": "El consejo del tarot sobre la acción o actitud que debes tomar." },
+      { "position": 7, "name": "El Resultado", "meaning": "El desenlace final previsible." }
+    ],
+    "example": "Quieres emigrar. Carta central (Obstáculo): La Justicia (trámites legales complejos o lentos). Carta de Consejo: El Emperador (necesitas estructura, organización rigurosa y no improvisar). Resultado: El Mundo (éxito total en tu migración).",
+    "faqs": [
+      { "question": "¿Por qué tiene forma de arco?", "answer": "La forma representa el viaje del héroe. Subes por la montaña desde el pasado, te enfrentas al gran obstáculo en la cima (carta 4) y desciendes hacia el resultado apoyado en el consejo." },
+      { "question": "¿En qué se diferencia de la Cruz Celta?", "answer": "La Herradura es mucho más lineal y orientada a la acción. Mientras la Cruz Celta es muy psicológica, la Herradura traza un mapa práctico de eventos de A hacia B." }
+    ],
+    "howToSteps": [
+      { "name": "Plantea un objetivo", "text": "Enfócate en una meta específica que deseas alcanzar." },
+      { "name": "Dibuja el Arco", "text": "Coloca las primeras 3 cartas subiendo hacia la derecha, la cuarta en la cima, y las 5, 6 y 7 bajando hacia la derecha, formando una 'U' invertida." },
+      { "name": "Identifica el escollo", "text": "Presta especial atención a la carta 4 (la cima). Es el punto de quiebre donde se decidirá el éxito o fracaso de tu empresa." },
+      { "name": "Plan de Acción", "text": "Cruza la información del obstáculo (4) con el consejo del tarot (6) para formular tu plan de acción." }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "espejo",
+    "name": "Tirada del Espejo",
+    "metaTitle": "Tirada del Espejo: Tarot para el Autoconocimiento Profundo",
+    "metaDescription": "Utiliza el Tarot como un espejo psicológico. Tirada para explorar la luz y la sombra de tu psique según los arquetipos de Jung.",
+    "bluf": "La Tirada del Espejo (o Tirada de la Sombra) usa el Tarot de Marsella estrictamente como una herramienta de psicoanálisis simbólico. Contrasta tu imagen consciente frente a tus mecanismos inconscientes para revelar lo que te niegas a ver de ti mismo.",
+    "description": "Haz esta lectura cuando te sientas perdido, cuando repitas patrones destructivos en tu vida sin saber por qué, o para iniciar un proceso de desarrollo personal intenso.",
+    "positions": [
+      { "position": 1, "name": "Tu Ego (La Máscara)", "meaning": "Cómo te ves a ti mismo y cómo quieres que el mundo te perciba." },
+      { "position": 2, "name": "La Sombra", "meaning": "Lo que reprimes, niegas u ocultas en tu inconsciente. Aspectos no reconocidos." },
+      { "position": 3, "name": "Tu Potencial Luminoso", "meaning": "Tus verdaderos talentos o dones que no estás aprovechando." },
+      { "position": 4, "name": "La Herida a Sanar", "meaning": "El núcleo de dolor, trauma o herida infantil que domina en secreto tus decisiones." },
+      { "position": 5, "name": "La Integración (El Yo Superior)", "meaning": "El consejo para integrar tu luz y tu sombra y alcanzar la plenitud emocional." }
+    ],
+    "example": "Tu Máscara (Ego) es La Fuerza (te muestras fuerte e invulnerable). Tu Sombra es La Sacerdotisa invertida (tu frialdad emocional e incapacidad de abrir tu intuición por miedo). La Integración es La Templanza (debes permitir que las aguas fluyan y ser más flexible emocionalmente).",
+    "faqs": [
+      { "question": "¿Las cartas en la posición de 'Sombra' son siempre negativas?", "answer": "No. A veces reprimimos nuestra propia luz (la 'sombra dorada'). Si El Sol sale en tu Sombra, significa que tienes miedo a brillar o al éxito." },
+      { "question": "¿Puede esta tirada reemplazar ir a terapia?", "answer": "Absolutamente no. El tarot es una herramienta excelente para provocar reflexión, pero no sustituye en ningún caso el trabajo profesional de un psicólogo." }
+    ],
+    "howToSteps": [
+      { "name": "Baja las defensas", "text": "Antes de barajar, adopta una actitud de total honestidad, dispuesto a ver verdades incómodas sobre ti." },
+      { "name": "Distribución dual", "text": "Coloca las cartas 1 y 2 frente a frente (como un reflejo). Coloca la 3 (Luz) arriba, la 4 (Herida) abajo, y la 5 (Integración) en el centro." },
+      { "name": "Enfrenta el reflejo", "text": "Presta especial atención al choque entre la Máscara y la Sombra. Allí radica el conflicto neurótico principal." },
+      { "name": "Trabaja la integración", "text": "Usa la carta 5 como un mantra de meditación para los próximos días." }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "carta-del-dia",
+    "name": "La Carta del Día",
+    "metaTitle": "Tirada de la Carta del Día: Orientación Diaria del Tarot",
+    "metaDescription": "La forma más simple y poderosa de conectar con el Tarot. Aprende a meditar diariamente con una sola carta para guía y desarrollo intuitivo.",
+    "bluf": "La Carta del Día es el ejercicio fundamental para aprender tarot y desarrollar la intuición. Consiste en extraer una única carta cada mañana para recibir un mensaje, consejo o el tono general energético de tu jornada.",
+    "description": "Excelente para principiantes que están memorizando el significado de los arcanos, o para tarotistas experimentados que buscan mantener su conexión espiritual activa diariamente.",
+    "positions": [
+      { "position": 1, "name": "La Energía del Día", "meaning": "El tema principal, desafío u oportunidad que se presentará durante el día." }
+    ],
+    "example": "Extraes La Rueda de la Fortuna por la mañana. Ese día, podrías encontrarte con cambios inesperados de planes, sorpresas agradables o sincronicidades. La carta te aconseja fluir y no resistirte a los giros del destino hoy.",
+    "faqs": [
+      { "question": "¿Qué pasa si saco una carta 'mala' para empezar el día?", "answer": "El tarot no sentencia tu día. Si sacas La Torre, tómalo como un consejo para 'romper tus propias estructuras' ese día, o para estar preparado ante imprevistos manteniendo la calma." },
+      { "question": "¿Debo usar solo Arcanos Mayores?", "answer": "Para principiantes sí. Luego puedes incorporar los Menores. Una práctica común es sacar un Arcano Mayor como 'tema' y un Arcano Menor como 'acción'." }
+    ],
+    "howToSteps": [
+      { "name": "Rutina matutina", "text": "Crea el hábito de sacar tu carta por la mañana, en un momento de tranquilidad." },
+      { "name": "Pregunta de enfoque", "text": "Baraja preguntando: '¿En qué debo enfocarme hoy?' o '¿Qué energía me acompañará?'." },
+      { "name": "Meditación visual", "text": "Saca una carta, obsérvala durante un minuto e identifica qué emoción o idea te provoca antes de buscar su significado en un libro." },
+      { "name": "Reflexión nocturna", "text": "Por la noche, revisa mentalmente tu día para ver cómo se manifestó la energía de la carta." }
+    ]
+  }
+]

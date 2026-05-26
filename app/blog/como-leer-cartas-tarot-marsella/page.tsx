@@ -69,7 +69,7 @@ export default function BlogPost1() {
 
           <h2>¿Qué es el Tarot de Marsella y por qué elegirlo?</h2>
           <p>
-            El <strong>Tarot de Marsella</strong> es la baraja esotérica tradicional por excelencia. A diferencia de mazos modernos que incluyen ilustraciones detalladas en todas sus cartas, el estilo de Marsella conserva arquetipos puros, especialmente en sus <Link href="/arcanos-mayores" style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>Arcanos Mayores</Link>. Al <strong>leer cartas del tarot</strong> con este mazo, estás conectando con la simbología clásica que ha guiado a psicólogos (como Carl Jung) y místicos durante siglos.
+            El <strong>Tarot de Marsella</strong> es la baraja esotérica tradicional por excelencia. A diferencia de mazos modernos que incluyen ilustraciones detalladas en todas sus cartas, el estilo de Marsella conserva arquetipos puros, especialmente en sus <Link href="/aprendizaje" style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>Arcanos Mayores</Link>. Al <strong>leer cartas del tarot</strong> con este mazo, estás conectando con la simbología clásica que ha guiado a psicólogos (como Carl Jung) y místicos durante siglos.
           </p>
 
           <h2>Los 22 Arcanos Mayores: El corazón de la lectura</h2>
@@ -100,7 +100,7 @@ export default function BlogPost1() {
             <h3>¿Quieres practicar ahora mismo?</h3>
             <p>Prueba nuestra herramienta digital gratuita y realiza una consulta inmediata.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Hacer Tirada de Tarot Gratis
               </Button>
             </div>

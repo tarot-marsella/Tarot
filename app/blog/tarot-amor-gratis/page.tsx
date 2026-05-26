@@ -81,7 +81,7 @@ export default function BlogPost9() {
             <h3>Consulta a los Arcanos sobre el Amor</h3>
             <p>Concéntrate en el nombre de la persona que te interesa (o en tu deseo de encontrar pareja) y extrae tus tres cartas ahora.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Tirada de Tarot Gratis
               </Button>
             </div>

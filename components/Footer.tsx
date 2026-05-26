@@ -18,7 +18,8 @@ export default function Footer() {
             <ul>
               <li><Link href="/">Inicio</Link></li>
               <li><Link href="/tirada">Tirada Gratis</Link></li>
-              <li><Link href="/aprendizaje">Academia</Link></li>
+              <li><Link href="/aprendizaje">Arcanos Mayores</Link></li>
+              <li><Link href="/tiradas">Tipos de Tiradas</Link></li>
               <li><Link href="/sobre-nosotros">Sobre Nosotros</Link></li>
             </ul>
           </div>

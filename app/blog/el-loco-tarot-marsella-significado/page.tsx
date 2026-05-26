@@ -74,7 +74,7 @@ export default function BlogPost5() {
 
           <h2>El Loco: Significado al Derecho</h2>
           <p>
-            Cuando El Loco aparece al derecho en tu <Link href="/tarot-gratis" style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>tirada de tarot</Link>, el mensaje principal es de un <strong>nuevo comienzo absoluto</strong>.
+            Cuando El Loco aparece al derecho en tu <Link href="/tirada" style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>tirada de tarot</Link>, el mensaje principal es de un <strong>nuevo comienzo absoluto</strong>.
           </p>
           <ul>
             <li><strong>Energía pura:</strong> Un tremendo caudal de energía que está disponible para ser usado en cualquier dirección.</li>
@@ -96,7 +96,7 @@ export default function BlogPost5() {
             <h3>¿Qué carta te acompañará hoy?</h3>
             <p>Descubre si El Loco y su energía de nuevos inicios está presente en tu vida ahora mismo.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Consultar el Tarot Ahora
               </Button>
             </div>

@@ -17,6 +17,25 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/arcanos-mayores',
+        destination: '/aprendizaje',
+        permanent: true,
+      },
+      {
+        source: '/arcanos-mayores/:slug*',
+        destination: '/aprendizaje/:slug*',
+        permanent: true,
+      },
+      {
+        source: '/tarot-gratis',
+        destination: '/tirada',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

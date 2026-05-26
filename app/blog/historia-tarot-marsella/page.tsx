@@ -89,7 +89,7 @@ export default function BlogPost7() {
             <h3>Conecta con la Historia</h3>
             <p>Nuestra plataforma utiliza la iconografía clásica. Interactúa con las mismas imágenes que han guiado a la humanidad por siglos.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Tirada Interactiva Gratis
               </Button>
             </div>

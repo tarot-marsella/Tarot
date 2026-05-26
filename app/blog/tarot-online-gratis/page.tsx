@@ -79,7 +79,7 @@ export default function BlogPost4() {
             <h3>Obtén tus Respuestas Ahora</h3>
             <p>Nuestra aplicación ha sido diseñada con las imágenes originales del Tarot de Marsella y te permite guardar tu historial de lecturas.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Iniciar Tirada Online
               </Button>
             </div>

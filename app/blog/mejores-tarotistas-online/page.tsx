@@ -91,7 +91,7 @@ export default function BlogPost6() {
             <h3>La alternativa rápida y segura</h3>
             <p>Si prefieres no lidiar con intermediarios y conectar tú mismo con tu inconsciente, prueba nuestra plataforma interactiva sin coste.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Tirada de Tarot Gratis
               </Button>
             </div>

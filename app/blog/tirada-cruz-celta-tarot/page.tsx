@@ -76,7 +76,7 @@ export default function BlogPost8() {
             <h3>Practica Tiradas Simples Primero</h3>
             <p>Si eres principiante, te recomendamos afianzar tus conocimientos con lecturas más directas en nuestra app interactiva.</p>
             <div style={{ marginTop: "1.5rem" }}>
-              <Button href="/tarot-gratis" variant="primary">
+              <Button href="/tirada" variant="primary">
                 Ir a Tirada Interactiva
               </Button>
             </div>

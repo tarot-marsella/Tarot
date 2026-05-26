@@ -1,0 +1,263 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem 2rem 6rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article {
+  margin-top: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--accent-gold);
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+  letter-spacing: 1px;
+}
+
+.divider {
+  width: 80px;
+  height: 2px;
+  background: var(--accent-gold);
+  margin: 0 auto 2rem;
+  opacity: 0.7;
+}
+
+.bluf {
+  font-size: 1.25rem;
+  color: #fff;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-serif);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.positionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.positionItem {
+  display: flex;
+  background: rgba(15, 15, 25, 0.6);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.positionItem:hover {
+  transform: translateX(10px);
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.positionNumber {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--accent-gold);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--font-serif);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  border-right: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.positionContent {
+  padding: 1.5rem;
+}
+
+.positionContent h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.positionContent p {
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.stepsList {
+  list-style: none;
+  counter-reset: custom-counter;
+  padding: 0;
+}
+
+.stepsList li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.stepsList li::before {
+  counter-increment: custom-counter;
+  content: counter(custom-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background: var(--accent-gold);
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.stepsList li strong {
+  color: #fff;
+}
+
+.exampleBox {
+  background: rgba(212, 175, 55, 0.05);
+  border-left: 4px solid var(--accent-gold);
+  padding: 2rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.exampleBox p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
+  font-style: italic;
+}
+
+.exampleBox strong {
+  color: var(--accent-gold);
+  font-style: normal;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faqItem h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.faqItem h3::before {
+  content: "Q:";
+  position: absolute;
+  left: 0;
+  color: var(--accent-gold);
+  font-family: var(--font-serif);
+}
+
+.faqItem p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-left: 1.5rem;
+}
+
+.ctaWrapper {
+  margin-top: 5rem;
+}
+
+.ctaBox {
+  background: linear-gradient(135deg, rgba(15, 15, 25, 0.9), rgba(30, 25, 45, 0.9));
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.ctaBox h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+  border: none;
+  padding: 0;
+}
+
+.ctaBox p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: var(--accent-gold);
+  color: #000;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ctaButton:hover {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .positionItem {
+    flex-direction: column;
+  }
+  
+  .positionNumber {
+    border-right: none;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    padding: 1rem;
+  }
+  
+  .ctaBox {
+    padding: 2rem 1.5rem;
+  }
+}
