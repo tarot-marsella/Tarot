@@ -16,8 +16,34 @@ export const metadata: Metadata = {
 const randomCard = tarotData[Math.floor(Math.random() * tarotData.length)];
 
 export default function Home() {
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tarot de Marsella",
+    "url": "https://tarotdemarsella.cl",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tarotdemarsella.cl/aprendizaje?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tarot de Marsella",
+    "url": "https://tarotdemarsella.cl",
+    "logo": "https://tarotdemarsella.cl/favicon.ico",
+    "sameAs": [
+      "https://github.com/tarot-marsella/Tarot"
+    ]
+  };
+
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
+
       {/* Decorative arcana background image */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
@@ -48,8 +74,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-
 
       {/* Decorative background elements */}
       <div className={styles.glowOverlay}></div>

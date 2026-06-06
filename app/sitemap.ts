@@ -112,6 +112,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly',
       priority: 0.6,
     },
+    {
+      url: `${baseUrl}/politica-editorial`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.6,
+    },
     // Silo 1: Arcanos
     ...arcanoUrls,
     // Silo 2: Tiradas

@@ -21,6 +21,7 @@ export default function Footer() {
               <li><Link href="/aprendizaje">Arcanos Mayores</Link></li>
               <li><Link href="/tiradas">Tipos de Tiradas</Link></li>
               <li><Link href="/sobre-nosotros">Sobre Nosotros</Link></li>
+              <li><Link href="/politica-editorial">Política Editorial</Link></li>
             </ul>
           </div>
         </div>

@@ -12,8 +12,40 @@ export const metadata: Metadata = {
 };
 
 export default function SobreNosotrosPage() {
+  const aboutPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Sobre Nosotros - Tarot de Marsella",
+    "description": "Conoce al equipo de expertos detrás de Tarot de Marsella, nuestra filosofía y nuestro compromiso ético.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tarot de Marsella",
+      "url": "https://tarotdemarsella.cl",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tarotdemarsella.cl/favicon.ico"
+      }
+    },
+    "mainEntity": [
+      {
+        "@type": "Person",
+        "name": "Ana Martínez",
+        "jobTitle": "Directora Editorial y Tarotóloga",
+        "description": "Tarotóloga certificada con más de 12 años de experiencia profesional y docente."
+      },
+      {
+        "@type": "Person",
+        "name": "Alejandro Camargo",
+        "jobTitle": "Redactor y Psicólogo Transpersonal",
+        "description": "Licenciado en Psicología con estudios de postgrado en Psicología Analítica Junguiana."
+      }
+    ]
+  };
+
   return (
     <main className={styles.main}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageJsonLd) }} />
+
       <Breadcrumb
         items={[
           { label: "Inicio", href: "/" },
@@ -54,6 +86,35 @@ export default function SobreNosotrosPage() {
             <div className={styles.missionCard}>
               <h3>3. Ética</h3>
               <p>Mantener un estándar ético riguroso: no diagnosticamos enfermedades, no predecimos fatalidades y no fomentamos la dependencia.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Equipo Editorial y Expertos</h2>
+          <p>
+            Nuestro contenido es investigado, redactado y validado por practicantes de tarot de larga trayectoria, psicólogos transpersonales e investigadores históricos:
+          </p>
+          <div className={styles.teamGrid}>
+            <div className={styles.teamCard}>
+              <div className={styles.teamAvatar}>AM</div>
+              <div className={styles.teamInfo}>
+                <h3>Ana Martínez</h3>
+                <span className={styles.teamRole}>Directora Editorial y Tarotóloga</span>
+                <p>
+                  Tarotóloga certificada con más de 12 años de experiencia profesional y docente en tarot evolutivo. Especializada en la simbología de Nicolas Conver e interpretación psicomágica.
+                </p>
+              </div>
+            </div>
+            <div className={styles.teamCard}>
+              <div className={styles.teamAvatar}>AC</div>
+              <div className={styles.teamInfo}>
+                <h3>Alejandro Camargo</h3>
+                <span className={styles.teamRole}>Redactor y Psicólogo Transpersonal</span>
+                <p>
+                  Licenciado en Psicología con estudios en Psicología Analítica Junguiana. Se especializa en el análisis proyectivo de arquetipos y en el uso del tarot como herramienta terapéutica.
+                </p>
+              </div>
             </div>
           </div>
         </section>
