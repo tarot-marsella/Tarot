@@ -1,0 +1,149 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem 2rem 6rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(138, 43, 226, 0.12);
+  color: #b080ff;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  border: 1px solid rgba(138, 43, 226, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.divider {
+  width: 80px;
+  height: 2px;
+  background: #8a2be2;
+  margin: 0 auto 2.5rem;
+  opacity: 0.6;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.crawlerSection {
+  margin-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 3rem;
+}
+
+.crawlerSection h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.crawlerIntro {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+}
+
+.accordionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.detailsBlock {
+  background: rgba(10, 10, 18, 0.6);
+  border: 1px solid rgba(138, 43, 226, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.detailsBlock[open] {
+  border-color: rgba(138, 43, 226, 0.4);
+}
+
+.summaryTitle {
+  padding: 1.25rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.summaryTitle:hover {
+  background: rgba(138, 43, 226, 0.05);
+}
+
+.cardCount {
+  font-size: 0.9rem;
+  color: var(--accent-gold);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: rgba(212, 175, 55, 0.05);
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(138, 43, 226, 0.15);
+}
+
+.combLink {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.combLink:hover {
+  color: #fff;
+  background: rgba(138, 43, 226, 0.1);
+  padding-left: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .summaryTitle {
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+  }
+  .linksGrid {
+    grid-template-columns: 1fr 1fr;
+    padding: 1.25rem;
+  }
+}

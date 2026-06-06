@@ -3,6 +3,8 @@ import tarotData from '@/data/tarot.json'
 import tiradasData from '@/data/tiradas-seo.json'
 import guiasData from '@/data/guias-seo.json'
 import conceptosData from '@/data/conceptos-seo.json'
+import { getAllCombinations } from '@/utils/combinations'
+
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tarotdemarsella.cl'
@@ -60,6 +62,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Programmatic Combinations (462 URLs)
+  const combinationData = getAllCombinations()
+  const combinationUrls = combinationData.map((comb) => ({
+    url: `${baseUrl}/aprendizaje/combinaciones/${comb.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.65,
+  }))
+
+
   return [
     // Core pages
     {
@@ -101,6 +113,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
+      url: `${baseUrl}/aprendizaje/combinaciones`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.75,
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -128,5 +146,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...conceptoUrls,
     // Blog
     ...blogUrls,
+    // Programmatic Combinations (Silo pSEO)
+    ...combinationUrls,
   ]
 }

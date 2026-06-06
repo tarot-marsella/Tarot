@@ -57,6 +57,31 @@ export default function AprendizajePage() {
         </p>
       </header>
 
+      <section className={styles.modulesSection}>
+        <h2 className={styles.sectionTitle}>Módulos de la Academia</h2>
+        <div className={styles.modulesGrid}>
+          <Link href="/aprendizaje/guias" className={styles.moduleCard}>
+            <div className={styles.moduleIcon}>📖</div>
+            <h3>Guías Prácticas</h3>
+            <p>Aprende rituales, consagración y cómo formular preguntas correctas.</p>
+            <span className={styles.moduleLinkText}>Ver Guías →</span>
+          </Link>
+          <Link href="/aprendizaje/conceptos" className={styles.moduleCard}>
+            <div className={styles.moduleIcon}>🧠</div>
+            <h3>Conceptos Esenciales</h3>
+            <p>Profundiza en la historia del tarot, la numerología y la psicología de Carl Jung.</p>
+            <span className={styles.moduleLinkText}>Estudiar Conceptos →</span>
+          </Link>
+          <Link href="/aprendizaje/combinaciones" className={styles.moduleCard}>
+            <div className={styles.moduleIcon}>🃏</div>
+            <h3>Combinaciones de Cartas</h3>
+            <p>Descubre el significado cuando dos arcanos se cruzan en una lectura.</p>
+            <span className={styles.moduleLinkText}>Explorar Parejas →</span>
+          </Link>
+        </div>
+      </section>
+
+      <h2 className={styles.sectionTitle} style={{ marginTop: '4rem', display: 'block', textAlign: 'center' }}>Los 22 Arcanos Mayores</h2>
       <div className={styles.grid}>
         {tarotData.map((card) => (
           <Link href={`/aprendizaje/${card.slug}`} key={card.id} className={`fade-in ${styles.cardLink}`} style={{ animationDelay: `${card.id * 0.05}s` }}>
