@@ -1,0 +1,253 @@
+.main {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0f0a1e 0%, #1a0d36 50%, #0f0a1e 100%);
+  color: #f0e6ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #a78bfa;
+  background: rgba(167, 139, 250, 0.1);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  padding: 0.35rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #f5f0ff;
+}
+
+.accent {
+  background: linear-gradient(135deg, #a78bfa, #e879f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #c4b5fd;
+  max-width: 680px;
+  margin: 0 auto 2.5rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #a78bfa, #e879f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  letter-spacing: 0.05em;
+}
+
+/* Palos Section */
+.palosSection {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #f0e6ff;
+}
+
+.palosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.paloCard {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.25rem;
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.paloCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--palo-gradient);
+  opacity: 0.8;
+}
+
+.paloCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: var(--palo-primary);
+}
+
+.paloEmoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.paloElement {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--palo-primary);
+  margin-bottom: 0.5rem;
+}
+
+.paloName {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f5f0ff;
+  margin-bottom: 0.75rem;
+}
+
+.paloDescription {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #9ca3af;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.paloKeywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.keyword {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #c4b5fd;
+}
+
+.paloFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cartasCount {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.paloArrow {
+  font-size: 1.2rem;
+  color: var(--palo-primary);
+  transition: transform 0.2s ease;
+}
+
+.paloCard:hover .paloArrow {
+  transform: translateX(4px);
+}
+
+/* Info Section */
+.infoSection {
+  max-width: 860px;
+  margin: 3rem auto;
+  padding: 0 2rem 4rem;
+}
+
+.infoCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.25rem;
+  padding: 2.5rem;
+}
+
+.infoTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f5f0ff;
+  margin-bottom: 1.25rem;
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoContent p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #9ca3af;
+}
+
+.infoContent strong {
+  color: #c4b5fd;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+
+  .stats {
+    gap: 1.5rem;
+  }
+
+  .palosSection {
+    padding: 1.25rem;
+  }
+
+  .palosGrid {
+    grid-template-columns: 1fr;
+  }
+}

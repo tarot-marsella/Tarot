@@ -78,6 +78,12 @@ export default function AprendizajePage() {
             <p>Descubre el significado cuando dos arcanos se cruzan en una lectura.</p>
             <span className={styles.moduleLinkText}>Explorar Parejas →</span>
           </Link>
+          <Link href="/aprendizaje/arcanos-menores" className={styles.moduleCard}>
+            <div className={styles.moduleIcon}>🌿</div>
+            <h3>Arcanos Menores</h3>
+            <p>Los 56 naipes de los cuatro palos: Bastos, Copas, Espadas y Oros. La vida cotidiana en el tarot.</p>
+            <span className={styles.moduleLinkText}>Explorar los 4 Palos →</span>
+          </Link>
         </div>
       </section>
 

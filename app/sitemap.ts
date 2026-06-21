@@ -4,6 +4,7 @@ import tiradasData from '@/data/tiradas-seo.json'
 import guiasData from '@/data/guias-seo.json'
 import conceptosData from '@/data/conceptos-seo.json'
 import { getAllCombinations } from '@/utils/combinations'
+import { getAllPalos, getAllCartaSlugs } from '@/utils/arcanos-menores'
 
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -71,6 +72,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }))
 
+  // Silo 5: Arcanos Menores — 4 hubs de palo + 56 cartas = 60 URLs
+  const paloSlugs = getAllPalos().map((p) => p.slug)
+  const paloHubUrls = paloSlugs.map((slug) => ({
+    url: `${baseUrl}/aprendizaje/arcanos-menores/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }))
+  const cartaUrls = getAllCartaSlugs().map(({ palo, slug }) => ({
+    url: `${baseUrl}/aprendizaje/arcanos-menores/${palo}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
 
   return [
     // Core pages
@@ -119,6 +135,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
+      url: `${baseUrl}/aprendizaje/arcanos-menores`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -148,5 +170,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogUrls,
     // Programmatic Combinations (Silo pSEO)
     ...combinationUrls,
+    // Silo 5: Arcanos Menores
+    ...paloHubUrls,
+    ...cartaUrls,
   ]
 }

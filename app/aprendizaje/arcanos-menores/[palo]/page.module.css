@@ -1,0 +1,257 @@
+.main {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0f0a1e 0%, #1a0d36 60%, #0f0a1e 100%);
+  color: #f0e6ff;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 2rem;
+  font-size: 0.82rem;
+  color: #6b7280;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.breadcrumb a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+  color: var(--palo-primary);
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 2rem 3.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.elementBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--palo-primary);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--palo-primary);
+  padding: 0.4rem 1.25rem;
+  border-radius: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  color: #f5f0ff;
+  margin-bottom: 1rem;
+  background: var(--palo-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #9ca3af;
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.keyword {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.85rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #c4b5fd;
+}
+
+/* Cartas Section */
+.cartasSection {
+  max-width: 1100px;
+  margin: 0 auto 3rem;
+  padding: 0 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f0e6ff;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sectionIcon {
+  font-size: 1.4rem;
+}
+
+.sectionSubtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.75rem;
+}
+
+.cartasGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.cartaCard {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cartaCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--palo-gradient);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.cartaCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.cartaCard:hover::before {
+  opacity: 1;
+}
+
+.courtCard {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.cartaNumber {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--palo-primary);
+  margin-bottom: 0.5rem;
+}
+
+.cartaName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f5f0ff;
+  margin-bottom: 0.6rem;
+}
+
+.cartaMeaning {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: #9ca3af;
+  flex: 1;
+  margin-bottom: 0.75rem;
+}
+
+.cartaKeywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.cartaKw {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: #a78bfa;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.cartaLink {
+  font-size: 0.8rem;
+  color: var(--palo-primary);
+  font-weight: 600;
+  transition: letter-spacing 0.2s ease;
+}
+
+.cartaCard:hover .cartaLink {
+  letter-spacing: 0.03em;
+}
+
+/* Nav Section */
+.navSection {
+  text-align: center;
+  padding: 2rem 2rem 4rem;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #a78bfa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: color 0.2s, gap 0.2s;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  border-radius: 2rem;
+}
+
+.backLink:hover {
+  color: #c4b5fd;
+  gap: 0.75rem;
+  background: rgba(167, 139, 250, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero {
+    padding: 2rem 1.25rem 2.5rem;
+  }
+
+  .cartasSection {
+    padding: 0 1.25rem;
+  }
+
+  .cartasGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .cartasGrid {
+    grid-template-columns: 1fr;
+  }
+}

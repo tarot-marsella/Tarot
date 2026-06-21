@@ -1,0 +1,608 @@
+{
+  "palos": [
+    {
+      "slug": "bastos",
+      "name": "Bastos",
+      "nameEs": "Palo de Bastos",
+      "element": "Fuego",
+      "keywords": ["acción", "voluntad", "energía", "creatividad", "ambición"],
+      "description": "El Palo de Bastos representa el elemento Fuego: la energía vital, la voluntad, el espíritu emprendedor y la creatividad en su estado más puro. Es el palo de la acción, el entusiasmo y la ambición.",
+      "seoDescription": "Conoce el significado completo del Palo de Bastos en el Tarot de Marsella: 14 cartas que representan la energía, la voluntad y el fuego creador. Interpretaciones upright y al revés.",
+      "cartas": [
+        {
+          "numero": 1,
+          "slug": "as-de-bastos",
+          "name": "As de Bastos",
+          "meaning_upright": "Inicio poderoso, impulso creativo, nueva empresa llena de energía, el germen de un proyecto, chispa de inspiración, fertilidad y potencia vital.",
+          "meaning_reversed": "Bloqueo creativo, inicio falso, falta de energía o dirección, frustración ante un proyecto que no despega, impotencia o dificultad para iniciar.",
+          "advice": "Es el momento de actuar. Tienes el fuego creativo disponible; no lo desperdicies con dudas. Planta la semilla de tu proyecto ahora.",
+          "keywords": ["inicio", "energía creativa", "potencial", "empresa", "inspiración"],
+          "image_url": "/images/arcanos-menores/as-de-bastos.jpg"
+        },
+        {
+          "numero": 2,
+          "slug": "dos-de-bastos",
+          "name": "Dos de Bastos",
+          "meaning_upright": "Planificación futura, visión expansiva, voluntad de dominar un territorio, el espíritu del explorador, decisiones estratégicas antes de actuar.",
+          "meaning_reversed": "Indecisión, miedo a dar el siguiente paso, planes que se quedan en la mente sin materializarse, falta de visión a largo plazo.",
+          "advice": "Amplía tu visión más allá del horizonte conocido. Planifica con audacia y prepárate para expandirte hacia nuevos territorios.",
+          "keywords": ["planificación", "visión", "expansión", "decisión", "estrategia"],
+          "image_url": "/images/arcanos-menores/dos-de-bastos.jpg"
+        },
+        {
+          "numero": 3,
+          "slug": "tres-de-bastos",
+          "name": "Tres de Bastos",
+          "meaning_upright": "Expansión ya en marcha, espera de resultados de acciones previas, liderazgo desde la experiencia, comercio y viajes prometedores.",
+          "meaning_reversed": "Retrasos inesperados, resultados que no llegan, proyectos detenidos, comunicación deficiente con socios o colaboradores.",
+          "advice": "Has plantado la semilla. Ahora es tiempo de observar cómo crece y estar listo para capitalizar las oportunidades que se aproximan.",
+          "keywords": ["expansión", "liderazgo", "espera", "resultados", "comercio"],
+          "image_url": "/images/arcanos-menores/tres-de-bastos.jpg"
+        },
+        {
+          "numero": 4,
+          "slug": "cuatro-de-bastos",
+          "name": "Cuatro de Bastos",
+          "meaning_upright": "Celebración, hogar estable, logros que merecen festejo, armonía familiar, un período de cosecha y de gozo por lo construido.",
+          "meaning_reversed": "Conflictos en el hogar, celebraciones postergadas, falta de estabilidad doméstica, tensión en la familia o el entorno cercano.",
+          "advice": "Reconoce y celebra tus logros. Un tiempo de paz y consolidación merece ser honrado con alegría y gratitud.",
+          "keywords": ["celebración", "hogar", "estabilidad", "armonía", "logros"],
+          "image_url": "/images/arcanos-menores/cuatro-de-bastos.jpg"
+        },
+        {
+          "numero": 5,
+          "slug": "cinco-de-bastos",
+          "name": "Cinco de Bastos",
+          "meaning_upright": "Competencia, conflicto de egos, lucha de voluntades, debate creativo, energía dispersa en múltiples direcciones, caos temporal.",
+          "meaning_reversed": "Conflictos que se resuelven, competencia deshonesta, falta de ganas de luchar, evitar el conflicto necesario.",
+          "advice": "Canaliza la energía competitiva de forma constructiva. No todo conflicto es negativo; a veces la fricción es la que produce el diamante.",
+          "keywords": ["competencia", "conflicto", "lucha", "debate", "caos"],
+          "image_url": "/images/arcanos-menores/cinco-de-bastos.jpg"
+        },
+        {
+          "numero": 6,
+          "slug": "seis-de-bastos",
+          "name": "Seis de Bastos",
+          "meaning_upright": "Victoria, reconocimiento público, avance triunfal, liderazgo reconocido, regreso victorioso, aprobación del entorno.",
+          "meaning_reversed": "Orgullo herido, victoria tardía o negada, falta de reconocimiento, inseguridad sobre los propios logros.",
+          "advice": "Es tu momento de reconocimiento. Acepta el éxito con gracia y lidera con la experiencia que has adquirido.",
+          "keywords": ["victoria", "reconocimiento", "triunfo", "liderazgo", "éxito"],
+          "image_url": "/images/arcanos-menores/seis-de-bastos.jpg"
+        },
+        {
+          "numero": 7,
+          "slug": "siete-de-bastos",
+          "name": "Siete de Bastos",
+          "meaning_upright": "Defensa de la posición, valentía ante la adversidad, resistencia, mantener el terreno ganado contra los que lo cuestionan.",
+          "meaning_reversed": "Rendirse bajo presión, sentirse abrumado, posición indefendible, dar demasiado terreno al adversario.",
+          "advice": "Defiende tus convicciones y tu posición. No abandones lo que has construido solo porque enfrentes resistencia.",
+          "keywords": ["defensa", "valentía", "resistencia", "perseverancia", "territorio"],
+          "image_url": "/images/arcanos-menores/siete-de-bastos.jpg"
+        },
+        {
+          "numero": 8,
+          "slug": "ocho-de-bastos",
+          "name": "Ocho de Bastos",
+          "meaning_upright": "Velocidad, mensajes en tránsito, aceleración de eventos, comunicaciones rápidas, viajes aéreos, todo en movimiento hacia la meta.",
+          "meaning_reversed": "Retrasos, mensajes perdidos o malinterpretados, energía dispersa, flechas que no dan en el blanco.",
+          "advice": "Aprovecha el impulso actual. Los eventos se aceleran; actúa con rapidez y precisión para no perder el momento.",
+          "keywords": ["velocidad", "movimiento", "comunicación", "aceleración", "viaje"],
+          "image_url": "/images/arcanos-menores/ocho-de-bastos.jpg"
+        },
+        {
+          "numero": 9,
+          "slug": "nueve-de-bastos",
+          "name": "Nueve de Bastos",
+          "meaning_upright": "Resiliencia, el guerrero cansado pero en pie, defensa final antes de la victoria, pausa estratégica, sabiduría ganada en la batalla.",
+          "meaning_reversed": "Agotamiento extremo, paranoia, incapacidad para confiar, rendirse cuando la victoria estaba cerca.",
+          "advice": "Estás casi al final. Aunque estés cansado, mantén la guardia un poco más. La victoria de la perseverancia está muy cerca.",
+          "keywords": ["resiliencia", "resistencia", "agotamiento", "perseverancia", "defensa"],
+          "image_url": "/images/arcanos-menores/nueve-de-bastos.jpg"
+        },
+        {
+          "numero": 10,
+          "slug": "diez-de-bastos",
+          "name": "Diez de Bastos",
+          "meaning_upright": "Sobrecarga, responsabilidad excesiva, carga que pesa demasiado, el liderazgo que se convierte en fardo, necesidad de delegar.",
+          "meaning_reversed": "Liberación de una carga, delegación exitosa, dejar ir responsabilidades que no te corresponden.",
+          "advice": "No todo lo tienes que cargar tú solo. Aprende a delegar y a reconocer tus límites para no sucumbir bajo el peso de tus obligaciones.",
+          "keywords": ["carga", "responsabilidad", "delegación", "límites", "sobrecarga"],
+          "image_url": "/images/arcanos-menores/diez-de-bastos.jpg"
+        },
+        {
+          "numero": 11,
+          "slug": "sota-de-bastos",
+          "name": "Sota de Bastos",
+          "meaning_upright": "Mensajero entusiasta, noticias de acción o aventura, aprendiz creativo, la energía juvenil aplicada a un proyecto, impulso sin experiencia.",
+          "meaning_reversed": "Noticias malas o retrasadas, entusiasmo sin fundamento, superficialidad, falta de dirección en la energía creativa.",
+          "advice": "Recibe las noticias y los nuevos impulsos con apertura. Canaliza tu entusiasmo juvenil hacia un aprendizaje concreto.",
+          "keywords": ["mensajes", "entusiasmo", "juventud", "aprendizaje", "aventura"],
+          "image_url": "/images/arcanos-menores/sota-de-bastos.jpg"
+        },
+        {
+          "numero": 12,
+          "slug": "caballo-de-bastos",
+          "name": "Caballo de Bastos",
+          "meaning_upright": "Acción audaz, velocidad, impulso hacia la aventura, viajes inminentes, la energía del fuego en su expresión más dinámica.",
+          "meaning_reversed": "Impulsividad sin control, precipitación, energía sin dirección, cambios de planes frecuentes.",
+          "advice": "Actúa con rapidez y decisión, pero asegúrate de que tu brío tenga un destino claro antes de lanzarte al galope.",
+          "keywords": ["velocidad", "acción", "impulso", "aventura", "dinamismo"],
+          "image_url": "/images/arcanos-menores/caballo-de-bastos.jpg"
+        },
+        {
+          "numero": 13,
+          "slug": "reina-de-bastos",
+          "name": "Reina de Bastos",
+          "meaning_upright": "Carisma, liderazgo cálido, mujer apasionada y determinada, creatividad en acción, magnetismo personal, confianza en sí misma.",
+          "meaning_reversed": "Volcánica, posesiva, agotamiento del carisma, dominancia manipuladora, celos.",
+          "advice": "Usa tu carisma natural para inspirar a quienes te rodean. Tu pasión es tu mayor fortaleza; liderada con generosidad.",
+          "keywords": ["carisma", "liderazgo", "pasión", "confianza", "creatividad"],
+          "image_url": "/images/arcanos-menores/reina-de-bastos.jpg"
+        },
+        {
+          "numero": 14,
+          "slug": "rey-de-bastos",
+          "name": "Rey de Bastos",
+          "meaning_upright": "Liderazgo visionario, emprendedor nato, hombre carismático y apasionado, autoridad creativa, dominio del fuego transformador.",
+          "meaning_reversed": "Arrogancia, tiranía, impulsividad irresponsable, líder que quema a su equipo, el fuego sin control.",
+          "advice": "Asume el liderazgo con visión y responsabilidad. Tu energía creativa es contagiosa; úsala para construir, no para arrasar.",
+          "keywords": ["liderazgo", "visión", "emprendimiento", "autoridad", "fuego"],
+          "image_url": "/images/arcanos-menores/rey-de-bastos.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "copas",
+      "name": "Copas",
+      "nameEs": "Palo de Copas",
+      "element": "Agua",
+      "keywords": ["emociones", "intuición", "amor", "sueños", "relaciones"],
+      "description": "El Palo de Copas representa el elemento Agua: el mundo de las emociones, las relaciones, la intuición y el inconsciente. Es el palo del amor, los sueños y la vida interior.",
+      "seoDescription": "Descubre el significado de las 14 cartas del Palo de Copas en el Tarot de Marsella: emociones, amor, intuición y el mundo interior. Guía completa con interpretaciones.",
+      "cartas": [
+        {
+          "numero": 1,
+          "slug": "as-de-copas",
+          "name": "As de Copas",
+          "meaning_upright": "Amor puro, nueva relación emocional, abundancia de sentimientos, apertura del corazón, gracia, inicio de un ciclo espiritual o creativo profundo.",
+          "meaning_reversed": "Bloqueo emocional, amor reprimido, incapacidad para recibir o dar afecto, vacío interior, copa que derrama lo que no puede contener.",
+          "advice": "Abre tu corazón sin reservas. El amor en todas sus formas está disponible para ti; solo debes estar dispuesto a recibirlo.",
+          "keywords": ["amor", "emoción", "apertura", "gracia", "abundancia"],
+          "image_url": "/images/arcanos-menores/as-de-copas.jpg"
+        },
+        {
+          "numero": 2,
+          "slug": "dos-de-copas",
+          "name": "Dos de Copas",
+          "meaning_upright": "Unión, atracción mutua, inicio de una relación romántica, alianza basada en el respeto y la conexión emocional, contrato del corazón.",
+          "meaning_reversed": "Ruptura, malentendidos en la pareja, desequilibrio en la relación, promesas rotas, desconexión emocional.",
+          "advice": "Nutre la conexión que tienes con otros desde la reciprocidad y el respeto. Las mejores relaciones se construyen sobre la base del dar y recibir mutuamente.",
+          "keywords": ["unión", "amor", "alianza", "pareja", "reciprocidad"],
+          "image_url": "/images/arcanos-menores/dos-de-copas.jpg"
+        },
+        {
+          "numero": 3,
+          "slug": "tres-de-copas",
+          "name": "Tres de Copas",
+          "meaning_upright": "Celebración con amigos, comunidad emocional, abundancia compartida, amistad profunda, creatividad colectiva, un momento de gozo.",
+          "meaning_reversed": "Excesos, superficialidad en las amistades, chismes, terceros en la relación, celebraciones vacías de significado.",
+          "advice": "Celebra con quienes amas. La alegría compartida se multiplica. Recuerda que la comunidad y el apoyo mutuo son fuentes de sanación.",
+          "keywords": ["celebración", "amistad", "comunidad", "alegría", "abundancia"],
+          "image_url": "/images/arcanos-menores/tres-de-copas.jpg"
+        },
+        {
+          "numero": 4,
+          "slug": "cuatro-de-copas",
+          "name": "Cuatro de Copas",
+          "meaning_upright": "Contemplación, introspección, hartazgo emocional, una nueva oferta que no se ve, oportunidades ignoradas, meditación profunda.",
+          "meaning_reversed": "Salir del ensimismamiento, aceptar una nueva oferta, reenganche con la vida, superar la apatía.",
+          "advice": "Sal de tu ensimismamiento. Una nueva oportunidad te está siendo ofrecida, pero solo la verás si levantas la vista de tu mundo interior.",
+          "keywords": ["contemplación", "introspección", "apatía", "oportunidad", "meditación"],
+          "image_url": "/images/arcanos-menores/cuatro-de-copas.jpg"
+        },
+        {
+          "numero": 5,
+          "slug": "cinco-de-copas",
+          "name": "Cinco de Copas",
+          "meaning_upright": "Pérdida emocional, duelo, enfoque en lo que se fue, lamento, melancolía. Sin embargo, dos copas permanecen en pie detrás del personaje.",
+          "meaning_reversed": "Aceptación del duelo, superación de la pérdida, retorno de la esperanza, encontrar lo que aún queda.",
+          "advice": "Permítete el duelo, pero no olvides las copas que aún están en pie. Tras cada pérdida hay algo que permanece y desde lo que puedes reconstruir.",
+          "keywords": ["duelo", "pérdida", "melancolía", "aceptación", "esperanza"],
+          "image_url": "/images/arcanos-menores/cinco-de-copas.jpg"
+        },
+        {
+          "numero": 6,
+          "slug": "seis-de-copas",
+          "name": "Seis de Copas",
+          "meaning_upright": "Nostalgia, recuerdos felices, inocencia del pasado, conexión con la infancia, regalo de una persona del pasado, armonía y generosidad.",
+          "meaning_reversed": "Vivir en el pasado, nostalgia paralizante, recuerdos que impiden avanzar, idealización de lo que fue.",
+          "advice": "Honra tu pasado con amor, pero no te quedes viviendo en él. Usa la inocencia y la generosidad de tu niño interior para enriquecer tu presente.",
+          "keywords": ["nostalgia", "recuerdos", "infancia", "inocencia", "pasado"],
+          "image_url": "/images/arcanos-menores/seis-de-copas.jpg"
+        },
+        {
+          "numero": 7,
+          "slug": "siete-de-copas",
+          "name": "Siete de Copas",
+          "meaning_upright": "Ilusiones, fantasías, muchas opciones sin claridad, sueños disociados de la realidad, tentaciones o delirios creativos.",
+          "meaning_reversed": "Claridad tras la confusión, elección después de la ilusión, el regreso a la realidad, discernimiento.",
+          "advice": "No todo lo que brilla en tu imaginación tiene el mismo valor. Distingue entre el sueño fértil y la fantasía escapista para tomar decisiones reales.",
+          "keywords": ["ilusiones", "fantasía", "opciones", "confusión", "sueños"],
+          "image_url": "/images/arcanos-menores/siete-de-copas.jpg"
+        },
+        {
+          "numero": 8,
+          "slug": "ocho-de-copas",
+          "name": "Ocho de Copas",
+          "meaning_upright": "Abandono voluntario, dejar atrás lo que ya no sirve, búsqueda de algo más profundo, retiro espiritual, el viaje del peregrino.",
+          "meaning_reversed": "Dificultad para dejar ir, quedarse en situaciones que ya no nutren, miedo al cambio, abandono por el camino equivocado.",
+          "advice": "A veces el mayor acto de valentía es alejarse de lo que ya no te nutre. Confía en que hay algo más significativo esperándote.",
+          "keywords": ["abandono", "búsqueda", "retiro", "dejar ir", "profundidad"],
+          "image_url": "/images/arcanos-menores/ocho-de-copas.jpg"
+        },
+        {
+          "numero": 9,
+          "slug": "nueve-de-copas",
+          "name": "Nueve de Copas",
+          "meaning_upright": "Satisfacción emocional, deseos cumplidos, la carta del 'deseo concedido', bienestar físico y emocional, contentamiento y placer.",
+          "meaning_reversed": "Satisfacción superficial, materialismo, deseos cumplidos que no colman, exceso de indulgencia.",
+          "advice": "Tus deseos están siendo atendidos por el universo. Reconoce la abundancia que tienes y permite disfrutar de ella sin culpa.",
+          "keywords": ["satisfacción", "deseos", "bienestar", "placer", "cumplimiento"],
+          "image_url": "/images/arcanos-menores/nueve-de-copas.jpg"
+        },
+        {
+          "numero": 10,
+          "slug": "diez-de-copas",
+          "name": "Diez de Copas",
+          "meaning_upright": "Felicidad familiar, armonía hogareña, amor duradero y completo, la familia ideal, paz emocional en la comunidad.",
+          "meaning_reversed": "Discordia familiar, disfunción en el hogar, ideales rotos, infelicidad en el plano emocional colectivo.",
+          "advice": "El amor y la felicidad que buscas están disponibles en tu hogar y tu comunidad. Nutre esas relaciones con atención y gratitud.",
+          "keywords": ["felicidad", "familia", "armonía", "amor", "paz"],
+          "image_url": "/images/arcanos-menores/diez-de-copas.jpg"
+        },
+        {
+          "numero": 11,
+          "slug": "sota-de-copas",
+          "name": "Sota de Copas",
+          "meaning_upright": "Mensajes de amor, intuición naciente, joven sensible y soñador, propuestas románticas, invitación a explorar el mundo emocional.",
+          "meaning_reversed": "Engaño emocional, manipulación sutil, noticias de amor que no llegan, sensibilidad desequilibrada.",
+          "advice": "Mantén tu corazón abierto a los mensajes sutiles. La intuición y los sueños te están comunicando algo importante.",
+          "keywords": ["mensajes", "amor", "intuición", "sensibilidad", "sueños"],
+          "image_url": "/images/arcanos-menores/sota-de-copas.jpg"
+        },
+        {
+          "numero": 12,
+          "slug": "caballo-de-copas",
+          "name": "Caballo de Copas",
+          "meaning_upright": "El caballero romántico, propuesta de amor, un mensajero que trae emociones, avance hacia el amor o la creatividad con gracia.",
+          "meaning_reversed": "Promesas incumplidas, seductor sin sustancia, emociones que no progresan, avance lento en el amor.",
+          "advice": "Avanza hacia lo que amas con gracia e intención. El caballero de copas recuerda que el amor requiere tanto movimiento como sentimiento.",
+          "keywords": ["romance", "propuesta", "avance", "gracia", "emoción"],
+          "image_url": "/images/arcanos-menores/caballo-de-copas.jpg"
+        },
+        {
+          "numero": 13,
+          "slug": "reina-de-copas",
+          "name": "Reina de Copas",
+          "meaning_upright": "Intuición profunda, empatía excepcional, mujer compasiva y visionaria, la que cuida y sana, sabiduría emocional madura.",
+          "meaning_reversed": "Labilidad emocional, dependencia afectiva, intuición distorsionada por la emoción, manipulación emocional.",
+          "advice": "Confía en tu profunda intuición y compasión. Eres una fuente de sanación para quienes te rodean; recuerda también cuidarte a ti misma.",
+          "keywords": ["intuición", "empatía", "compasión", "sabiduría", "sanación"],
+          "image_url": "/images/arcanos-menores/reina-de-copas.jpg"
+        },
+        {
+          "numero": 14,
+          "slug": "rey-de-copas",
+          "name": "Rey de Copas",
+          "meaning_upright": "Dominio emocional maduro, líder empático, hombre sabio y compasivo, el maestro que usa la intuición para gobernar, equilibrio entre emoción y razón.",
+          "meaning_reversed": "Represión emocional, manipulación afectiva, inestabilidad emocional disfrazada de control, excesos.",
+          "advice": "Gobierna tus emociones con sabiduría sin suprimirlas. Tu madurez emocional es tu mayor fortaleza para liderar y sanar.",
+          "keywords": ["dominio", "empatía", "sabiduría", "equilibrio", "liderazgo"],
+          "image_url": "/images/arcanos-menores/rey-de-copas.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "espadas",
+      "name": "Espadas",
+      "nameEs": "Palo de Espadas",
+      "element": "Aire",
+      "keywords": ["pensamiento", "conflicto", "verdad", "decisión", "comunicación"],
+      "description": "El Palo de Espadas representa el elemento Aire: la mente, el pensamiento, el conflicto y la verdad. Es el palo más desafiante, que corta la ilusión para revelar la realidad.",
+      "seoDescription": "El significado de las 14 cartas del Palo de Espadas en el Tarot de Marsella: conflicto, verdad y el poder de la mente. Aprende a interpretar este palo con profundidad.",
+      "cartas": [
+        {
+          "numero": 1,
+          "slug": "as-de-espadas",
+          "name": "As de Espadas",
+          "meaning_upright": "Claridad mental absoluta, la verdad que corta toda ilusión, triunfo de la mente, nueva forma de pensar, victoria a través del intelecto.",
+          "meaning_reversed": "Confusión mental, verdad que hiere innecesariamente, abuso de la mente analítica, juicios erróneos.",
+          "advice": "Busca la verdad con valentía. Tu mente tiene ahora el poder de discernir con claridad; úsalo para cortar lo que es falso o limitante.",
+          "keywords": ["claridad", "verdad", "intelecto", "victoria", "decisión"],
+          "image_url": "/images/arcanos-menores/as-de-espadas.jpg"
+        },
+        {
+          "numero": 2,
+          "slug": "dos-de-espadas",
+          "name": "Dos de Espadas",
+          "meaning_upright": "Impasse, decisión difícil, equilibrio tenso entre dos opciones, bloqueo de la información, negación de la realidad para evitar el conflicto.",
+          "meaning_reversed": "La decisión que finalmente llega, fin del impasse, información que emerge, el velo se corre.",
+          "advice": "No puedes seguir evitando la decisión. Retira la venda de tus ojos, reúne la información que tienes y elige con valentía.",
+          "keywords": ["decisión", "impasse", "equilibrio", "bloqueo", "negación"],
+          "image_url": "/images/arcanos-menores/dos-de-espadas.jpg"
+        },
+        {
+          "numero": 3,
+          "slug": "tres-de-espadas",
+          "name": "Tres de Espadas",
+          "meaning_upright": "Dolor del corazón, traición, separación, pérdida dolorosa, la espada de la verdad que atraviesa el corazón, tristeza inevitable.",
+          "meaning_reversed": "Superación del dolor, cicatrización de heridas, aceptación de la pérdida, fin del período de tristeza.",
+          "advice": "Permite que el dolor sea. La tristeza no superada se convierte en muros. Atraviesa este período con honestidad emocional para sanar de verdad.",
+          "keywords": ["dolor", "traición", "separación", "pérdida", "tristeza"],
+          "image_url": "/images/arcanos-menores/tres-de-espadas.jpg"
+        },
+        {
+          "numero": 4,
+          "slug": "cuatro-de-espadas",
+          "name": "Cuatro de Espadas",
+          "meaning_upright": "Descanso necesario, recuperación, retiro temporal del conflicto, meditación, pausa para recuperar fuerzas antes de la próxima batalla.",
+          "meaning_reversed": "Agitación mental que no cede, incapacidad para descansar, retorno prematuro a la batalla.",
+          "advice": "Descansa. El guerrero más sabio sabe cuándo retirarse para recuperar fuerzas. No es rendirse; es una pausa estratégica esencial.",
+          "keywords": ["descanso", "recuperación", "retiro", "meditación", "pausa"],
+          "image_url": "/images/arcanos-menores/cuatro-de-espadas.jpg"
+        },
+        {
+          "numero": 5,
+          "slug": "cinco-de-espadas",
+          "name": "Cinco de Espadas",
+          "meaning_upright": "Victoria pírrica, el ganador que perdió el respeto de todos, conflicto deshonroso, la derrota de los rivales que deja un sabor amargo.",
+          "meaning_reversed": "Rendición, dejar ir la necesidad de ganar, buscar la reconciliación, aprender de la derrota.",
+          "advice": "No toda batalla vale la pena ganarla. Pregúntate si la victoria que buscas vale el costo que tiene en relaciones y valores.",
+          "keywords": ["conflicto", "victoria pírrica", "deshonor", "derrota", "ambición"],
+          "image_url": "/images/arcanos-menores/cinco-de-espadas.jpg"
+        },
+        {
+          "numero": 6,
+          "slug": "seis-de-espadas",
+          "name": "Seis de Espadas",
+          "meaning_upright": "Tránsito hacia algo mejor, alejarse de la turbulencia, viaje de sanación, pasar de aguas tormentosas a aguas calmas con esfuerzo.",
+          "meaning_reversed": "Resistencia al cambio necesario, no poder alejarse de la tormenta, viaje cancelado o postergado.",
+          "advice": "Avanza. Aunque el bote vaya cargado de espadas (problemas), te está alejando de las aguas turbulentas. El otro orillo es más tranquilo.",
+          "keywords": ["transición", "viaje", "sanación", "alejamiento", "calma"],
+          "image_url": "/images/arcanos-menores/seis-de-espadas.jpg"
+        },
+        {
+          "numero": 7,
+          "slug": "siete-de-espadas",
+          "name": "Siete de Espadas",
+          "meaning_upright": "Estrategia, astucia, el plan que evita el conflicto directo, pero también engaño, furtividad o robo de ideas.",
+          "meaning_reversed": "El engaño que se descubre, el regreso de lo robado, conciencia de estar siendo manipulado.",
+          "advice": "Usa tu ingenio con integridad. La astucia es una herramienta poderosa, pero el engaño siempre tiene un costo más alto del que parece.",
+          "keywords": ["estrategia", "astucia", "engaño", "ingenio", "furtividad"],
+          "image_url": "/images/arcanos-menores/siete-de-espadas.jpg"
+        },
+        {
+          "numero": 8,
+          "slug": "ocho-de-espadas",
+          "name": "Ocho de Espadas",
+          "meaning_upright": "Restricción mental, creencias que aprisionan, victimización, incapacidad para ver las salidas disponibles, la prisión que construye la mente.",
+          "meaning_reversed": "Liberación de las creencias limitantes, tomar el control, ver las opciones que antes estaban ocultas.",
+          "advice": "La prisión está en tu mente. Las espadas y las vendas no son reales; son las creencias que tú mismo has construido. Puedes quitártelas.",
+          "keywords": ["restricción", "limitación", "creencias", "prisión", "victimización"],
+          "image_url": "/images/arcanos-menores/ocho-de-espadas.jpg"
+        },
+        {
+          "numero": 9,
+          "slug": "nueve-de-espadas",
+          "name": "Nueve de Espadas",
+          "meaning_upright": "Ansiedad nocturna, pesadillas, el peor escenario en la mente, el sufrimiento mental desproporcionado, insomnio y desesperación.",
+          "meaning_reversed": "Superación del período de ansiedad, reconocer que el miedo era mayor que el peligro real.",
+          "advice": "El sufrimiento que sientes es real, pero los pensamientos que lo alimentan son a menudo catastrofistas. Busca apoyo y perspectiva.",
+          "keywords": ["ansiedad", "pesadillas", "miedo", "insomnio", "desesperación"],
+          "image_url": "/images/arcanos-menores/nueve-de-espadas.jpg"
+        },
+        {
+          "numero": 10,
+          "slug": "diez-de-espadas",
+          "name": "Diez de Espadas",
+          "meaning_upright": "El fin inevitable, la derrota total pero el amanecer que sigue, el punto más bajo de un ciclo antes de su renacimiento, crisis transformadora.",
+          "meaning_reversed": "Recuperación gradual, resistencia a aceptar el fin de un ciclo, el lento amanecer.",
+          "advice": "Lo que terminó, terminó. Mira al horizonte: ya está amaneciendo. Solo desde el punto más bajo puede comenzar el ascenso.",
+          "keywords": ["fin", "derrota", "transformación", "amanecer", "renacimiento"],
+          "image_url": "/images/arcanos-menores/diez-de-espadas.jpg"
+        },
+        {
+          "numero": 11,
+          "slug": "sota-de-espadas",
+          "name": "Sota de Espadas",
+          "meaning_upright": "Mente ágil y curiosa, vigilancia, comunicación directa y rápida, el espía o el observador astuto, noticias que pueden cortar.",
+          "meaning_reversed": "Chismes, espionaje, comunicación agresiva, pensamiento demasiado veloz y sin prudencia.",
+          "advice": "Usa tu mente afilada con integridad. La vigilancia y la rapidez mental son dones; el cotilleo y la crueldad verbal son sus sombras.",
+          "keywords": ["agilidad", "vigilancia", "comunicación", "astucia", "observación"],
+          "image_url": "/images/arcanos-menores/sota-de-espadas.jpg"
+        },
+        {
+          "numero": 12,
+          "slug": "caballo-de-espadas",
+          "name": "Caballo de Espadas",
+          "meaning_upright": "Acción intelectual imparable, la mente que va a la batalla, velocidad del pensamiento, comunicación directa hasta la brutalidad.",
+          "meaning_reversed": "Impulsividad intelectual peligrosa, crueldad verbal, el que actúa sin pensar en consecuencias.",
+          "advice": "Actúa con la mente, pero modera la velocidad. La brutalidad intelectual puede ganar el argumento pero perder la relación.",
+          "keywords": ["acción", "velocidad", "intelecto", "batalla", "directitud"],
+          "image_url": "/images/arcanos-menores/caballo-de-espadas.jpg"
+        },
+        {
+          "numero": 13,
+          "slug": "reina-de-espadas",
+          "name": "Reina de Espadas",
+          "meaning_upright": "Mente brillante y objetiva, mujer que ha conocido el dolor y se ha hecho sabia, comunicación directa, percepción sin ilusiones.",
+          "meaning_reversed": "Amargura, cinismo, frialdad emocional como escudo, la herida no sanada que se convierte en crueldad.",
+          "advice": "Tu experiencia del dolor te ha dado una claridad y una sabiduría únicas. Úsalas para percibir la verdad y comunicarla con compasión.",
+          "keywords": ["claridad", "objetividad", "sabiduría", "percepción", "directitud"],
+          "image_url": "/images/arcanos-menores/reina-de-espadas.jpg"
+        },
+        {
+          "numero": 14,
+          "slug": "rey-de-espadas",
+          "name": "Rey de Espadas",
+          "meaning_upright": "Autoridad intelectual, juicio imparcial, el gobernante que actúa por principios, mente estratégica y analítica, comunicación directa.",
+          "meaning_reversed": "Tiranía intelectual, uso del intelecto para manipular, autoritarismo frío, el juicio sin misericordia.",
+          "advice": "Gobierna con la mente fría y el corazón justo. Tu intelecto es tu poder; úsalo en beneficio del bien común, no solo de tu propio criterio.",
+          "keywords": ["autoridad", "juicio", "intelecto", "estrategia", "principios"],
+          "image_url": "/images/arcanos-menores/rey-de-espadas.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "oros",
+      "name": "Oros",
+      "nameEs": "Palo de Oros",
+      "element": "Tierra",
+      "keywords": ["materia", "dinero", "trabajo", "cuerpo", "realidad"],
+      "description": "El Palo de Oros representa el elemento Tierra: el mundo material, el dinero, el trabajo, el cuerpo y la realidad tangible. Es el palo de la abundancia, el esfuerzo y la consolidación.",
+      "seoDescription": "Significado de las 14 cartas del Palo de Oros en el Tarot de Marsella: dinero, trabajo, materialidad y prosperidad. Guía completa para interpretar este palo.",
+      "cartas": [
+        {
+          "numero": 1,
+          "slug": "as-de-oros",
+          "name": "As de Oros",
+          "meaning_upright": "Nueva oportunidad material, semilla de prosperidad, inicio de un negocio o inversión, el regalo de la abundancia material, manifestación de lo tangible.",
+          "meaning_reversed": "Oportunidad perdida, avaricia, la riqueza mal usada, inicio de proyecto que no materializa, bloqueo de la prosperidad.",
+          "advice": "Una oportunidad material real está disponible. Acéptala y trabaja con perseverancia para que esta semilla se convierta en árbol.",
+          "keywords": ["oportunidad", "prosperidad", "inicio", "negocio", "manifestación"],
+          "image_url": "/images/arcanos-menores/as-de-oros.jpg"
+        },
+        {
+          "numero": 2,
+          "slug": "dos-de-oros",
+          "name": "Dos de Oros",
+          "meaning_upright": "Malabarismo con recursos, adaptabilidad financiera, equilibrio entre dos proyectos o fuentes de ingreso, flexibilidad ante el cambio.",
+          "meaning_reversed": "Pérdida del equilibrio financiero, sobrecarga de responsabilidades, deudas que se acumulan, incapacidad para gestionar recursos.",
+          "advice": "La adaptabilidad es tu mayor recurso ahora. Mantén el equilibrio entre tus diferentes obligaciones con ligereza y sentido del humor.",
+          "keywords": ["malabarismo", "adaptabilidad", "equilibrio", "flexibilidad", "recursos"],
+          "image_url": "/images/arcanos-menores/dos-de-oros.jpg"
+        },
+        {
+          "numero": 3,
+          "slug": "tres-de-oros",
+          "name": "Tres de Oros",
+          "meaning_upright": "Trabajo artesanal, maestría en el oficio, trabajo en equipo con expertos, reconocimiento de la calidad, construcción de algo que perdura.",
+          "meaning_reversed": "Falta de maestría, trabajo mal hecho, conflictos con el equipo de trabajo, mediocridad consciente.",
+          "advice": "Dedícate a dominar tu oficio con pasión. El trabajo bien hecho es una forma de arte y de respeto propio que siempre es reconocida.",
+          "keywords": ["maestría", "artesanía", "equipo", "calidad", "trabajo"],
+          "image_url": "/images/arcanos-menores/tres-de-oros.jpg"
+        },
+        {
+          "numero": 4,
+          "slug": "cuatro-de-oros",
+          "name": "Cuatro de Oros",
+          "meaning_upright": "Seguridad material, ahorro, conservación de recursos, el avaro o el conservador prudente, miedo a perder lo acumulado.",
+          "meaning_reversed": "Derroche, generosidad después del bloqueo, soltar el control material, pérdida de lo acumulado.",
+          "advice": "La seguridad es valiosa, pero el exceso de control puede estancar tu crecimiento. Encuentra el equilibrio entre la prudencia y la generosidad.",
+          "keywords": ["seguridad", "ahorro", "control", "conservación", "estabilidad"],
+          "image_url": "/images/arcanos-menores/cuatro-de-oros.jpg"
+        },
+        {
+          "numero": 5,
+          "slug": "cinco-de-oros",
+          "name": "Cinco de Oros",
+          "meaning_upright": "Dificultad material, escasez, exclusión de la prosperidad, pobreza temporal, sensación de estar fuera del sistema de abundancia.",
+          "meaning_reversed": "Recuperación de las dificultades, fin de la escasez, ayuda que llega, reintegración al sistema.",
+          "advice": "La dificultad es temporal. Aunque sientas frío y escasez, hay ayuda disponible; solo necesitas pedirla y abrirte a recibirla.",
+          "keywords": ["escasez", "pobreza", "dificultad", "exclusión", "carencia"],
+          "image_url": "/images/arcanos-menores/cinco-de-oros.jpg"
+        },
+        {
+          "numero": 6,
+          "slug": "seis-de-oros",
+          "name": "Seis de Oros",
+          "meaning_upright": "Generosidad, compartir la abundancia, el acto de dar y recibir en equilibrio, la caridad genuina, el flujo de recursos.",
+          "meaning_reversed": "Generosidad con condiciones, desequilibrio en el intercambio, el que da esperando algo a cambio.",
+          "advice": "El flujo de la abundancia requiere que compartas lo que tienes. La generosidad genuina sin condiciones siempre regresa multiplicada.",
+          "keywords": ["generosidad", "abundancia", "intercambio", "dar", "recibir"],
+          "image_url": "/images/arcanos-menores/seis-de-oros.jpg"
+        },
+        {
+          "numero": 7,
+          "slug": "siete-de-oros",
+          "name": "Siete de Oros",
+          "meaning_upright": "Evaluación de resultados, la pausa del cultivador que mira su cosecha, inversión a largo plazo, perseverancia, trabajo que está dando frutos.",
+          "meaning_reversed": "Impaciencia, resultados que no llegan según lo esperado, mal retorno de la inversión, dudas sobre el camino elegido.",
+          "advice": "Haz una pausa para evaluar lo que has cultivado. El esfuerzo sostenido está dando frutos aunque no los veas todos de una vez.",
+          "keywords": ["evaluación", "cosecha", "inversión", "perseverancia", "largo plazo"],
+          "image_url": "/images/arcanos-menores/siete-de-oros.jpg"
+        },
+        {
+          "numero": 8,
+          "slug": "ocho-de-oros",
+          "name": "Ocho de Oros",
+          "meaning_upright": "El aprendiz dedicado, la práctica deliberada, el trabajo meticuloso que lleva a la maestría, aprendizaje de un nuevo oficio.",
+          "meaning_reversed": "Perfeccionismo estéril, trabajo sin progreso, aprendizaje interrumpido, hacer las cosas a medias.",
+          "advice": "La maestría se construye con práctica diaria y atención al detalle. Dedícate a tu oficio sin buscar atajos.",
+          "keywords": ["práctica", "aprendizaje", "maestría", "dedicación", "oficio"],
+          "image_url": "/images/arcanos-menores/ocho-de-oros.jpg"
+        },
+        {
+          "numero": 9,
+          "slug": "nueve-de-oros",
+          "name": "Nueve de Oros",
+          "meaning_upright": "Independencia material, el lujo ganado con esfuerzo propio, autosuficiencia, el jardín de los propios logros, refinamiento.",
+          "meaning_reversed": "Dependencia económica, lujo que no se ha ganado, proyectos que no se materializan.",
+          "advice": "Disfruta del fruto de tu propio esfuerzo. La independencia material que has construido es tuya; permítete el placer del logro propio.",
+          "keywords": ["independencia", "lujo", "autosuficiencia", "logros", "refinamiento"],
+          "image_url": "/images/arcanos-menores/nueve-de-oros.jpg"
+        },
+        {
+          "numero": 10,
+          "slug": "diez-de-oros",
+          "name": "Diez de Oros",
+          "meaning_upright": "Riqueza familiar duradera, legado, prosperidad multigeneracional, el éxito material completo, la herencia material y espiritual.",
+          "meaning_reversed": "Conflictos por herencias, riqueza que crea problemas, pérdida del legado familiar.",
+          "advice": "Piensa en el legado que estás construyendo, no solo para ti, sino para quienes vendrán. La verdadera riqueza se construye con visión de futuro.",
+          "keywords": ["legado", "familia", "riqueza", "prosperidad", "herencia"],
+          "image_url": "/images/arcanos-menores/diez-de-oros.jpg"
+        },
+        {
+          "numero": 11,
+          "slug": "sota-de-oros",
+          "name": "Sota de Oros",
+          "meaning_upright": "El estudiante diligente, buenas noticias materiales, joven con potencial práctico, el principiante que estudia con seriedad.",
+          "meaning_reversed": "Noticias materiales malas, falta de aplicación práctica, el estudiante que no aprovecha su oportunidad.",
+          "advice": "Estudia y aprende con dedicación. Este es el momento de adquirir las bases sólidas que sostendrán tu prosperidad futura.",
+          "keywords": ["estudio", "aprendizaje", "potencial", "noticias", "diligencia"],
+          "image_url": "/images/arcanos-menores/sota-de-oros.jpg"
+        },
+        {
+          "numero": 12,
+          "slug": "caballo-de-oros",
+          "name": "Caballo de Oros",
+          "meaning_upright": "Avance metódico y constante, movimiento lento pero seguro hacia la meta material, fiabilidad, el trabajador incansable.",
+          "meaning_reversed": "Estancamiento, rutina que aplasta, falta de progreso a pesar del esfuerzo, pereza.",
+          "advice": "Avanza con constancia y método. No es la velocidad sino la persistencia lo que lleva al destino material que buscas.",
+          "keywords": ["constancia", "método", "avance", "fiabilidad", "trabajo"],
+          "image_url": "/images/arcanos-menores/caballo-de-oros.jpg"
+        },
+        {
+          "numero": 13,
+          "slug": "reina-de-oros",
+          "name": "Reina de Oros",
+          "meaning_upright": "Mujer práctica y nutricia, abundancia material bien gestionada, el hogar como santuario de prosperidad, inteligencia práctica.",
+          "meaning_reversed": "Desequilibrio entre dar y recibir, el hogar como jaula, materialismo que sofoca el espíritu.",
+          "advice": "Crea un entorno de abundancia y cuidado. Tu inteligencia práctica es el regalo que convierte los recursos en bienestar real.",
+          "keywords": ["practicidad", "abundancia", "hogar", "cuidado", "inteligencia"],
+          "image_url": "/images/arcanos-menores/reina-de-oros.jpg"
+        },
+        {
+          "numero": 14,
+          "slug": "rey-de-oros",
+          "name": "Rey de Oros",
+          "meaning_upright": "Éxito empresarial, el hombre que ha construido su imperio con sabiduría práctica, abundancia total, el rey del mundo material.",
+          "meaning_reversed": "El rey que se ha vuelto esclavo de su riqueza, avaricia extrema, negocios turbios, pérdida de la dimensión humana.",
+          "advice": "Usa tu poder material para crear bienestar genuino, para ti y para otros. La verdadera riqueza incluye la dimensión humana y espiritual.",
+          "keywords": ["éxito", "empresa", "abundancia", "poder", "sabiduría"],
+          "image_url": "/images/arcanos-menores/rey-de-oros.jpg"
+        }
+      ]
+    }
+  ]
+}
