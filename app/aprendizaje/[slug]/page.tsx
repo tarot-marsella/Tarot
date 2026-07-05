@@ -149,20 +149,75 @@ export default async function CardDetailPage({ params }: { params: Promise<{ slu
             <p>{card.psychological_meaning}</p>
           </section>
 
-          {/* Combinaciones */}
-          {seo?.combinaciones && (
-            <section className={styles.section}>
-              <h2>Combinaciones Principales</h2>
-              <div className={styles.combinaciones}>
-                {seo.combinaciones.map((combo, i) => (
-                  <div key={i} className={styles.comboItem}>
-                    <strong>{card.name} + {combo.carta}</strong>
-                    <p>{combo.significado}</p>
-                  </div>
-                ))}
+          {/* Combinaciones — con links a páginas pSEO */}
+          {seo?.combinaciones && (() => {
+            const resolveSlug = (name: string) => {
+              const found = tarotData.find((c) => c.name === name);
+              return found?.slug || null;
+            };
+            return (
+              <section className={styles.section}>
+                <h2>Combinaciones Principales</h2>
+                <div className={styles.combinaciones}>
+                  {seo.combinaciones.map((combo, i) => {
+                    const comboSlug = resolveSlug(combo.carta);
+                    const combinationUrl = comboSlug
+                      ? `/aprendizaje/combinaciones/${slug}-y-${comboSlug}`
+                      : null;
+                    return (
+                      <div key={i} className={styles.comboItem}>
+                        <strong>
+                          {card.name} +{" "}
+                          {comboSlug ? (
+                            <Link href={`/aprendizaje/${comboSlug}`} style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>
+                              {combo.carta}
+                            </Link>
+                          ) : (
+                            combo.carta
+                          )}
+                        </strong>
+                        <p>{combo.significado}</p>
+                        {combinationUrl && (
+                          <Link href={combinationUrl} className={styles.comboLink}>
+                            Ver interpretación completa →
+                          </Link>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+                <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
+                  <Link href="/aprendizaje/combinaciones" className={styles.ctaButton}>
+                    Ver todas las combinaciones del Tarot
+                  </Link>
+                </div>
+              </section>
+            );
+          })()}
+
+          {/* Arcanos Menores Relacionados */}
+          <section className={styles.section}>
+            <h2>Arcanos Menores Relacionados</h2>
+            <p>Explora los Arcanos Menores que complementan la energía de {card.name}:</p>
+            <div className={styles.aspectGrid}>
+              <div className={styles.aspectCard}>
+                <h3>🔥 <Link href="/aprendizaje/arcanos-menores/bastos" style={{ color: "var(--accent-gold)" }}>Bastos</Link></h3>
+                <p>Acción, pasión y creatividad</p>
               </div>
-            </section>
-          )}
+              <div className={styles.aspectCard}>
+                <h3>💧 <Link href="/aprendizaje/arcanos-menores/copas" style={{ color: "var(--accent-gold)" }}>Copas</Link></h3>
+                <p>Emociones, amor e intuición</p>
+              </div>
+              <div className={styles.aspectCard}>
+                <h3>⚔️ <Link href="/aprendizaje/arcanos-menores/espadas" style={{ color: "var(--accent-gold)" }}>Espadas</Link></h3>
+                <p>Pensamiento, conflicto y verdad</p>
+              </div>
+              <div className={styles.aspectCard}>
+                <h3>🪙 <Link href="/aprendizaje/arcanos-menores/oros" style={{ color: "var(--accent-gold)" }}>Oros</Link></h3>
+                <p>Materia, recursos y estabilidad</p>
+              </div>
+            </div>
+          </section>
 
           {/* Numerología */}
           {seo?.numerologia && (

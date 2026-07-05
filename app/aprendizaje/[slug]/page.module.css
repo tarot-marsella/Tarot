@@ -139,6 +139,22 @@
   color: var(--text-secondary);
 }
 
+.comboLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent-gold);
+  opacity: 0.7;
+  transition: opacity 0.3s, transform 0.3s;
+  font-family: var(--font-sans);
+  letter-spacing: 0.3px;
+}
+
+.comboLink:hover {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
 /* Consejo */
 .adviceSection {
   margin: 3rem 0;

@@ -31,8 +31,25 @@
 .title {
   font-size: 3rem;
   color: #fff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   letter-spacing: 1px;
+}
+
+.cardLinks {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.cardLink {
+  color: var(--accent-gold);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.cardLink:hover {
+  color: #fff;
 }
 
 .divider {

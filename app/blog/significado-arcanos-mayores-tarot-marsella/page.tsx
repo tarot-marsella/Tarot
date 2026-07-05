@@ -7,8 +7,8 @@ import Button from "@/components/Button";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://tarotdemarsella.cl";
 
 export const metadata: Metadata = {
-  title: "Significado de los 22 Arcanos Mayores del Tarot de Marsella",
-  description: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores del Tarot de Marsella. Guía completa para interpretar cada carta en tu lectura.",
+  title: "Significado de los 22 Arcanos Mayores del Tarot de Marsella | Guía Completa SEO",
+  description: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores del Tarot de Marsella. Guía completa para interpretar cada carta.",
   alternates: {
     canonical: `${BASE_URL}/blog/significado-arcanos-mayores-tarot-marsella`,
   },
@@ -18,7 +18,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Significado Completo de los 22 Arcanos Mayores del Tarot de Marsella",
-  description: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores del Tarot de Marsella. Guía completa para interpretar cada carta en tu lectura.",
+  description: "Descubre el significado psicológico y espiritual de los 22 Arcanos Mayores del Tarot de Marsella. Guía completa para interpretar cada carta.",
   author: {
     "@type": "Organization",
     name: "Tarot de Marsella",
@@ -32,18 +32,26 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "¿Qué son los Arcanos Mayores del Tarot de Marsella?",
+      name: "¿Qué representan los Arcanos Mayores del Tarot de Marsella?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Los Arcanos Mayores son las 22 cartas principales del Tarot de Marsella, numeradas del 0 al 21 (o del 1 al 21, más El Loco). Representan arquetipos universales, lecciones kármicas y las etapas fundamentales del desarrollo espiritual y psicológico humano.",
+        text: "Los 22 Arcanos Mayores son las cartas principales del Tarot de Marsella. Representan arquetipos universales de la psique humana, lecciones evolutivas de vida y las etapas fundamentales de la individuación espiritual y del autoconocimiento, estructuradas a través del relato metafórico del 'Viaje del Loco'.",
       },
     },
     {
       "@type": "Question",
-      name: "¿Cuál es el arcano más poderoso?",
+      name: "¿Cuál es el arcano mayor considerado más positivo?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No existe un arcano 'más poderoso', ya que todos representan una energía vital diferente. Sin embargo, cartas como El Mundo (consecución total) o El Sol (claridad y éxito) son vistas como extremadamente positivas, mientras que La Muerte o La Torre representan transformaciones poderosas e inevitables.",
+        text: "En la tarotología evolutiva no existen cartas 'buenas' o 'malas' absolutas. Sin embargo, cartas como El Mundo (que simboliza la realización suprema y el éxito integral) y El Sol (que representa claridad mental, amor transparente y éxito material) se consideran tradicionalmente muy afortunadas y armónicas en cualquier tirada.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cómo se divide la secuencia de los Arcanos Mayores?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Se divide habitualmente en tres etapas o septenarios de 7 cartas cada uno (más El Loco, que transita libre por todas ellas): el primer septenario (cartas I a VII) representa la relación con el mundo material, social y del ego; el segundo septenario (cartas VIII a XIV) representa el viaje psicológico interior y la confrontación con las emociones; y el tercer septenario (cartas XV a XXI) simboliza el plano espiritual, la disolución del ego y la iluminación cósmica.",
       },
     },
   ],
@@ -57,116 +65,217 @@ export default function BlogPost3() {
 
       <article className={`fade-in ${styles.article}`}>
         <header className={styles.header}>
-          <h1 className={styles.title}>Significado Completo de los 22 Arcanos Mayores</h1>
+          <h1 className={styles.title}>Significado de los 22 Arcanos Mayores del Tarot de Marsella</h1>
           <div className={styles.divider}></div>
-          <div className={styles.meta}>Tiempo de lectura: 10 min • Actualizado: 2026</div>
+          <div className={styles.meta}>Tiempo de lectura: 15 min • Actualizado: 2026</div>
         </header>
 
         <div className={styles.content}>
           <p>
-            El <strong>Tarot de Marsella</strong> es el pilar de toda la cartomancia occidental moderna. En el núcleo de esta baraja mística se encuentran los <strong>22 Arcanos Mayores</strong>, un conjunto de imágenes arquetípicas que describen el "Viaje del Héroe" o el proceso de individuación psicológica.
-          </p>
-          <p>
-            En esta guía definitiva, exploraremos el significado profundo de cada uno de los arcanos mayores para que puedas enriquecer tus lecturas al <strong>leer cartas tarot</strong>.
+            El <strong>Tarot de Marsella</strong> es la piedra angular sobre la que se fundamenta toda la cartomancia y la tarotología occidental moderna. En el corazón místico de esta baraja histórica descansan los <strong>22 Arcanos Mayores</strong>, un conjunto de imágenes cargadas de geometría sagrada y colores codificados. Estos arcanos no son ilustraciones sueltas o inconexas; representan un relato continuo y evolutivo conocido en la psicología profunda como el "Viaje del Loco" o el proceso de individuación de la consciencia humana. En esta guía completa exploraremos la estructura del mazo y el significado esencial de cada una de las 22 cartas principales para que enriquezcas tus lecturas al <Link href="/blog/como-leer-cartas-tarot-marsella" style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>leer las cartas del tarot</Link>.
           </p>
 
-          <h2>El Viaje del Loco: La estructura de los Arcanos Mayores</h2>
+          <h2>La Estructura Oculta: Los Tres Septenarios</h2>
           <p>
-            Antes de analizar carta por carta, es vital entender que los Arcanos Mayores no son imágenes aisladas. Representan una secuencia. Comienzan con El Loco (el espíritu puro que inicia el viaje) y terminan en El Mundo (la integración total del ser con el universo).
+            Para comprender a fondo los arcanos, es vital dividir su secuencia del 1 al 21 (dejando fuera a El Loco por ser el eterno caminante sin número) en sus tres fases o <strong>septenarios</strong> tradicionales:
           </p>
+          <ol>
+            <li>
+              <strong>Primer Septenario (Cartas I a VII - El Plano Material y Social):</strong> Describe la relación del individuo con el plano exterior. Incluye el aprendizaje de herramientas concretas, las figuras de autoridad parental (La Emperatriz, El Emperador), la educación formal y el triunfo del ego en el mundo físico (<Link href="/aprendizaje/el-carro" style={{ color: "var(--accent-gold)" }}>El Carro</Link>).
+            </li>
+            <li>
+              <strong>Segundo Septenario (Cartas VIII a XIV - El Plano Psicológico y Moral):</strong> Marca el inicio del viaje interior. Aquí el consultante se confronta con la ética (<Link href="/aprendizaje/la-justicia" style={{ color: "var(--accent-gold)" }}>La Justicia</Link>), el silencio de la introspección, las crisis de perspectiva y la gran muerte de las estructuras rígidas y falsas de la personalidad.
+            </li>
+            <li>
+              <strong>Tercer Septenario (Cartas XV a XXI - El Plano Espiritual y Cósmico):</strong> Alude a las fuerzas transpersonales y cósmicas. El alma se libera de las tentaciones materiales, sobrevive al colapso de las ilusiones (<Link href="/aprendizaje/la-torre" style={{ color: "var(--accent-gold)" }}>La Torre</Link>), sana bajo la luz de los astros y alcanza la fusión completa con el Absoluto (<Link href="/aprendizaje/el-mundo" style={{ color: "var(--accent-gold)" }}>El Mundo</Link>).
+            </li>
+          </ol>
 
           <div className={styles.ctaBox}>
-            <h3>Aprende interactuando con las cartas</h3>
-            <p>Puedes leer la teoría aquí, pero la mejor forma de aprender es la práctica. Haz una tirada gratuita ahora mismo.</p>
+            <h3>Aprende a través de la Práctica</h3>
+            <p>La teoría es el mapa, pero la práctica es el viaje. Pon a prueba tus conocimientos formulando una duda y realizando una tirada interactiva gratuita.</p>
             <div style={{ marginTop: "1.5rem" }}>
               <Button href="/tirada" variant="primary">
-                Tirada de Tarot Interactiva
+                Iniciar Tirada Interactiva
               </Button>
             </div>
           </div>
 
-          <h2>Resumen de los Arcanos Mayores</h2>
+          <h2>Resumen y Significado de los 22 Arcanos Mayores</h2>
           <p>
-            A continuación, te presentamos los conceptos clave de cada carta. Si deseas una interpretación profunda (al derecho, invertida, significado psicológico y en el amor), haz clic en el nombre del arcano.
+            A continuación, te presentamos una síntesis de los conceptos clave y la energía arquetípica de cada carta. Para profundizar en sus significados específicos en el amor, salud, trabajo, al derecho e invertido, haz clic en el enlace de cada arcano:
           </p>
 
-          <h3>0. <Link href="/aprendizaje/el-loco" style={{ color: "var(--accent-gold)" }}>El Loco</Link></h3>
-          <p>El potencial infinito, el salto al vacío, la libertad absoluta y la energía sin encauzar. Representa el inicio inexperto pero valiente de cualquier viaje.</p>
+          <h3>
+            <Link href="/aprendizaje/el-loco" style={{ color: "var(--accent-gold)" }}>0. El Loco</Link>
+          </h3>
+          <p>
+            La libertad absoluta, la energía pura antes de manifestarse, el potencial infinito y el salto de fe hacia lo desconocido. Representa el espíritu libre que inicia su andadura sin prejuicios ni apegos materiales.
+          </p>
 
-          <h3>I. <Link href="/aprendizaje/el-mago" style={{ color: "var(--accent-gold)" }}>El Mago</Link></h3>
-          <p>El poder de manifestación. Tienes todas las herramientas sobre la mesa (intelecto, emociones, mundo material, energía) para crear lo que deseas.</p>
+          <h3>
+            <Link href="/aprendizaje/el-mago" style={{ color: "var(--accent-gold)" }}>I. El Mago</Link>
+          </h3>
+          <p>
+            La iniciativa, la astucia, el dominio de los elementos terrenales y la destreza mental para canalizar ideas y manifestarlas en la realidad concreta. Tienes todas las herramientas a tu alcance.
+          </p>
 
-          <h3>II. <Link href="/aprendizaje/la-sacerdotisa" style={{ color: "var(--accent-gold)" }}>La Sacerdotisa (La Papisa)</Link></h3>
-          <p>La intuición profunda, el conocimiento secreto y la gestación silenciosa. Es la invitación a mirar hacia adentro antes de actuar hacia afuera.</p>
+          <h3>
+            <Link href="/aprendizaje/la-sacerdotisa" style={{ color: "var(--accent-gold)" }}>II. La Sacerdotisa (La Papisa)</Link>
+          </h3>
+          <p>
+            La intuición profunda, los misterios inconscientes, la sabiduría guardada en silencio y la gestación paciente de los proyectos. Invita a la quietud y a mirar hacia adentro antes de actuar.
+          </p>
 
-          <h3>III. <Link href="/aprendizaje/la-emperatriz" style={{ color: "var(--accent-gold)" }}>La Emperatriz</Link></h3>
-          <p>La explosión de la creatividad, la fertilidad, la abundancia y el placer sensual. Representa la naturaleza generadora y la nutrición.</p>
+          <h3>
+            <Link href="/aprendizaje/la-emperatriz" style={{ color: "var(--accent-gold)" }}>III. La Emperatriz</Link>
+          </h3>
+          <p>
+            La fertilidad creadora, el estallido de la naturaleza, la sensualidad, el amor generador y la inteligencia activa. Simboliza el florecimiento y la abundancia de las ideas.
+          </p>
 
-          <h3>IV. <Link href="/aprendizaje/el-emperador" style={{ color: "var(--accent-gold)" }}>El Emperador</Link></h3>
-          <p>Estructura, orden material, autoridad firme y liderazgo. Es la capacidad de concretar proyectos y establecer límites sanos en el mundo real.</p>
+          <h3>
+            <Link href="/aprendizaje/el-emperador" style={{ color: "var(--accent-gold)" }}>IV. El Emperador</Link>
+          </h3>
+          <p>
+            El orden, la estabilidad material, los límites sanos, la autoridad firme y el poder constructivo en el plano terrenal. Es la capacidad de organizar y consolidar proyectos reales.
+          </p>
 
-          <h3>V. <Link href="/aprendizaje/el-papa" style={{ color: "var(--accent-gold)" }}>El Papa (El Hierofante)</Link></h3>
-          <p>El puente entre lo espiritual y lo terrenal. La enseñanza, las tradiciones compartidas y la búsqueda de un sentido superior o sistema de creencias.</p>
+          <h3>
+            <Link href="/aprendizaje/el-papa" style={{ color: "var(--accent-gold)" }}>V. El Papa</Link>
+          </h3>
+          <p>
+            La enseñanza espiritual, la sabiduría de los maestros, la conexión entre el cielo y la tierra, y los sistemas de valores morales establecidos. Actúa como el guía o mentor.
+          </p>
 
-          <h3>VI. <Link href="/aprendizaje/el-enamorado" style={{ color: "var(--accent-gold)" }}>El Enamorado</Link></h3>
-          <p>Las encrucijadas emocionales, la belleza de las relaciones humanas y la necesidad de tomar decisiones desde el corazón, no desde la mente calculadora.</p>
+          <h3>
+            <Link href="/aprendizaje/el-enamorado" style={{ color: "var(--accent-gold)" }}>VI. El Enamorado</Link>
+          </h3>
+          <p>
+            Las decisiones complejas del corazón, la empatía en las relaciones sentimentales, la belleza de la unión humana y la encrucijada donde debemos elegir desde nuestro ser verdadero.
+          </p>
 
-          <h3>VII. <Link href="/aprendizaje/el-carro" style={{ color: "var(--accent-gold)" }}>El Carro</Link></h3>
-          <p>Victoria a través de la fuerza de voluntad. Acción dinámica, avance imparable y el control de fuerzas opuestas para lograr un objetivo.</p>
+          <h3>
+            <Link href="/aprendizaje/el-carro" style={{ color: "var(--accent-gold)" }}>VII. El Carro</Link>
+          </h3>
+          <p>
+            El triunfo del ego consciente, la victoria a través de la fuerza de voluntad, la acción dinámica y el control de fuerzas opuestas para lograr un fin. Éxito en movimiento.
+          </p>
 
-          <h3>VIII. <Link href="/aprendizaje/la-justicia" style={{ color: "var(--accent-gold)" }}>La Justicia</Link></h3>
-          <p>Equilibrio perfecto, karma y toma de responsabilidad. Exige objetividad, claridad mental y cortar de raíz aquello que ya no sirve.</p>
+          <h3>
+            <Link href="/aprendizaje/la-justicia" style={{ color: "var(--accent-gold)" }}>VIII. La Justicia</Link>
+          </h3>
+          <p>
+            El equilibrio kármico, la claridad de juicio, la honestidad despiadada y la necesidad de asumir responsabilidades personales. Cortar con objetividad aquello que ya no sirve.
+          </p>
 
-          <h3>IX. <Link href="/aprendizaje/el-ermitano" style={{ color: "var(--accent-gold)" }}>El Ermitaño</Link></h3>
-          <p>Introspección madura, retiro temporal del ruido externo para iluminar el interior. Encontrar la propia luz y verdad individual.</p>
+          <h3>
+            <Link href="/aprendizaje/el-ermitano" style={{ color: "var(--accent-gold)" }}>IX. El Ermitaño</Link>
+          </h3>
+          <p>
+            La introspección madura, el retiro voluntario del ruido social, la prudencia y la búsqueda de la luz interior. Encontrar la verdad individual en la soledad constructiva.
+          </p>
 
-          <h3>X. <Link href="/aprendizaje/la-rueda-de-la-fortuna" style={{ color: "var(--accent-gold)" }}>La Rueda de la Fortuna</Link></h3>
-          <p>Los ciclos inevitables de la vida. Cambios de suerte, karma y la comprensión de que todo sube y todo baja. Oportunidades inesperadas.</p>
+          <h3>
+            <Link href="/aprendizaje/la-rueda-de-la-fortuna" style={{ color: "var(--accent-gold)" }}>X. La Rueda de la Fortuna</Link>
+          </h3>
+          <p>
+            Los ciclos cambiantes e inevitables de la existencia terrenal. Entender que todo sube y todo baja, el azar cósmico, el karma en movimiento y las oportunidades inesperadas.
+          </p>
 
-          <h3>XI. <Link href="/aprendizaje/la-fuerza" style={{ color: "var(--accent-gold)" }}>La Fuerza</Link></h3>
-          <p>El dominio de los instintos bajos a través del amor y la inteligencia emocional. Coraje gentil, resiliencia y domesticación de la propia "bestia" interior.</p>
+          <h3>
+            <Link href="/aprendizaje/la-fuerza" style={{ color: "var(--accent-gold)" }}>XI. La Fuerza</Link>
+          </h3>
+          <p>
+            El dominio dulce de las pasiones y los instintos más bajos a través del amor, el coraje gentil y la inteligencia emocional. Canalizar la bestia interior en lugar de reprimirla.
+          </p>
 
-          <h3>XII. <Link href="/aprendizaje/el-colgado" style={{ color: "var(--accent-gold)" }}>El Colgado</Link></h3>
-          <p>Pausa necesaria, entrega total y un cambio radical de perspectiva. A veces hay que detenerse por completo para ver las cosas de otra manera.</p>
+          <h3>
+            <Link href="/aprendizaje/el-colgado" style={{ color: "var(--accent-gold)" }}>XII. El Colgado</Link>
+          </h3>
+          <p>
+            La parada necesaria, el sacrificio voluntario en pos de un fin superior y el cambio radical de perspectiva. Aceptar las situaciones y mirar el mundo con otros ojos.
+          </p>
 
-          <h3>XIII. <Link href="/aprendizaje/el-arcano-xiii" style={{ color: "var(--accent-gold)" }}>La Muerte (Arcano Sin Nombre)</Link></h3>
-          <p>Transformación radical, limpieza profunda. El corte doloroso pero necesario de lo viejo para permitir que florezca lo nuevo. Renovación absoluta.</p>
+          <h3>
+            <Link href="/aprendizaje/el-arcano-xiii" style={{ color: "var(--accent-gold)" }}>XIII. La Muerte (El Arcano Sin Nombre)</Link>
+          </h3>
+          <p>
+            La transformación profunda, irreversible y necesaria. La muerte simbólica del pasado obsoleto, los desapegos forzosos y la limpieza que prepara el terreno para el renacimiento.
+          </p>
 
-          <h3>XIV. <Link href="/aprendizaje/la-templanza" style={{ color: "var(--accent-gold)" }}>La Templanza</Link></h3>
-          <p>Sanación, flujo de energías equilibradas, síntesis de opuestos. La paz interior alcanzada tras la tormenta. Comunicación armónica.</p>
+          <h3>
+            <Link href="/aprendizaje/la-templanza" style={{ color: "var(--accent-gold)" }}>XIV. La Templanza</Link>
+          </h3>
+          <p>
+            La sanación, el flujo armónico de las energías opuestas, la paciencia, la alquimia emocional y la comunicación pacífica. La serenidad alcanzada tras la gran transformación.
+          </p>
 
-          <h3>XV. <Link href="/aprendizaje/el-diablo" style={{ color: "var(--accent-gold)" }}>El Diablo</Link></h3>
-          <p>Las ataduras tóxicas, la pasión desbordante y las sombras reprimidas. Una invitación a reconocer nuestra oscuridad para liberarnos de ella y usar su inmensa energía.</p>
+          <h3>
+            <Link href="/aprendizaje/el-diablo" style={{ color: "var(--accent-gold)" }}>XV. El Diablo</Link>
+          </h3>
+          <p>
+            Las pasiones desbordantes, las ataduras materiales o emocionales tóxicas, la codependencia y el encuentro con la propia sombra psicológica. Fuerza instintiva y energía sexual creativa.
+          </p>
 
-          <h3>XVI. <Link href="/aprendizaje/la-torre" style={{ color: "var(--accent-gold)" }}>La Torre</Link></h3>
-          <p>La caída de estructuras falsas o egocéntricas. Una crisis repentina que trae consigo la iluminación y una inmensa liberación del encierro psicológico.</p>
+          <h3>
+            <Link href="/aprendizaje/la-torre" style={{ color: "var(--accent-gold)" }}>XVI. La Torre</Link>
+          </h3>
+          <p>
+            La caída fulminante de las estructuras falsas y egocéntricas. Una crisis inesperada que rompe la prisión mental, trayendo consigo liberación, verdad y el fin del aislamiento.
+          </p>
 
-          <h3>XVII. <Link href="/aprendizaje/la-estrella" style={{ color: "var(--accent-gold)" }}>La Estrella</Link></h3>
-          <p>Esperanza, conexión con el cosmos y sanación pura. Encontrar tu lugar en el universo mostrando tu verdadera vulnerabilidad (desnudez del alma).</p>
+          <h3>
+            <Link href="/aprendizaje/la-estrella" style={{ color: "var(--accent-gold)" }}>XVII. La Estrella</Link>
+          </h3>
+          <p>
+            La esperanza renovada, la fe en el cosmos, la purificación emocional y el fluir en armonía con el entorno mostrando tu verdadera vulnerabilidad. Sanación espiritual pura.
+          </p>
 
-          <h3>XVIII. <Link href="/aprendizaje/la-luna" style={{ color: "var(--accent-gold)" }}>La Luna</Link></h3>
-          <p>El mundo de los misterios, el inconsciente profundo, la imaginación y también los miedos irracionales y las ilusiones. Receptividad extrema.</p>
+          <h3>
+            <Link href="/aprendizaje/la-luna" style={{ color: "var(--accent-gold)" }}>XVIII. La Luna</Link>
+          </h3>
+          <p>
+            El mundo de los misterios nocturnos, la imaginación desbordante, el inconsciente profundo y también los temores irracionales, las ilusiones y la receptividad intuitiva total.
+          </p>
 
-          <h3>XIX. <Link href="/aprendizaje/el-sol" style={{ color: "var(--accent-gold)" }}>El Sol</Link></h3>
-          <p>Claridad absoluta, éxito brillante, calidez humana, hermandad y construcción de lazos desde el amor incondicional. Disipar toda sombra.</p>
+          <h3>
+            <Link href="/aprendizaje/el-sol" style={{ color: "var(--accent-gold)" }}>XIX. El Sol</Link>
+          </h3>
+          <p>
+            La claridad absoluta, el éxito visible, el amor incondicional, la hermandad compartida y la construcción de proyectos nobles bajo la luz de la verdad pura. Disipar toda sombra.
+          </p>
 
-          <h3>XX. <Link href="/aprendizaje/el-juicio" style={{ color: "var(--accent-gold)" }}>El Juicio</Link></h3>
-          <p>El despertar espiritual, el llamado irresistible hacia tu verdadera vocación, renacimiento tras el aprendizaje y curación del linaje familiar.</p>
+          <h3>
+            <Link href="/aprendizaje/el-juicio" style={{ color: "var(--accent-gold)" }}>XX. El Juicio</Link>
+          </h3>
+          <p>
+            El llamado irresistible de la consciencia superior, el despertar espiritual, la sanación familiar y el renacimiento tras haber superado las lecciones evolutivas.
+          </p>
 
-          <h3>XXI. <Link href="/aprendizaje/el-mundo" style={{ color: "var(--accent-gold)" }}>El Mundo</Link></h3>
-          <p>Realización suprema. El alma danzando en armonía con el universo. El cierre perfecto de un ciclo vital habiendo integrado todas sus lecciones.</p>
+          <h3>
+            <Link href="/aprendizaje/el-mundo" style={{ color: "var(--accent-gold)" }}>XXI. El Mundo</Link>
+          </h3>
+          <p>
+            La culminación dichosa de todo el viaje. La danza en perfecta sintonía con las leyes del cosmos, la autorrealización total, el éxito absoluto y el cierre exitoso de un ciclo vital.
+          </p>
 
           <section className={styles.faqSection}>
             <h2>Preguntas Frecuentes sobre los Arcanos Mayores</h2>
-            
+
             <div className={styles.faqItem}>
-              <h3>¿Qué son los Arcanos Mayores del Tarot de Marsella?</h3>
-              <p>Los Arcanos Mayores son las 22 cartas principales del Tarot de Marsella, numeradas del 0 al 21 (o del 1 al 21, más El Loco). Representan arquetipos universales, lecciones kármicas y las etapas fundamentales del desarrollo espiritual y psicológico humano.</p>
+              <h3>¿Qué representan los Arcanos Mayores del Tarot de Marsella?</h3>
+              <p>Los 22 Arcanos Mayores son las cartas principales del Tarot de Marsella. Representan arquetipos universales de la psique humana, lecciones evolutivas de vida y las etapas fundamentales de la individuación espiritual y del autoconocimiento, estructuradas a través del relato metafórico del 'Viaje del Loco'.</p>
             </div>
 
             <div className={styles.faqItem}>
-              <h3>¿Cuál es el arcano más poderoso?</h3>
-              <p>No existe un arcano 'más poderoso', ya que todos representan una energía vital diferente. Sin embargo, cartas como El Mundo (consecución total) o El Sol (claridad y éxito) son vistas como extremadamente positivas, mientras que La Muerte o La Torre representan transformaciones poderosas e inevitables.</p>
+              <h3>¿Cuál es el arcano mayor considerado más positivo?</h3>
+              <p>En la tarotología evolutiva no existen cartas 'buenas' o 'malas' absolutas. Sin embargo, cartas como El Mundo (que simboliza la realización suprema y el éxito integral) y El Sol (que representa claridad mental, amor transparente y éxito material) se consideran tradicionalmente muy afortunadas y armónicas en cualquier tirada.</p>
+            </div>
+
+            <div className={styles.faqItem}>
+              <h3>¿Cómo se divide la secuencia de los Arcanos Mayores?</h3>
+              <p>Se divide habitualmente en tres etapas o septenarios de 7 cartas cada uno (más El Loco, que transita libre por todas ellas): el primer septenario (cartas I a VII) representa la relación con el mundo material, social y del ego; el segundo septenario (cartas VIII a XIV) representa el viaje psicológico interior y la confrontación con las emociones; y el tercer septenario (cartas XV a XXI) simboliza el plano espiritual, la disolución del ego y la iluminación cósmica.</p>
             </div>
           </section>
 

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import styles from "./page.module.css";
 import { getCombination, getAllCombinations } from "@/utils/combinations";
+import tarotData from "@/data/tarot.json";
 import Breadcrumb from "@/components/Breadcrumb";
 
 interface Props {
@@ -44,6 +45,9 @@ export default async function CombinacionDetailPage({ params }: Props) {
 
   const comb = getCombination(parts[0], parts[1]);
   if (!comb) notFound();
+
+  const card1 = tarotData.find((c) => c.slug === parts[0]);
+  const card2 = tarotData.find((c) => c.slug === parts[1]);
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -86,6 +90,20 @@ export default async function CombinacionDetailPage({ params }: Props) {
         <header className={styles.header}>
           <span className={styles.tag}>Combinación de Arcanos</span>
           <h1 className={styles.title}>{comb.name}</h1>
+          
+          {card1 && card2 && (
+            <div className={styles.cardLinks}>
+              Carta de origen:{" "}
+              <Link href={`/aprendizaje/${card1.slug}`} className={styles.cardLink}>
+                {card1.name}
+              </Link>{" "}
+              y{" "}
+              <Link href={`/aprendizaje/${card2.slug}`} className={styles.cardLink}>
+                {card2.name}
+              </Link>
+            </div>
+          )}
+
           <div className={styles.divider} />
           <p className={styles.bluf}><strong>{comb.bluf}</strong></p>
         </header>
