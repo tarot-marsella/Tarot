@@ -86,152 +86,221 @@ export default async function CardDetailPage({ params }: { params: Promise<{ slu
           </h1>
           <div className={styles.divider} />
 
-          {/* BLUF paragraph for AI optimization */}
-          {seo?.bluf && (
-            <p className={styles.bluf}>{seo.bluf}</p>
-          )}
-
-          {/* Simbología */}
-          {seo?.simbologia && (
-            <section className={styles.section}>
-              <h2>Simbología e Iconografía</h2>
-              <p>{seo.simbologia}</p>
-            </section>
-          )}
-
-          {/* Significado al Derecho */}
-          <section className={styles.section}>
-            <h2>Significado al Derecho</h2>
-            <p>{card.meaning_upright}</p>
-            {seo?.amor && (
-              <div className={styles.aspectGrid}>
-                <div className={styles.aspectCard}>
-                  <h3>❤️ Amor</h3>
-                  <p>{seo.amor.derecho}</p>
+          {/* Acordeones interactivos para las 26 secciones */}
+          <div className={styles.acordeonGroup}>
+            
+            {/* 1. Introducción e Historia (si existen) */}
+            {(seo?.introduccion || seo?.historia) && (
+              <details className={styles.acordeonItem}>
+                <summary className={styles.acordeonSummary}>📖 Introducción e Historia</summary>
+                <div className={styles.acordeonContent}>
+                  {seo?.introduccion && <p style={{ marginBottom: "1rem" }}>{seo.introduccion}</p>}
+                  {seo?.historia && (
+                    <div>
+                      <h3>Orígenes Históricos</h3>
+                      <p>{seo.historia}</p>
+                    </div>
+                  )}
                 </div>
-                <div className={styles.aspectCard}>
-                  <h3>💼 Trabajo</h3>
-                  <p>{seo.trabajo.derecho}</p>
-                </div>
-                <div className={styles.aspectCard}>
-                  <h3>🌿 Salud</h3>
-                  <p>{seo.salud.derecho}</p>
-                </div>
-              </div>
+              </details>
             )}
-          </section>
 
-          {/* Significado Invertido */}
-          <section className={styles.section}>
-            <h2>Significado Invertido</h2>
-            <p>{card.meaning_reversed}</p>
-            {seo?.amor && (
-              <div className={styles.aspectGrid}>
-                <div className={styles.aspectCard}>
-                  <h3>❤️ Amor</h3>
-                  <p>{seo.amor.invertido}</p>
-                </div>
-                <div className={styles.aspectCard}>
-                  <h3>💼 Trabajo</h3>
-                  <p>{seo.trabajo.invertido}</p>
-                </div>
-                <div className={styles.aspectCard}>
-                  <h3>🌿 Salud</h3>
-                  <p>{seo.salud.invertido}</p>
-                </div>
-              </div>
-            )}
-          </section>
-
-          {/* Interpretación Psicológica */}
-          <section className={styles.section}>
-            <h2>Interpretación Psicológica</h2>
-            <p>{card.psychological_meaning}</p>
-          </section>
-
-          {/* Combinaciones — con links a páginas pSEO */}
-          {seo?.combinaciones && (() => {
-            const resolveSlug = (name: string) => {
-              const found = tarotData.find((c) => c.name === name);
-              return found?.slug || null;
-            };
-            return (
-              <section className={styles.section}>
-                <h2>Combinaciones Principales</h2>
-                <div className={styles.combinaciones}>
-                  {seo.combinaciones.map((combo, i) => {
-                    const comboSlug = resolveSlug(combo.carta);
-                    const combinationUrl = comboSlug
-                      ? `/aprendizaje/combinaciones/${slug}-y-${comboSlug}`
-                      : null;
-                    return (
-                      <div key={i} className={styles.comboItem}>
-                        <strong>
-                          {card.name} +{" "}
-                          {comboSlug ? (
-                            <Link href={`/aprendizaje/${comboSlug}`} style={{ color: "var(--accent-gold)", textDecoration: "underline" }}>
-                              {combo.carta}
-                            </Link>
-                          ) : (
-                            combo.carta
-                          )}
-                        </strong>
-                        <p>{combo.significado}</p>
-                        {combinationUrl && (
-                          <Link href={combinationUrl} className={styles.comboLink}>
-                            Ver interpretación completa →
-                          </Link>
-                        )}
+            {/* 2. Simbología, Iconografía y Numerología */}
+            {(seo?.simbologia || seo?.iconografia || seo?.elemento || seo?.numerologia) && (
+              <details className={styles.acordeonItem} open>
+                <summary className={styles.acordeonSummary}>🎨 Simbología e Iconografía Oculta</summary>
+                <div className={styles.acordeonContent}>
+                  {seo?.simbologia && <p style={{ marginBottom: "1rem" }}>{seo.simbologia}</p>}
+                  {seo?.iconografia && (
+                    <div style={{ marginBottom: "1rem" }}>
+                      <strong>Detalles Iconográficos (Colores y Trazos):</strong>
+                      <p>{seo.iconografia}</p>
+                    </div>
+                  )}
+                  <div className={styles.aspectGrid}>
+                    {seo?.elemento && (
+                      <div className={styles.aspectCard}>
+                        <h3>🔥 Elemento</h3>
+                        <p>{seo.elemento}</p>
                       </div>
-                    );
-                  })}
+                    )}
+                    {seo?.numerologia ? (
+                      <div className={styles.aspectCard}>
+                        <h3>🔢 Numerología</h3>
+                        <p>{seo.numerologia}</p>
+                      </div>
+                    ) : (
+                      <div className={styles.aspectCard}>
+                        <h3>🔢 Numerología</h3>
+                        <p>Carta número {seo?.numeral || card.id}</p>
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
-                  <Link href="/aprendizaje/combinaciones" className={styles.ctaButton}>
-                    Ver todas las combinaciones del Tarot
-                  </Link>
+              </details>
+            )}
+
+            {/* 3. Correspondencias y Arquetipos (Jung) */}
+            {(seo?.correspondencias || seo?.arquetipo) && (
+              <details className={styles.acordeonItem}>
+                <summary className={styles.acordeonSummary}>🧠 Correspondencias y Arquetipo Junguiano</summary>
+                <div className={styles.acordeonContent}>
+                  {seo?.arquetipo && (
+                    <div style={{ marginBottom: "1.2rem" }}>
+                      <strong>El Arquetipo Psicológico:</strong>
+                      <p>{seo.arquetipo}</p>
+                    </div>
+                  )}
+                  {seo?.correspondencias && (
+                    <div>
+                      <strong>Asociaciones y Correspondencias:</strong>
+                      <p>{seo.correspondencias}</p>
+                    </div>
+                  )}
                 </div>
-              </section>
-            );
-          })()}
+              </details>
+            )}
 
-          {/* Arcanos Menores Relacionados */}
-          <section className={styles.section}>
-            <h2>Arcanos Menores Relacionados</h2>
-            <p>Explora los Arcanos Menores que complementan la energía de {card.name}:</p>
-            <div className={styles.aspectGrid}>
-              <div className={styles.aspectCard}>
-                <h3>🔥 <Link href="/aprendizaje/arcanos-menores/bastos" style={{ color: "var(--accent-gold)" }}>Bastos</Link></h3>
-                <p>Acción, pasión y creatividad</p>
-              </div>
-              <div className={styles.aspectCard}>
-                <h3>💧 <Link href="/aprendizaje/arcanos-menores/copas" style={{ color: "var(--accent-gold)" }}>Copas</Link></h3>
-                <p>Emociones, amor e intuición</p>
-              </div>
-              <div className={styles.aspectCard}>
-                <h3>⚔️ <Link href="/aprendizaje/arcanos-menores/espadas" style={{ color: "var(--accent-gold)" }}>Espadas</Link></h3>
-                <p>Pensamiento, conflicto y verdad</p>
-              </div>
-              <div className={styles.aspectCard}>
-                <h3>🪙 <Link href="/aprendizaje/arcanos-menores/oros" style={{ color: "var(--accent-gold)" }}>Oros</Link></h3>
-                <p>Materia, recursos y estabilidad</p>
-              </div>
-            </div>
-          </section>
+            {/* 4. Experiencia de la Carta (Vivencial) - Nueva sección obligatoria */}
+            {seo?.experiencia && (
+              <details className={styles.acordeonItem} open>
+                <summary className={styles.acordeonSummary}>👁️ Experiencia de la Carta (Vivencia Humana)</summary>
+                <div className={styles.acordeonContent}>
+                  <div className={styles.experienceGrid}>
+                    <div>
+                      <strong>Emociones Predominantes:</strong>
+                      <div className={styles.badgeList}>
+                        {seo.experiencia.emociones_predominantes.map((emo: string, i: number) => (
+                          <span key={i} className={`${styles.badge} ${styles.badgeEmocion}`}>{emo}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <strong>Pensamientos Habituales:</strong>
+                      <div className={styles.badgeList}>
+                        {seo.experiencia.pensamientos_habituales.map((pen: string, i: number) => (
+                          <span key={i} className={`${styles.badge} ${styles.badgePensamiento}`}>{pen}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <strong>Sensaciones Corporales:</strong>
+                      <div className={styles.badgeList}>
+                        {seo.experiencia.sensaciones_corporales.map((sen: string, i: number) => (
+                          <span key={i} className={`${styles.badge} ${styles.badgeSensacion}`}>{sen}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <div style={{ marginTop: "1rem" }}>
+                      <p><strong>Comportamiento habitual:</strong> {seo.experiencia.comportamiento}</p>
+                      <p style={{ marginTop: "0.8rem" }}><strong>Conflictos internos:</strong> {seo.experiencia.conflictos_internos}</p>
+                      <p style={{ marginTop: "0.8rem" }}><strong>Manifestaciones cotidianas:</strong> {seo.experiencia.manifestaciones_cotidianas}</p>
+                      <div className={styles.aspectGrid} style={{ marginTop: "1.2rem" }}>
+                        <div className={styles.aspectCard}>
+                          <h3>🌱 Evolución e Integración</h3>
+                          <p>{seo.experiencia.senales_evolucion}</p>
+                        </div>
+                        <div className={styles.aspectCard}>
+                          <h3>⚠️ Bloqueos y Sombras</h3>
+                          <p>{seo.experiencia.senales_bloqueo}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            )}
 
-          {/* Numerología */}
-          {seo?.numerologia && (
-            <section className={styles.section}>
-              <h2>Numerología</h2>
-              <p>{seo.numerologia}</p>
-            </section>
-          )}
+            {/* 5. Lecturas de la Vida Cotidiana (Derecho, Invertido, Amor, Trabajo, Finanzas, Salud) */}
+            <details className={styles.acordeonItem} open>
+              <summary className={styles.acordeonSummary}>💼 Significado en la Vida Cotidiana</summary>
+              <div className={styles.acordeonContent}>
+                <div style={{ marginBottom: "1.5rem" }}>
+                  <h3>Significado al Derecho</h3>
+                  <p>{card.meaning_upright}</p>
+                  {seo?.amor && (
+                    <div className={styles.aspectGrid}>
+                      <div className={styles.aspectCard}>
+                        <h3>❤️ Amor (Al Derecho)</h3>
+                        <p>{seo.amor.derecho}</p>
+                      </div>
+                      {seo?.trabajo && (
+                        <div className={styles.aspectCard}>
+                          <h3>💼 Trabajo (Al Derecho)</h3>
+                          <p>{seo.trabajo.derecho}</p>
+                        </div>
+                      )}
+                      {seo?.salud && (
+                        <div className={styles.aspectCard}>
+                          <h3>🌿 Salud (Al Derecho)</h3>
+                          <p>{seo.salud.derecho}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
 
-          {/* Aplicación Práctica */}
-          <section className={styles.section}>
-            <h2>Aplicación Práctica</h2>
-            <p>{card.practical_application}</p>
-          </section>
+                <div style={{ borderTop: "1px dashed rgba(255,255,255,0.08)", paddingTop: "1.5rem" }}>
+                  <h3>Significado Invertido</h3>
+                  <p>{card.meaning_reversed}</p>
+                  {seo?.amor && (
+                    <div className={styles.aspectGrid}>
+                      <div className={styles.aspectCard}>
+                        <h3>💔 Amor (Invertido)</h3>
+                        <p>{seo.amor.invertido}</p>
+                      </div>
+                      {seo?.trabajo && (
+                        <div className={styles.aspectCard}>
+                          <h3>💼 Trabajo (Invertido)</h3>
+                          <p>{seo.trabajo.invertido}</p>
+                        </div>
+                      )}
+                      {seo?.salud && (
+                        <div className={styles.aspectCard}>
+                          <h3>🌿 Salud (Invertido)</h3>
+                          <p>{seo.salud.invertido}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                {(seo?.finanzas || seo?.salud_emocional || seo?.desarrollo_personal || seo?.espiritualidad) && (
+                  <div style={{ borderTop: "1px dashed rgba(255,255,255,0.08)", paddingTop: "1.5rem", marginTop: "1.5rem" }}>
+                    <h3>Desarrollo y Finanzas</h3>
+                    {seo?.finanzas && (
+                      <div className={styles.aspectGrid}>
+                        <div className={styles.aspectCard}>
+                          <h3>🪙 Finanzas (Al Derecho)</h3>
+                          <p>{seo.finanzas.derecho}</p>
+                        </div>
+                        <div className={styles.aspectCard}>
+                          <h3>🪙 Finanzas (Invertido)</h3>
+                          <p>{seo.finanzas.invertido}</p>
+                        </div>
+                      </div>
+                    )}
+                    {seo?.salud_emocional && <p style={{ marginTop: "0.8rem" }}><strong>Salud Emocional:</strong> {seo.salud_emocional}</p>}
+                    {seo?.desarrollo_personal && <p style={{ marginTop: "0.8rem" }}><strong>Desarrollo Personal:</strong> {seo.desarrollo_personal}</p>}
+                    {seo?.espiritualidad && <p style={{ marginTop: "0.8rem" }}><strong>Dimensión Espiritual:</strong> {seo.espiritualidad}</p>}
+                  </div>
+                )}
+              </div>
+            </details>
+
+            {/* 6. Interpretación Psicológica Evolutiva */}
+            <details className={styles.acordeonItem}>
+              <summary className={styles.acordeonSummary}>🧠 Interpretación Psicológica e Integración</summary>
+              <div className={styles.acordeonContent}>
+                <p>{card.psychological_meaning}</p>
+                <div style={{ marginTop: "1rem" }}>
+                  <strong>Aplicación Práctica:</strong>
+                  <p>{card.practical_application}</p>
+                </div>
+              </div>
+            </details>
+
+          </div>
 
           {/* Consejo Espiritual */}
           <section className={styles.adviceSection}>

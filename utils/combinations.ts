@@ -69,8 +69,12 @@ export function getCombination(slug1: string, slug2: string): Combination | null
       content: `En el plano profesional y económico, la presencia de estas cartas señala que tus metas laborales se beneficiarán de una estrategia bien estructurada. La fuerza emprendedora de ${card1.name} te da el empuje para comenzar, pero necesitarás la perseverancia y la sabiduría de ${card2.name} para consolidar tus finanzas. Es una excelente combinación para planificar proyectos de mediana a larga duración.`
     },
     {
-      title: "Enfoque Psicológico y Evolutivo (Jung & Tarotología)",
-      content: `Desde una perspectiva de crecimiento personal, estas cartas dialogan sobre la integración del ego y el ser. En términos junguianos, ${card1.name} simboliza la manifestación de ${card1.psychological_meaning.split('.')[0]}, mientras que ${card2.name} representa el proceso de individuación relacionado con ${card2.psychological_meaning.split('.')[0]}. Es una invitación a reconciliar tus metas conscientes con las pulsiones intuitivas de tu inconsciente.`
+      title: "Enfoque Psicológico y Dinámica de Tensiones",
+      content: `Desde una perspectiva de crecimiento personal, estas cartas dialogan sobre la integración del ego y el ser. En términos junguianos, la tensión surge entre la pulsión del ego representada por ${card1.name} (${card1.psychological_meaning.split('.')[0]}) y el llamado del Sí-mismo o el inconsciente encarnado por ${card2.name} (${card2.psychological_meaning.split('.')[0]}). La fricción entre ambas cartas exige conciliar tus impulsos de acción inmediata con una madurez reflexiva que evite que actúes a ciegas.`
+    },
+    {
+      title: "Ejemplo de Lectura Práctica y Aplicación",
+      content: `En una consulta práctica (por ejemplo, en una tirada de tres cartas donde la primera carta representa el desafío y la segunda la solución), esta combinación aconseja no forzar el resultado de inmediato. Primero, debes asimilar la lección de ${card1.name}: "${card1.advice.replace(/\.$/, "")}". Luego, podrás canalizar esa fuerza a través de la sabiduría integradora de ${card2.name}: "${card2.advice.replace(/\.$/, "")}".`
     }
   ];
 
