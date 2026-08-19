@@ -158,7 +158,7 @@
     "amor": { "derecho": "Intuición amorosa acertada, relación que se profundiza en el silencio compartido. Secretos que emergen para sanar el vínculo.", "invertido": "Frialdad emocional, secretos destructivos, desconexión con la pareja. Bloqueo de la intimidad emocional." },
     "trabajo": { "derecho": "Período de estudio y preparación antes de actuar. Investigación profunda. Sabiduría aplicada a decisiones profesionales.", "invertido": "Pasividad excesiva que frena el progreso. Información oculta que afecta decisiones laborales." },
     "salud": { "derecho": "Escuchar al cuerpo, medicina integrativa, ciclos hormonales. Período de recuperación silenciosa.", "invertido": "Ignorar señales del cuerpo, represión emocional que somatiza, bloqueos energéticos." },
-    "combinaciones": [
+    "combinaciones_frecuentes": [
       { "carta": "El Mago", "significado": "Equilibrio perfecto entre acción e intuición. Saber cuándo actuar y cuándo esperar." },
       { "carta": "La Luna", "significado": "Inmersión total en el inconsciente. Período de máxima intuición pero posible confusión." },
       { "carta": "La Emperatriz", "significado": "Lo femenino en su plenitud: sabiduría interior que florece en creatividad exterior." },
@@ -166,6 +166,48 @@
       { "carta": "La Estrella", "significado": "Conexión cósmica a través de la meditación. Fe guiada por la intuición pura." }
     ],
     "numerologia": "El número 2 representa la dualidad, la receptividad y la gestación. Es el principio femenino que acoge y contiene. La Sacerdotisa es el útero simbólico donde las ideas se incuban antes de nacer al mundo.",
+    "introduccion": "La Sacerdotisa, la Papisa del Tarot de Marsella, encarna el principio del conocimiento interior: aquella sabiduría que no se enseña sino que se revela en el silencio contemplativo. Es la guardiana de los misterios que no pueden transmitirse con palabras, solo con presencia.",
+    "historia": "Históricamente basada en la figura de la Papisa Juana —la legendaria mujer que habría ocupado el papado en el siglo IX—, La Papisa representa el conocimiento femenino que los sistemas patriarcales intentaron suprimir. En el Tarot de Marsella de Nicolas Conver (siglo XVIII), porta el libro abierto de la sabiduría sagrada, accesible para quien sabe leer entre líneas.",
+    "iconografia": "La Papisa lleva una tiara de tres coronas superpuestas, representando su dominio sobre los tres mundos: material, emocional y espiritual. El libro que sostiene está abierto, señalando que el conocimiento no se oculta sino que se revela a quien tiene la receptividad para recibirlo. El velo azul detrás de ella oculta los misterios más profundos del inconsciente colectivo.",
+    "elemento": "Agua (profundidad emocional, intuición, receptividad)",
+    "correspondencias": "Planeta Luna (intuición, ciclos, misterio femenino). Signo de Cáncer. Letra hebrea Gimel. Mundo de Briah (el mundo creativo). En la Kabalá, el camino entre Kether y Tiphereth.",
+    "arquetipo": "La Gran Madre Interior, la Sibila, la Sacerdotisa del Misterio y el Anima según Jung —el principio femenino inconsciente que mora en todo ser humano.",
+    "significado_esencial": "El conocimiento que no puede enseñarse, solo revelarse desde dentro.",
+    "significado_luminoso": "Intuición precisa, contemplación profunda, sabiduría silenciosa, capacidad de leer lo que está debajo de la superficie y confiar en el proceso de gestación invisible.",
+    "significado_sombra": "Pasividad paralizante, secretismo destructivo, incapacidad de compartir lo que se sabe, uso del misterio como mecanismo de control o distancia emocional.",
+    "finanzas": {
+      "derecho": "Período de investigación antes de invertir. Información clave llegará intuitivamente. Confiar en el timing natural del dinero.",
+      "invertido": "Información oculta sobre finanzas que afecta decisiones. Pasividad excesiva ante oportunidades económicas que requieren acción."
+    },
+    "salud_emocional": "Invita a escuchar las señales sutiles del cuerpo y la psique antes de que se conviertan en síntomas. La salud emocional se construye en el silencio y la autobservación honesta.",
+    "desarrollo_personal": "Cultivar la práctica meditativa, el journaling y la escucha del sueño nocturno como herramientas de autoconocimiento. La Sacerdotisa enseña que el crecimiento más profundo ocurre en la quietud.",
+    "espiritualidad": "La espiritualidad de La Sacerdotisa es mística y contemplativa: no busca a Dios en los templos sino en el silencio interior. Es la carta del dharana (concentración) y del vipassana (visión interior).",
+    "experiencia": {
+      "emociones_predominantes": ["quietud", "misterio", "recogimiento", "expectativa silenciosa", "sabiduría"],
+      "pensamientos_habituales": ["La respuesta ya está en mí, solo necesito escuchar", "No todo necesita ser dicho", "El tiempo y el silencio revelarán lo que las palabras no pueden"],
+      "sensaciones_corporales": ["calma profunda en el pecho", "claridad detrás de los ojos cerrados", "quietud en el vientre"],
+      "comportamiento": "Retirarse del ruido, observar sin intervenir, elegir el silencio consciente antes que la respuesta apresurada, estudiar textos sagrados o psicológicos en soledad.",
+      "conflictos_internos": "Reconciliar la necesidad de silencio y recogimiento propio con las demandas del mundo exterior que pide respuestas inmediatas y acción constante.",
+      "oportunidades_crecimiento": "Aprender a compartir la sabiduría interior sin perder la profundidad que la genera, encontrando el equilibrio entre el recogimiento y la enseñanza.",
+      "aprendizaje": "La sabiduría verdadera no proviene de acumular información sino de cultivar la capacidad de escuchar lo que ya sabe el alma.",
+      "integracion": "Honrar los períodos de quietud interior como sagrados y productivos, resistiendo la presión cultural de llenar cada silencio con actividad.",
+      "senales_evolucion": "Tomar decisiones intuitivas que resultan acertadas, enseñar desde la propia experiencia interior y saber cuándo guardar silencio con sabiduría.",
+      "senales_bloqueo": "Aislamiento crónico, secretismo que daña relaciones, incapacidad de actuar incluso cuando se tiene claridad suficiente.",
+      "manifestaciones_cotidianas": "Pausar antes de responder en una conversación importante, meditar por la mañana, llevar un diario de sueños, confiar en una corazonada sin necesidad de explicarla racionalmente."
+    },
+    "consejo": "Guarda silencio. La respuesta que buscas con tanta urgencia ya vive en las profundidades de tu ser. Solo cuando dejes de buscarla con la mente racional podrás escuchar la voz del alma que siempre supo.",
+    "preguntas_reflexionar": [
+      "¿Qué está intentando comunicarme mi cuerpo o mi intuición que he estado ignorando?",
+      "¿Hay algo que sé interiormente pero que evito reconocer porque implicaría un cambio?",
+      "¿Estoy usando el silencio como sabiduría o como evitación de lo que me genera conflicto?"
+    ],
+    "errores_comunes_interpretacion": "Confundir La Sacerdotisa con una invitación a la pasividad indefinida. La carta no dice que no hagas nada, sino que esperes el momento justo con plena consciencia interior. Tampoco indica necesariamente secretos negativos: puede señalar simplemente que el momento de revelar o actuar aún no ha llegado.",
+    "relaciones_arcanos_mayores": ["El Mago (I): su complemento activo — la acción que nace de la intuición", "La Luna (XVIII): la oscuridad profunda del inconsciente que La Sacerdotisa custodia", "La Emperatriz (III): la intuición femenina manifestada en el mundo"],
+    "ejemplos_lectura": ["En una tirada sobre una relación, La Sacerdotisa sugiere que la respuesta sobre si confiar o no en la pareja ya está en la intuición de la consultante — no en lo que dice el otro sino en lo que el cuerpo siente."],
+    "recursos_relacionados": [
+      { "titulo": "Cómo leer el Tarot de Marsella", "url": "/blog/como-leer-cartas-tarot-marsella" },
+      { "titulo": "Significado de los Arcanos Mayores", "url": "/blog/significado-arcanos-mayores-tarot-marsella" }
+    ],
     "faqs": [
       { "question": "¿Qué significa La Sacerdotisa en el tarot?", "answer": "La Sacerdotisa significa que es momento de escuchar tu intuición y retirarte del ruido exterior. La respuesta que buscas ya está dentro de ti, pero necesitas silencio para escucharla." },
       { "question": "¿La Sacerdotisa y La Papisa son la misma carta?", "answer": "Sí. En el Tarot de Marsella original se llama La Papisa (La Papesse). Otros mazos como el Rider-Waite la renombraron como La Sacerdotisa o La Gran Sacerdotisa." },
@@ -182,7 +224,7 @@
     "amor": { "derecho": "Pasión, fertilidad, sensualidad plena. Relación que florece y se nutre mutuamente. Posible embarazo.", "invertido": "Dependencia emocional, celos posesivos, relación asfixiante. Creatividad bloqueada en el amor." },
     "trabajo": { "derecho": "Proyectos que florecen, abundancia económica, creatividad aplicada al negocio. Momento fértil para emprender.", "invertido": "Estancamiento creativo, gastos excesivos, vanidad profesional que impide el crecimiento real." },
     "salud": { "derecho": "Vitalidad femenina, fertilidad, conexión con el cuerpo. Buen momento para cuidar la alimentación.", "invertido": "Problemas hormonales, descuido del cuerpo, excesos que afectan la salud." },
-    "combinaciones": [
+    "combinaciones_frecuentes": [
       { "carta": "El Emperador", "significado": "La pareja arquetípica: creatividad femenina + estructura masculina. Equilibrio perfecto para materializar proyectos." },
       { "carta": "La Sacerdotisa", "significado": "Lo femenino en su plenitud: sabiduría interior que florece en creatividad exterior." },
       { "carta": "La Estrella", "significado": "Belleza auténtica, generosidad creativa y conexión con la naturaleza." },
@@ -190,6 +232,47 @@
       { "carta": "La Muerte", "significado": "Transformación de lo creativo. Fin de un ciclo fértil para iniciar otro." }
     ],
     "numerologia": "El 3 es el número de la creación, la síntesis y la expresión. Tras la dualidad del 2 (La Sacerdotisa), el 3 produce algo nuevo. La Emperatriz es el resultado fértil de la unión entre opuestos.",
+    "introduccion": "La Emperatriz es el principio materno del Tarot de Marsella: la fuerza que da forma a todo lo que existe y lo nutre hasta que puede sostenerse solo. No es una reina pasiva sino una creadora activa.",
+    "historia": "Figura arquetípica de diosas de la fertilidad (Isis, Deméter, Venus), La Emperatriz representa en el Marsella del siglo XVII la fuerza femenina creadora que complementa al poder estructurador del Emperador. Porta las insignias del poder terrenal legitimado por la naturaleza.",
+    "iconografia": "El cetro con el águila bicéfala (símbolo del Imperio Romano) muestra poder terrenal y espiritual unidos. La corona indica dominio sobre la naturaleza. Sus colores cálidos —rojo, dorado y azul— señalan la unión perfecta de pasión (rojo), sabiduría (azul) y manifestación (dorado).",
+    "elemento": "Tierra y Agua (fertilidad, cuerpo, emociones, abundancia material)",
+    "correspondencias": "Planeta Venus (amor, belleza, abundancia). Signo de Tauro. Diosas Isis, Deméter, Afrodita. En la Kabalá, el camino de la Daleth entre Hokmah y Binah.",
+    "arquetipo": "La Gran Madre, la Diosa de la Fertilidad y la Sombra de la Madre Devoradora según Jung — el principio femenino que nutre y puede sofocar.",
+    "significado_esencial": "La creatividad que da vida: el poder de dar forma al amor, la idea y la materia.",
+    "significado_luminoso": "Creatividad desbordante, abundancia generosa, fertilidad en todos los planos, sensualidad sana, amor que nutre sin poseer.",
+    "significado_sombra": "Dependencia emocional, posesividad asfixiante, creatividad bloqueada por el miedo al rechazo, sobreprotección que impide el crecimiento del otro.",
+    "finanzas": {
+      "derecho": "Abundancia material, inversiones fértiles, ingresos que crecen naturalmente. Momento de sembrar con generosidad.",
+      "invertido": "Gastos excesivos, derroche emocional, inversiones en proyectos sin sustancia real."
+    },
+    "salud_emocional": "La Emperatriz invita a reconectar con el cuerpo y sus necesidades: alimentación consciente, movimiento gozoso, descanso nutrido. La salud emocional pasa por honrar el placer como fuente de vitalidad.",
+    "desarrollo_personal": "Cultivar la creatividad como práctica espiritual diaria. Aprender a recibir sin culpa y a dar sin agotarse. El desarrollo personal aquí implica integrar la sensualidad, la abundancia y el cuidado propio como valores fundamentales.",
+    "espiritualidad": "La espiritualidad de La Emperatriz es encarnada y terrena: lo sagrado se encuentra en el jardín, en la comida, en el abrazo. Es la espiritualidad de la Gran Diosa que habita en cada célula viva.",
+    "experiencia": {
+      "emociones_predominantes": ["plenitud", "generosidad", "sensualidad", "gozo", "protección"],
+      "pensamientos_habituales": ["Todo lo que necesito para crear ya está en mí", "Merece la pena disfrutar de lo que la vida ofrece", "Soy fuente de vida y abundancia"],
+      "sensaciones_corporales": ["calor en el vientre", "expansión en el pecho", "energía fecunda en las manos"],
+      "comportamiento": "Cocinar para otros, crear proyectos artísticos, cuidar plantas o animales, expresar el afecto físicamente, rodearse de belleza natural.",
+      "conflictos_internos": "Aprender a nutrir sin perder la propia identidad en el proceso de dar, y a recibir sin sentirse en deuda.",
+      "oportunidades_crecimiento": "Integrar la generosidad con límites sanos: dar desde la abundancia interior y no desde el miedo a perder el amor del otro.",
+      "aprendizaje": "La creatividad verdadera no es control sino abandono confiado al proceso de la vida, como una semilla que no sabe qué flor será.",
+      "integracion": "Abrazar tanto el papel de dadora como el de receptora, honrando que la verdadera abundancia es circular.",
+      "senales_evolucion": "Crear desde el gozo sin necesidad de aprobación, cuidar con alegría y sin sacrificio, recibir con gratitud sin culpa.",
+      "senales_bloqueo": "Celos desproporcionados, sobreprotección que controla, bloqueo creativo por miedo al juicio ajeno.",
+      "manifestaciones_cotidianas": "Preparar una comida especial, comenzar un proyecto creativo, cuidar un jardín, abrazar a alguien con presencia total."
+    },
+    "consejo": "Nutre lo que amas. La creatividad que has postergado, el proyecto que has aplazado, la relación que necesita tu presencia — todas aguardan el calor de tu atención generosa. La abundancia no llega, se genera desde adentro.",
+    "preguntas_reflexionar": [
+      "¿Estoy dando desde la abundancia o desde el miedo de perder el amor del otro?",
+      "¿Qué proyecto creativo he estado postergando que merece mi energía ahora?",
+      "¿Cómo podría nutrirme más a mí mismo/a antes de seguir nutriendo a los demás?"
+    ],
+    "errores_comunes_interpretacion": "Reducir La Emperatriz al significado literal de embarazo o maternidad física. Es ante todo una carta de creatividad en todos sus planos: artística, profesional, emocional y espiritual. Tampoco es una carta de pasividad: la naturaleza es activa y fértil, no pasiva.",
+    "relaciones_arcanos_mayores": ["El Emperador (IV): la pareja arquetípica — materia creativa + estructura", "La Sacerdotisa (II): la sabiduría interior que alimenta la creatividad exterior", "El Sol (XIX): el florecimiento máximo de lo que La Emperatriz sembró"],
+    "ejemplos_lectura": ["En una consulta sobre trabajo, La Emperatriz indica que el proyecto está en fase fértil: si se nutre con tiempo y recursos, florecerá de manera natural sin forzar."],
+    "recursos_relacionados": [
+      { "titulo": "Significado de los Arcanos Mayores", "url": "/blog/significado-arcanos-mayores-tarot-marsella" }
+    ],
     "faqs": [
       { "question": "¿Qué significa La Emperatriz en el tarot?", "answer": "La Emperatriz significa creatividad, abundancia y fertilidad. Indica un momento fértil donde tus proyectos e ideas pueden florecer si les das nutrición y cuidado." },
       { "question": "¿La Emperatriz indica embarazo?", "answer": "La Emperatriz es la carta más asociada con la fertilidad y el embarazo en el Tarot de Marsella. Sin embargo, también puede indicar el nacimiento de proyectos, ideas o etapas vitales." },
@@ -206,7 +289,7 @@
     "amor": { "derecho": "Estabilidad, protección, relación sólida basada en el compromiso y la lealtad.", "invertido": "Control excesivo, rigidez emocional, relación donde uno domina al otro." },
     "trabajo": { "derecho": "Liderazgo exitoso, estructura organizativa, negocios prósperos. Consolidación profesional.", "invertido": "Tiranía laboral, inflexibilidad, miedo a delegar. Estructuras que colapsan." },
     "salud": { "derecho": "Fortaleza física, disciplina en hábitos saludables, resistencia.", "invertido": "Rigidez corporal, problemas óseos o articulares, estrés por exceso de control." },
-    "combinaciones": [
+    "combinaciones_frecuentes": [
       { "carta": "La Emperatriz", "significado": "La pareja arquetípica: estructura + creatividad. Proyecto que se materializa con éxito." },
       { "carta": "La Justicia", "significado": "Orden legal, decisiones firmes y justas. Contratos y acuerdos sólidos." },
       { "carta": "La Torre", "significado": "Caída de una estructura de poder. Crisis de autoridad necesaria para renovar." },
@@ -214,6 +297,47 @@
       { "carta": "El Carro", "significado": "Conquista material exitosa. Avance decidido hacia objetivos concretos." }
     ],
     "numerologia": "El 4 simboliza estabilidad, los cuatro elementos, las cuatro direcciones. Es el número de la materia y la construcción. El Emperador es la base sólida sobre la que se edifica todo lo demás.",
+    "introduccion": "El Emperador es el principio ordenador del Tarot de Marsella: la fuerza que transforma el caos en estructura, el impulso en acción y el sueño en realidad construida. Su autoridad emana de la responsabilidad asumida, no del miedo infundido.",
+    "historia": "Heredero de la iconografía del César romano y el rey medieval, El Emperador del Marsella representa el poder terrenal legítimo. En el mazo de Jodorowsky-Camoin, su postura de perfil con las piernas cruzadas en 4 recuerda que la autoridad verdadera proviene de la paciencia estratégica, no de la fuerza bruta.",
+    "iconografia": "Las piernas cruzadas formando el número 4 simbolizan los cuatro elementos dominados por la voluntad. El cetro con orbe globo terrestre indica soberanía sobre el mundo material. El escudo con el águila bicéfala (dos perspectivas simultáneas) señala la capacidad de ver el pasado y el futuro al mismo tiempo para gobernar con sabiduría.",
+    "elemento": "Fuego (voluntad, acción, liderazgo, estructura activa)",
+    "correspondencias": "Planeta Marte (acción, autoridad, conquista). Signo de Aries. Dios Zeus/Júpiter. En la Kabalá, el camino de la Heh entre Hokmah y Tiphereth.",
+    "arquetipo": "El Padre Protector, el Rey Justo y la Sombra del Tirano según Jung — el Animus en su expresión estructuradora y ordenadora.",
+    "significado_esencial": "La autoridad responsable que construye estructuras duraderas para proteger lo que ama.",
+    "significado_luminoso": "Liderazgo justo, disciplina que libera, capacidad de establecer límites claros, decisiones firmes basadas en la experiencia y protección genuina de los suyos.",
+    "significado_sombra": "Rigidez autoritaria, incapacidad de delegar, control que aplasta la creatividad ajena, tiranía encubierta de paternalismo y estructuras obsoletas que se niegan a evolucionar.",
+    "finanzas": {
+      "derecho": "Solidez financiera, inversiones estructuradas, capacidad de construir patrimonio sólido. Buen momento para planificar a largo plazo.",
+      "invertido": "Gestión financiera rígida o controladora, gastos defensivos por miedo, estructuras económicas que colapsan por no adaptarse."
+    },
+    "salud_emocional": "La salud emocional del Emperador pasa por aprender a recibir cuidado sin sentirlo como debilidad. La fortaleza real incluye la vulnerabilidad elegida.",
+    "desarrollo_personal": "El trabajo interior del Emperador es dominar el propio temperamento antes de pretender liderar a otros. La disciplina personal, la coherencia entre valores y acciones, y el respeto por los límites propios y ajenos son su escuela de crecimiento.",
+    "espiritualidad": "La espiritualidad del Emperador es activa: construir una vida coherente con sus valores más profundos es su forma de orar. El templo no está en el retiro sino en la responsabilidad cotidiana ejercida con integridad.",
+    "experiencia": {
+      "emociones_predominantes": ["determinación", "responsabilidad", "firmeza", "protección", "orgullo legítimo"],
+      "pensamientos_habituales": ["El orden es la base de toda libertad genuina", "Mi deber es proteger lo que me ha sido confiado", "La estructura que construyo hoy libera a los que vendrán después"],
+      "sensaciones_corporales": ["tensión en los hombros de quien lleva el peso", "firmeza en los pies que no ceden", "calor en el pecho de quien protege"],
+      "comportamiento": "Trazar planes concretos, establecer reglas claras, asumir la jefatura de proyectos, defender a los suyos con determinación, exigir coherencia entre palabras y acciones.",
+      "conflictos_internos": "Aprender que la autoridad verdadera no requiere el control total de todo lo que le rodea, y que la vulnerabilidad no es incompatible con la fortaleza.",
+      "oportunidades_crecimiento": "Cultivar la humildad necesaria para reconocer que la mejor estructura es aquella que permite el crecimiento autónomo de quienes la habitan.",
+      "aprendizaje": "El verdadero poder no se impone: se gana con coherencia, se mantiene con justicia y se transmite con generosidad.",
+      "integracion": "Integrar el principio rector sin convertirse en tirano: liderar desde el servicio más que desde el control.",
+      "senales_evolucion": "Delegar con confianza, escuchar antes de decidir, proteger sin asfixiar, construir estructuras que sobrevivan a su propio creador.",
+      "senales_bloqueo": "Incapacidad de soltar el control, rigidez que rompe relaciones, miedo disfrazado de autoridad.",
+      "manifestaciones_cotidianas": "Organizar el espacio de trabajo, establecer horarios claros, tomar decisiones difíciles que otros evitan, defender una posición con coherencia ante la presión."
+    },
+    "consejo": "Toma el timón con firmeza y sin disculpas. La situación requiere que pongas orden, establezcas límites claros y asumas la responsabilidad que llevas tiempo evadiendo. La estructura que construyas hoy será la libertad del mañana.",
+    "preguntas_reflexionar": [
+      "¿Estoy ejerciendo autoridad o simplemente control? ¿Cuál es la diferencia en mi caso?",
+      "¿Qué estructura de mi vida necesita ser construida o reorganizada desde la raíz?",
+      "¿Hay algún área donde estoy siendo demasiado rígido y necesito soltar el control?"
+    ],
+    "errores_comunes_interpretacion": "Confundir El Emperador con una carta de rigidez o agresividad masculina. En su expresión sana, es una carta de construcción, protección y responsabilidad. La tiranía solo emerge cuando su energía no está integrada y opera desde el miedo en lugar de desde la confianza.",
+    "relaciones_arcanos_mayores": ["La Emperatriz (III): su complemento creativo — estructura + vida", "La Justicia (VIII): el Emperador sometido a la ley que él mismo debe respetar", "La Torre (XVI): el momento en que las estructuras del Emperador colapsan para renovarse"],
+    "ejemplos_lectura": ["En una tirada sobre liderazgo profesional, El Emperador indica que es el momento de asumir el rol de decisión con claridad, establecer expectativas claras y liderar desde la integridad más que desde el miedo al fracaso."],
+    "recursos_relacionados": [
+      { "titulo": "Significado de los Arcanos Mayores", "url": "/blog/significado-arcanos-mayores-tarot-marsella" }
+    ],
     "faqs": [
       { "question": "¿Qué significa El Emperador en el tarot?", "answer": "El Emperador significa autoridad, estructura y capacidad de liderazgo. Indica que es momento de poner orden, establecer límites claros y asumir la responsabilidad sobre tu vida." },
       { "question": "¿El Emperador es bueno en el amor?", "answer": "Al derecho indica estabilidad y compromiso serio. Es una carta de relaciones duraderas. Invertido puede señalar control excesivo o rigidez emocional en la pareja." },
@@ -230,7 +354,7 @@
     "amor": { "derecho": "Relación basada en valores compartidos, compromiso espiritual, matrimonio. Consejo sabio sobre el amor.", "invertido": "Dogmatismo en la relación, imposición de creencias, hipocresía moral." },
     "trabajo": { "derecho": "Mentoría, enseñanza, instituciones educativas. Éxito en roles de guía o consejero.", "invertido": "Rigidez institucional, corrupción en organizaciones, rechazo a nuevas ideas." },
     "salud": { "derecho": "Sanación a través de prácticas tradicionales, medicina holística, fe como apoyo terapéutico.", "invertido": "Fanatismo que reemplaza tratamiento médico real, culpa religiosa que enferma." },
-    "combinaciones": [
+    "combinaciones_frecuentes": [
       { "carta": "La Sacerdotisa", "significado": "Conocimiento completo: sabiduría exotérica + esotérica. Maestría espiritual." },
       { "carta": "El Emperador", "significado": "Poder terrenal + espiritual unidos. Liderazgo con propósito trascendente." },
       { "carta": "El Ermitaño", "significado": "Búsqueda espiritual profunda. El maestro externo se convierte en maestro interno." },
@@ -238,6 +362,47 @@
       { "carta": "La Templanza", "significado": "Equilibrio entre fe y razón. Sanación espiritual armónica." }
     ],
     "numerologia": "El 5 es el número del ser humano (5 dedos, 5 sentidos, 5 extremidades). El Papa es el puente entre la materia (4) y el espíritu (6). Representa la quintaesencia: el elemento que une todos los demás.",
+    "introduccion": "El Papa es el mediador sagrado: quien traduce lo divino al lenguaje humano y transmite la sabiduría ancestral a quienes están listos para recibirla. No es un dogma sino un puente entre mundos.",
+    "historia": "Figura del papado medieval y del hierofante de los misterios eleusinos, El Papa en el Marsella representa la transmisión de conocimiento sagrado a través de una cadena de iniciados. Su mano bendiciente no impone sino que invita.",
+    "iconografia": "Los dos dedos visibles y tres ocultos de la mano bendiciente representan lo exotérico (lo que se puede enseñar) y lo esotérico (lo que solo puede vivirse). Los dos discípulos a sus pies simbolizan el aprendizaje como relación: siempre hay un maestro y un aprendiz.",
+    "elemento": "Tierra y Éter (tradición, enseñanza, estructura espiritual)",
+    "correspondencias": "Planeta Júpiter (expansión, sabiduría, ley superior). Signo de Tauro. Letras hebreas Vav. Los misterios de Eleusis. En la Kabalá, el camino entre Hokmah y Hesed.",
+    "arquetipo": "El Maestro Sabio, el Anciano Espiritual y la Sombra del Gurú Controlador según Jung — el principio de la transmisión del conocimiento entre generaciones.",
+    "significado_esencial": "La sabiduría que se transmite: el puente entre la experiencia acumulada y el aprendiz que necesita ser guiado.",
+    "significado_luminoso": "Enseñanza generosa, mentoría genuina, transmisión de valores, respeto por la tradición útil, capacidad de guiar sin imponer.",
+    "significado_sombra": "Dogmatismo rígido, uso de la espiritualidad para controlar, imposición de creencias, hipocresía entre lo que se predica y lo que se vive.",
+    "finanzas": {
+      "derecho": "Asesoría financiera confiable, inversiones respaldadas por experiencia probada, seguir el consejo de quien ya ha recorrido el camino.",
+      "invertido": "Consejo financiero interesado, instituciones que no sirven al cliente, rigidez ante cambios del mercado."
+    },
+    "salud_emocional": "El Papa invita a buscar apoyo terapéutico o espiritual en momentos de crisis. La salud emocional se fortalece cuando reconocemos que necesitamos ser guiados y aprendemos a recibir ayuda sin vergüenza.",
+    "desarrollo_personal": "El crecimiento personal aquí pasa por encontrar mentores auténticos y también por convertirse en maestro: enseñar lo que se ha aprendido es la forma más profunda de integrarlo.",
+    "espiritualidad": "La espiritualidad del Papa es comunitaria y transmisora: se practica en la relación con otros, en el rito compartido, en la cadena de maestros y discípulos que atraviesa las generaciones.",
+    "experiencia": {
+      "emociones_predominantes": ["reverencia", "gratitud", "pertenencia", "propósito", "responsabilidad espiritual"],
+      "pensamientos_habituales": ["Hay algo más grande que yo que me sostiene", "Lo que he recibido debo transmitirlo", "El conocimiento solo vive si se comparte"],
+      "sensaciones_corporales": ["gravedad serena en el cuerpo", "apertura en la garganta al hablar", "calma profunda que viene de la fe"],
+      "comportamiento": "Buscar consejo en personas más experimentadas, estudiar textos sagrados o filosóficos, participar en rituales comunitarios, transmitir conocimiento con paciencia.",
+      "conflictos_internos": "Distinguir entre la fe auténtica que libera y el dogma que encadena; entre el maestro que sirve y el gurú que domina.",
+      "oportunidades_crecimiento": "Aprender a enseñar desde la experiencia vivida, no desde la autoridad prestada; y a recibir enseñanza con humildad aunque se tenga mucho conocimiento propio.",
+      "aprendizaje": "La sabiduría auténtica se reconoce en que libera a quien la recibe, no en que crea dependencia de quien la transmite.",
+      "integracion": "Honrar la tradición sin convertirse en su prisionero: tomar lo que sirve, soltar lo que ya no sirve, y crear desde lo heredado sin estar atado a ello.",
+      "senales_evolucion": "Enseñar con alegría y sin necesidad de que los demás validen tu conocimiento; seguir aprendiendo aunque seas el maestro.",
+      "senales_bloqueo": "Rigidez doctrinal, incapacidad de escuchar perspectivas distintas, usar la espiritualidad para juzgar a otros.",
+      "manifestaciones_cotidianas": "Consultar a un mentor, inscribirse en un curso, transmitir algo aprendido a alguien más joven, participar en un ritual o práctica comunitaria."
+    },
+    "consejo": "Busca quien ya haya recorrido el camino que tú apenas comienzas. Y cuando llegue el momento, transmite lo que has aprendido sin guardarlo para ti. El conocimiento que no se comparte se marchita.",
+    "preguntas_reflexionar": [
+      "¿Hay algún maestro, mentor o tradición que pueda guiarme en este momento de mi vida?",
+      "¿Estoy siguiendo valores verdaderamente míos o creencias que alguien más me impuso?",
+      "¿Qué sabiduría acumulada podría compartir con alguien que necesita ser guiado?"
+    ],
+    "errores_comunes_interpretacion": "Confundir El Papa con una carta de religiosidad obligatoria o de sometimiento a la autoridad. En su sentido más profundo habla de toda forma de transmisión de sabiduría: terapia, mentoría, educación, espiritualidad vivida. No implica adhesión a ninguna institución religiosa específica.",
+    "relaciones_arcanos_mayores": ["La Sacerdotisa (II): su complemento femenino — el conocimiento exotérico + el esotérico", "El Ermitaño (IX): el Papa que ha internalizado al maestro y ya no necesita uno externo", "El Juicio (XX): el llamado espiritual que El Papa ayuda a discernir"],
+    "ejemplos_lectura": ["En una consulta sobre orientación vocacional, El Papa sugiere buscar un mentor experto en el área de interés o inscribirse en un programa de formación estructurado antes de emprender en solitario."],
+    "recursos_relacionados": [
+      { "titulo": "Significado de los Arcanos Mayores", "url": "/blog/significado-arcanos-mayores-tarot-marsella" }
+    ],
     "faqs": [
       { "question": "¿Qué significa El Papa en el tarot?", "answer": "El Papa significa enseñanza, tradición y búsqueda de sentido espiritual. Puede indicar la necesidad de un mentor, un curso de estudios o una conexión más profunda con tus valores." },
       { "question": "¿El Papa y El Hierofante son la misma carta?", "answer": "Sí. En el Tarot de Marsella se llama El Papa (Le Pape). En el Rider-Waite se le renombró como El Hierofante para evitar connotaciones religiosas directas." },
