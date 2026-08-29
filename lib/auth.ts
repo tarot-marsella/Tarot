@@ -1,6 +1,11 @@
 import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
+function cleanEnv(val?: string): string {
+  if (!val) return "";
+  return val.replace(/^["'\s]+|["'\s]+$/g, "").trim();
+}
+
 const defaultClientId = [
   "475384997449-",
   "p9023ka8425jdi9ss1fh34u74ui240k6",
@@ -13,13 +18,9 @@ const defaultClientSecret = [
   "2ow2vN0Hv",
 ].join("");
 
-const clientId =
-  (process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_ID.trim()) ||
-  defaultClientId;
+const clientId = cleanEnv(process.env.GOOGLE_CLIENT_ID) || defaultClientId;
 const clientSecret =
-  (process.env.GOOGLE_CLIENT_SECRET &&
-    process.env.GOOGLE_CLIENT_SECRET.trim()) ||
-  defaultClientSecret;
+  cleanEnv(process.env.GOOGLE_CLIENT_SECRET) || defaultClientSecret;
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -32,7 +33,7 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
   },
   secret:
-    process.env.NEXTAUTH_SECRET ||
+    cleanEnv(process.env.NEXTAUTH_SECRET) ||
     "6pTRpIjOXMUDwwomxEz2bU+VrvyB5bUTQzwoDXdCrpU=",
   callbacks: {
     async jwt({ token, user }) {
