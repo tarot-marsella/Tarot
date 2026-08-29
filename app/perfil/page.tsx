@@ -19,44 +19,70 @@ export default async function PerfilPage() {
     redirect("/api/auth/signin");
   }
 
-  const readings = await prisma.reading.findMany({
-    where: { userId: session.user.id },
-    orderBy: { createdAt: "desc" },
-  });
+  let readings: any[] = [];
+  try {
+    if (session.user.id) {
+      readings = await prisma.reading.findMany({
+        where: { userId: session.user.id },
+        orderBy: { createdAt: "desc" },
+      });
+    }
+  } catch (error) {
+    console.error("Error cargando historial de lecturas:", error);
+    readings = [];
+  }
 
   return (
     <main className={styles.main}>
       <header className={styles.header}>
         <h1 className={styles.title}>Tu Historial de Lecturas</h1>
-        <p className={styles.subtitle}>Repasa las energías que te han acompañado.</p>
+        <p className={styles.subtitle}>
+          Bienvenido/a, {session.user.name || session.user.email}. Repasa las energías que te han acompañado.
+        </p>
       </header>
 
       <div className={styles.readingsList}>
         {readings.length === 0 ? (
-          <p className={styles.emptyState}>Aún no has guardado ninguna lectura. ¡Ve a la sección de Tirada Interactiva!</p>
+          <p className={styles.emptyState}>
+            Aún no has guardado ninguna lectura. ¡Ve a la sección de Tirada Interactiva!
+          </p>
         ) : (
           readings.map((reading) => {
-            const cards = JSON.parse(reading.cards);
+            let cards: any[] = [];
+            try {
+              cards = typeof reading.cards === "string" ? JSON.parse(reading.cards) : reading.cards;
+            } catch {
+              cards = [];
+            }
             return (
               <div key={reading.id} className={styles.readingCard}>
                 <div className={styles.readingHeader}>
-                  <h3>{new Date(reading.createdAt).toLocaleDateString("es-ES", { dateStyle: "long", timeStyle: "short" })}</h3>
-                  {reading.question && <p className={styles.question}><strong>Pregunta:</strong> {reading.question}</p>}
+                  <h3>
+                    {new Date(reading.createdAt).toLocaleDateString("es-ES", {
+                      dateStyle: "long",
+                      timeStyle: "short",
+                    })}
+                  </h3>
+                  {reading.question && (
+                    <p className={styles.question}>
+                      <strong>Pregunta:</strong> {reading.question}
+                    </p>
+                  )}
                 </div>
-                
+
                 <div className={styles.cardsMiniGrid}>
                   {cards.map((cardData: any, i: number) => {
-                    const cardDef = tarotData.find(c => c.id === cardData.id);
+                    const cardDef = tarotData.find((c) => c.id === cardData.id);
                     return (
                       <div key={i} className={styles.miniCardInfo}>
                         <span className={styles.miniCardName}>
-                          {cardDef?.name} {cardData.isReversed ? "(Invertida)" : ""}
+                          {cardDef?.name || cardData.name} {cardData.isReversed ? "(Invertida)" : ""}
                         </span>
                       </div>
                     );
                   })}
                 </div>
-                
+
                 <div className={styles.interpretationBox}>
                   <p>{reading.interpretation}</p>
                 </div>
