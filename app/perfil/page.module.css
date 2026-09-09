@@ -1,94 +1,266 @@
 .main {
   min-height: 100vh;
-  padding: 4rem 2rem;
-  max-width: 1000px;
+  padding: 3rem 2rem 5rem;
+  max-width: 950px;
   margin: 0 auto;
 }
 
 .header {
-  text-align: center;
   margin-bottom: 3rem;
 }
 
-.title {
-  font-size: 2.5rem;
+.userProfileBanner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.8rem 2.2rem;
+  background: linear-gradient(135deg, rgba(18, 18, 28, 0.9), rgba(25, 22, 38, 0.7));
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.userAvatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-gold);
+  object-fit: cover;
+}
+
+.userAvatarFallback {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.15);
+  border: 2px solid var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
   color: var(--accent-gold);
-  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
 }
 
 .subtitle {
   color: var(--text-secondary);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.historySection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeader h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  color: var(--accent-gold);
+}
+
+.newReadingBtn {
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--accent-gold);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.25s;
+}
+
+.newReadingBtn:hover {
+  background: rgba(212, 175, 55, 0.25);
+  transform: translateY(-1px);
 }
 
 .readingsList {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
-.emptyState {
+.emptyStateBox {
   text-align: center;
+  padding: 4rem 2rem;
+  background: rgba(18, 18, 26, 0.4);
+  border: 1px dashed rgba(212, 175, 55, 0.25);
+  border-radius: 12px;
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.emptyStateBox h3 {
+  font-family: var(--font-serif);
+  color: var(--accent-gold);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.emptyStateBox p {
   color: var(--text-secondary);
-  font-size: 1.2rem;
-  padding: 4rem 0;
-  border: 1px dashed rgba(212, 175, 55, 0.3);
+  font-size: 0.95rem;
+  max-width: 500px;
+  margin: 0 auto 1.8rem;
+  line-height: 1.6;
+}
+
+.startReadingBtn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--accent-gold), #b89628);
+  color: #111;
+  font-weight: 700;
+  padding: 0.75rem 1.8rem;
   border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.startReadingBtn:hover {
+  transform: translateY(-2px);
 }
 
 .readingCard {
-  background: rgba(18, 18, 26, 0.6);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  border-radius: 8px;
-  padding: 2rem;
-  transition: transform 0.3s, box-shadow 0.3s;
+  background: rgba(18, 18, 26, 0.75);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.25s, box-shadow 0.25s;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .readingCard:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+  border-color: rgba(212, 175, 55, 0.3);
 }
 
 .readingHeader {
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   padding-bottom: 1rem;
 }
 
-.readingHeader h3 {
-  color: var(--accent-gold);
-  font-size: 1.2rem;
+.metaRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.5rem;
-  font-family: var(--font-sans);
 }
 
-.question {
-  color: var(--text-primary);
-  font-style: italic;
+.dateTime {
+  color: var(--accent-gold);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: rgba(239, 68, 68, 0.8);
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+.questionText {
+  color: #fff;
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  line-height: 1.4;
 }
 
 .cardsMiniGrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.8rem;
   margin-bottom: 1.5rem;
 }
 
 .miniCardInfo {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  border-left: 2px solid var(--accent-gold);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.positionBadge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-gold);
+  font-weight: 600;
+  opacity: 0.85;
 }
 
 .miniCardName {
   font-family: var(--font-serif);
   font-size: 0.9rem;
-  letter-spacing: 1px;
+  color: #eee;
 }
 
 .interpretationBox {
-  color: var(--text-secondary);
-  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-gold);
+}
+
+.adviceLabel {
+  font-size: 0.85rem;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.interpretationText {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.95rem;
+  line-height: 1.7;
   white-space: pre-line;
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding: 2rem 1rem;
+  }
+  .userProfileBanner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cardsMiniGrid {
+    grid-template-columns: 1fr;
+  }
 }

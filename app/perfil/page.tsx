@@ -4,12 +4,13 @@ import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation";
 import styles from "./page.module.css";
-import tarotData from "@/data/tarot.json";
 import { Metadata } from "next";
+import ReadingHistoryItem from "@/components/ReadingHistoryItem";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mi Perfil | Tarot de Marsella",
-  description: "Historial de tus tiradas de tarot.",
+  title: "Mi Perfil — Historial de Lecturas | Tarot de Marsella",
+  description: "Repasa tu historial personal de tiradas de tarot guardadas con fecha, hora, cartas y consejos.",
 };
 
 export default async function PerfilPage() {
@@ -21,9 +22,19 @@ export default async function PerfilPage() {
 
   let readings: any[] = [];
   try {
-    if (session.user.id) {
+    let userId = session.user.id;
+    if (session.user.email) {
+      const dbUser = await prisma.user.findUnique({
+        where: { email: session.user.email },
+      });
+      if (dbUser) {
+        userId = dbUser.id;
+      }
+    }
+
+    if (userId) {
       readings = await prisma.reading.findMany({
-        where: { userId: session.user.id },
+        where: { userId },
         orderBy: { createdAt: "desc" },
       });
     }
@@ -35,62 +46,56 @@ export default async function PerfilPage() {
   return (
     <main className={styles.main}>
       <header className={styles.header}>
-        <h1 className={styles.title}>Tu Historial de Lecturas</h1>
-        <p className={styles.subtitle}>
-          Bienvenido/a, {session.user.name || session.user.email}. Repasa las energías que te han acompañado.
-        </p>
+        <div className={styles.userProfileBanner}>
+          {session.user.image ? (
+            <img
+              src={session.user.image}
+              alt={session.user.name || "Usuario"}
+              className={styles.userAvatar}
+            />
+          ) : (
+            <div className={styles.userAvatarFallback}>
+              {session.user.name?.charAt(0) || "U"}
+            </div>
+          )}
+          <div>
+            <h1 className={styles.title}>
+              Bienvenido/a, {session.user.name || session.user.email}
+            </h1>
+            <p className={styles.subtitle}>
+              Tu espacio sagrado. Repasa las tiradas y consejos acumulados en tu camino.
+            </p>
+          </div>
+        </div>
       </header>
 
-      <div className={styles.readingsList}>
-        {readings.length === 0 ? (
-          <p className={styles.emptyState}>
-            Aún no has guardado ninguna lectura. ¡Ve a la sección de Tirada Interactiva!
-          </p>
-        ) : (
-          readings.map((reading) => {
-            let cards: any[] = [];
-            try {
-              cards = typeof reading.cards === "string" ? JSON.parse(reading.cards) : reading.cards;
-            } catch {
-              cards = [];
-            }
-            return (
-              <div key={reading.id} className={styles.readingCard}>
-                <div className={styles.readingHeader}>
-                  <h3>
-                    {new Date(reading.createdAt).toLocaleDateString("es-ES", {
-                      dateStyle: "long",
-                      timeStyle: "short",
-                    })}
-                  </h3>
-                  {reading.question && (
-                    <p className={styles.question}>
-                      <strong>Pregunta:</strong> {reading.question}
-                    </p>
-                  )}
-                </div>
+      <section className={styles.historySection}>
+        <div className={styles.sectionHeader}>
+          <h2>Historial de Tiradas Interactivas ({readings.length})</h2>
+          <Link href="/tirada" className={styles.newReadingBtn}>
+            ✦ Realizar Nueva Tirada
+          </Link>
+        </div>
 
-                <div className={styles.cardsMiniGrid}>
-                  {cards.map((cardData: any, i: number) => {
-                    const cardDef = tarotData.find((c) => c.id === cardData.id);
-                    return (
-                      <div key={i} className={styles.miniCardInfo}>
-                        <span className={styles.miniCardName}>
-                          {cardDef?.name || cardData.name} {cardData.isReversed ? "(Invertida)" : ""}
-                        </span>
-                      </div>
-                    );
-                  })}
-                </div>
-
-                <div className={styles.interpretationBox}>
-                  <p>{reading.interpretation}</p>
-                </div>
-              </div>
-            );
-          })
-        )}
-      </div>
+        <div className={styles.readingsList}>
+          {readings.length === 0 ? (
+            <div className={styles.emptyStateBox}>
+              <div className={styles.emptyIcon}>🔮</div>
+              <h3>Aún no has guardado ninguna tirada</h3>
+              <p>
+                Realiza una tirada interactiva gratis y guárdala en tu perfil para consultar tus consejos siempre que lo necesites.
+              </p>
+              <Link href="/tirada" className={styles.startReadingBtn}>
+                Comenzar Lectura
+              </Link>
+            </div>
+          ) : (
+            readings.map((reading) => (
+              <ReadingHistoryItem key={reading.id} reading={reading} />
+            ))
+          )}
+        </div>
+      </section>
     </main>
   );
 }
