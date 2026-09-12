@@ -15,6 +15,13 @@ export async function DELETE(
       return NextResponse.json({ error: "No autenticado" }, { status: 401 });
     }
 
+    if (!process.env.DATABASE_URL) {
+      return NextResponse.json(
+        { error: "La base de datos no está configurada" },
+        { status: 500 }
+      );
+    }
+
     const { id } = await params;
 
     let userId = session.user.id;

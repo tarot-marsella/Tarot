@@ -12,6 +12,16 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No autenticado" }, { status: 401 });
     }
 
+    if (!process.env.DATABASE_URL) {
+      return NextResponse.json(
+        {
+          error:
+            "La base de datos no está configurada en Vercel. Por favor agrega la variable DATABASE_URL en Settings > Environment Variables en Vercel.",
+        },
+        { status: 500 }
+      );
+    }
+
     const body = await req.json();
     const { cards, interpretation, question } = body;
 
@@ -49,6 +59,22 @@ export async function POST(req: Request) {
     return NextResponse.json({ reading }, { status: 201 });
   } catch (error: any) {
     console.error("Error al guardar lectura:", error);
+    const msg = String(error?.message || "");
+
+    if (
+      msg.includes("DATABASE_URL") ||
+      msg.includes("P1001") ||
+      msg.includes("Can't reach database")
+    ) {
+      return NextResponse.json(
+        {
+          error:
+            "No se pudo conectar a la base de datos PostgreSQL. Revisa la variable DATABASE_URL en Vercel.",
+        },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json(
       { error: error?.message || "Error interno del servidor" },
       { status: 500 }
@@ -62,6 +88,10 @@ export async function GET() {
 
     if (!session || !session.user) {
       return NextResponse.json({ error: "No autenticado" }, { status: 401 });
+    }
+
+    if (!process.env.DATABASE_URL) {
+      return NextResponse.json({ readings: [] });
     }
 
     let userId = session.user.id;
