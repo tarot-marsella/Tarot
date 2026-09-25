@@ -4,6 +4,15 @@ import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
 
+function getActiveDbUrl() {
+  return (
+    process.env.DATABASE_URL ||
+    process.env.POSTGRES_PRISMA_URL ||
+    process.env.POSTGRES_URL ||
+    process.env.SUPABASE_DATABASE_URL
+  );
+}
+
 export async function POST(req: Request) {
   try {
     const session = await getServerSession(authOptions);
@@ -12,11 +21,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No autenticado" }, { status: 401 });
     }
 
-    if (!process.env.DATABASE_URL) {
+    if (!getActiveDbUrl()) {
       return NextResponse.json(
         {
           error:
-            "La base de datos no está configurada en Vercel. Por favor agrega la variable DATABASE_URL en Settings > Environment Variables en Vercel.",
+            "La base de datos no está configurada en Vercel. Conecta la integración de Supabase en Vercel o agrega DATABASE_URL en Settings > Environment Variables.",
         },
         { status: 500 }
       );
@@ -69,7 +78,7 @@ export async function POST(req: Request) {
       return NextResponse.json(
         {
           error:
-            "No se pudo conectar a la base de datos PostgreSQL. Revisa la variable DATABASE_URL en Vercel.",
+            "No se pudo conectar a la base de datos PostgreSQL. Revisa la integración de Supabase en Vercel.",
         },
         { status: 500 }
       );
@@ -90,7 +99,7 @@ export async function GET() {
       return NextResponse.json({ error: "No autenticado" }, { status: 401 });
     }
 
-    if (!process.env.DATABASE_URL) {
+    if (!getActiveDbUrl()) {
       return NextResponse.json({ readings: [] });
     }
 
