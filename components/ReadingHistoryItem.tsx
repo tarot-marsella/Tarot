@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "@/app/perfil/page.module.css";
 import tarotData from "@/data/tarot.json";
+import { generateInterpretation, TarotCard } from "@/utils/interpretation";
 
 interface ReadingHistoryItemProps {
   reading: {
@@ -68,6 +69,40 @@ export default function ReadingHistoryItem({
     minute: "2-digit",
   });
 
+  // Reconstruct full 4 TarotCard objects to generate complete interpretation if missing or "Tirada incompleta."
+  const reconstructedCards: TarotCard[] = cardsList
+    .map((cardData: any) => {
+      const cardDef = tarotData.find(
+        (c) =>
+          c.id === cardData.id ||
+          c.name.toLowerCase() === cardData.name?.toLowerCase()
+      );
+      if (!cardDef) return null;
+      return {
+        id: cardDef.id,
+        name: cardDef.name,
+        meaning_upright: cardDef.meaning_upright,
+        meaning_reversed: cardDef.meaning_reversed,
+        advice: cardDef.advice,
+        image_url: cardDef.image_url,
+      };
+    })
+    .filter(Boolean) as TarotCard[];
+
+  let displayText = reading.interpretation;
+  if (
+    !displayText ||
+    displayText.trim() === "Tirada incompleta." ||
+    displayText.trim().length < 20
+  ) {
+    if (reconstructedCards.length >= 4) {
+      displayText = generateInterpretation(reconstructedCards);
+    } else {
+      displayText =
+        "Tu lectura comprende las 4 cartas seleccionadas arriba. Consulta las posiciones y significados de cada una para guiar tu situación.";
+    }
+  }
+
   return (
     <article className={styles.readingCard}>
       <header className={styles.readingHeader}>
@@ -93,18 +128,39 @@ export default function ReadingHistoryItem({
 
       <div className={styles.cardsMiniGrid}>
         {cardsList.map((cardData: any, i: number) => {
-          const cardDef = tarotData.find((c) => c.id === cardData.id);
+          const cardDef = tarotData.find(
+            (c) =>
+              c.id === cardData.id ||
+              c.name.toLowerCase() === cardData.name?.toLowerCase()
+          );
           const name = cardDef?.name || cardData.name || `Carta ${cardData.id}`;
-          const isReversed = cardData.isReversed;
-          const positionLabel = cardData.position;
+          const imageUrl =
+            cardDef?.image_url ||
+            "https://es.camoin.com/media/TdeM/TMR/H335/a0tmt_h335.jpg";
+          const isReversed = Boolean(cardData.isReversed);
+          const positionLabel = cardData.position || `Carta ${i + 1}`;
 
           return (
             <div key={i} className={styles.miniCardInfo}>
               {positionLabel && (
                 <span className={styles.positionBadge}>{positionLabel}</span>
               )}
-              <span className={styles.miniCardName}>
-                {name} {isReversed ? "↺ (Invertida)" : "↑ (Al derecho)"}
+              <div className={styles.miniCardImageWrapper}>
+                <img
+                  src={imageUrl}
+                  alt={name}
+                  className={`${styles.miniCardImage} ${
+                    isReversed ? styles.reversedImage : ""
+                  }`}
+                />
+              </div>
+              <span className={styles.miniCardName}>{name}</span>
+              <span
+                className={`${styles.miniCardOrientation} ${
+                  isReversed ? styles.reversedTag : styles.uprightTag
+                }`}
+              >
+                {isReversed ? "↺ (Invertida)" : "↑ (Al derecho)"}
               </span>
             </div>
           );
@@ -113,7 +169,7 @@ export default function ReadingHistoryItem({
 
       <div className={styles.interpretationBox}>
         <h4 className={styles.adviceLabel}>💡 Consejo e Interpretación:</h4>
-        <p className={styles.interpretationText}>{reading.interpretation}</p>
+        <p className={styles.interpretationText}>{displayText}</p>
       </div>
     </article>
   );

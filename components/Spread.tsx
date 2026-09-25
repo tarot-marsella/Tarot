@@ -95,12 +95,9 @@ export default function Spread({ cards }: SpreadProps) {
   };
 
   const handleReveal = async (index: number) => {
-    let nextCards: { card: TarotCard; isReversed: boolean; revealed: boolean }[] =
-      [];
     setSpreadCards((prev) => {
       const next = [...prev];
       next[index].revealed = true;
-      nextCards = next;
       return next;
     });
 
@@ -108,12 +105,16 @@ export default function Spread({ cards }: SpreadProps) {
     setRevealedCount(newCount);
 
     if (newCount === 4) {
-      const interp = generateInterpretation(nextCards.map((s) => s.card));
       setTimeout(() => {
         setStep("interpretation");
-        if (session) {
-          saveReadingToDatabase(nextCards, interp);
-        }
+        setSpreadCards((latest) => {
+          const cardsForInterp = latest.map((s) => s.card);
+          const interp = generateInterpretation(cardsForInterp);
+          if (session) {
+            saveReadingToDatabase(latest, interp);
+          }
+          return latest;
+        });
       }, 1500);
     }
   };
